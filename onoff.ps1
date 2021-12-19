@@ -41,13 +41,12 @@ function trigger-ifttt {
 
 function launch {
   $proc = Get-WmiObject Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
-  $message = "$proc%"
   if ($force -or ($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) {
     trigger-ifttt
-    $message = "$message ==> switched"
+    $message = "$proc -> switched"
     if ($force) { $message = "$message (manual)" }
+    show-notification $message
   }
-  show-notification $message
 
 }
 
