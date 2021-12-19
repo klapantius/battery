@@ -1,3 +1,10 @@
+[cmdletbinding()]
+param(
+  [switch]$force,
+  [int]$lowerTreshold = 65, #22
+  [int]$upperTreshold = 80 #82
+)
+
 function commit_a_change {
   $message = "$(Get-Date) - $proc%"
   $message | Out-File onoff.txt -Append
@@ -6,7 +13,7 @@ function commit_a_change {
 }
 
 function place_a_trigger_file {
-  $path='g:\My Drive\iktato\laptop'
+  $path = 'g:\My Drive\iktato\laptop'
   del $path\\*
   "switch" | out-file "$path\$(get-date -Format yyMMdd_HHmm)_$proc"
 }
@@ -27,13 +34,11 @@ function show-notification {
   $balloon.ShowBalloonTip(5000)
 }
 
-$lowerTreshold = 65 #22
-$upperTreshold = 80 #82
-
-$proc =  Get-WmiObject Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
+$proc = Get-WmiObject Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
 $message = "$proc%"
-if (($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) {
+if ($force -or ($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) {
   place_a_trigger_file
   $message = "$message ==> switched"
+  if ($force) { $message = "$message (manual)" }
 }
 show-notification $message
