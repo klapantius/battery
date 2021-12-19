@@ -35,19 +35,36 @@ function show-notification {
   $balloon.ShowBalloonTip(5000)
 }
 
+function get-batteryLevel {
+  return Get-WmiObject Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
+}
+
+function evaluate {
+  return $force -or ($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)
+}
+
 function trigger-ifttt {
-  place_a_trigger_file
+  param(
+    [parameter(ValueFromPipeline)]
+    [switch]$armed
+  )  
+  if ($armed) { place_a_trigger_file }
+  return $armed
+}  
+
+function compose-message {
+  param(
+    [int]$proc,
+    [switch]$force
+  )
+  $true | trigger-ifttt
+  $message = "$proc -> switched"
+  if ($force) { $message = "$message (manual)" }
 }
 
-function launch {
-  $proc = Get-WmiObject Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
-  if ($force -or ($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) {
-    trigger-ifttt
-    $message = "$proc -> switched"
-    if ($force) { $message = "$message (manual)" }
-    show-notification $message
+if (!$testMode) { 
+  $proc = get-batteryLevel
+  if (evaluate $proc | trigger-ifttt) {
+    compose-message -proc $proc -force $force | show-notification
   }
-
 }
-
-if (!$testMode) { launch }
