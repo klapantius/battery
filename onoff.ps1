@@ -35,11 +35,15 @@ function show-notification {
   $balloon.ShowBalloonTip(5000)
 }
 
+function trigger-ifttt {
+  place_a_trigger_file
+}
+
 function launch {
   $proc = Get-WmiObject Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
   $message = "$proc%"
   if ($force -or ($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) {
-    place_a_trigger_file
+    trigger-ifttt
     $message = "$message ==> switched"
     if ($force) { $message = "$message (manual)" }
   }
