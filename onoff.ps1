@@ -11,10 +11,29 @@ function place_a_trigger_file {
   "switch" | out-file "$path\$(get-date -Format yyMMdd_HHmm)_$proc"
 }
 
+function show-notification {
+  [cmdletbinding()]
+  param(
+    [string]$message
+  )
+  Add-Type -AssemblyName System.Windows.Forms 
+  $global:balloon = New-Object System.Windows.Forms.NotifyIcon
+  $path = (Get-Process -id $pid).Path
+  $balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
+  $balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Info 
+  $balloon.BalloonTipText = $message
+  $balloon.BalloonTipTitle = "battery saver" 
+  $balloon.Visible = $true
+  $balloon.ShowBalloonTip(5000)
+}
+
 $lowerTreshold = 65 #22
-$upperTreshold = 70 #82
+$upperTreshold = 80 #82
 
 $proc =  Get-WmiObject Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
+$message = "$proc%"
 if (($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) {
   place_a_trigger_file
+  $message = "$message ==> switched"
 }
+show-notification $message
