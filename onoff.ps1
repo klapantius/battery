@@ -2,7 +2,8 @@
 param(
   [switch]$force,
   [int]$lowerTreshold = 65, #22
-  [int]$upperTreshold = 80 #82
+  [int]$upperTreshold = 80, #82
+  [switch]$testMode
 )
 
 function commit_a_change {
@@ -34,11 +35,16 @@ function show-notification {
   $balloon.ShowBalloonTip(5000)
 }
 
-$proc = Get-WmiObject Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
-$message = "$proc%"
-if ($force -or ($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) {
-  place_a_trigger_file
-  $message = "$message ==> switched"
-  if ($force) { $message = "$message (manual)" }
+function launch {
+  $proc = Get-WmiObject Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
+  $message = "$proc%"
+  if ($force -or ($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) {
+    place_a_trigger_file
+    $message = "$message ==> switched"
+    if ($force) { $message = "$message (manual)" }
+  }
+  show-notification $message
+
 }
-show-notification $message
+
+if (!$testMode) { launch }
