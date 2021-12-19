@@ -33,6 +33,13 @@ function get-batteryLevel {
 }
 
 function evaluate {
+  param(
+    [switch]$force,
+    [int]$proc,
+    [int]$lastProc = -1,
+    [int]$lowerTreshold,
+    [int]$upperTreshold
+  )
   return $force -or ($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)
 }
 
@@ -62,7 +69,8 @@ function launch {
     [int]$upperTreshold = 80  #82
   )
   $proc = get-batteryLevel
-  if (evaluate $proc | trigger-ifttt) {
+  if (evaluate -force $force -proc $proc -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
+    trigger-ifttt) {
     compose-message -proc $proc -force $force | show-notification
   }
 }
