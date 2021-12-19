@@ -22,6 +22,7 @@ function place_a_trigger_file {
 function show-notification {
   [cmdletbinding()]
   param(
+    [parameter(ValueFromPipeline)]
     [string]$message
   )
   Add-Type -AssemblyName System.Windows.Forms 
@@ -47,7 +48,7 @@ function trigger-ifttt {
   param(
     [parameter(ValueFromPipeline)]
     [switch]$armed
-  )  
+  )
   if ($armed) { place_a_trigger_file }
   return $armed
 }  
@@ -57,9 +58,9 @@ function compose-message {
     [int]$proc,
     [switch]$force
   )
-  $true | trigger-ifttt
   $message = "$proc -> switched"
   if ($force) { $message = "$message (manual)" }
+  return $message
 }
 
 if (!$testMode) { 
