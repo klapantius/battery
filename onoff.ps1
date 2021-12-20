@@ -1,7 +1,7 @@
 [cmdletbinding()]
 param(
-  [switch]$force,
-  [int]$lowerTreshold = 40, #22
+  [bool]$force = $false,
+  [int]$lowerTreshold = 30, #22
   [int]$upperTreshold = 80  #82
 )
 

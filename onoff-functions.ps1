@@ -34,7 +34,7 @@ function get-batteryLevel {
 
 function evaluate {
   param(
-    [bool]$force,
+    [bool]$force = $false,
     [int]$proc,
     [int]$lastProc = -1,
     [int]$lowerTreshold,
@@ -55,7 +55,7 @@ function trigger-ifttt {
 function compose-message {
   param(
     [int]$proc,
-    [switch]$force
+    [bool]$force = $false
   )
   $message = "$proc -> switched"
   if ($force) { $message = "$message (manual)" }
@@ -64,9 +64,9 @@ function compose-message {
 
 function launch { 
   param(
-    [switch]$force,
-    [int]$lowerTreshold = 65, #22
-    [int]$upperTreshold = 80  #82
+    [bool]$force = $false,
+    [int]$lowerTreshold,
+    [int]$upperTreshold
   )
   $proc = get-batteryLevel
   if (evaluate -force $force -proc $proc -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
