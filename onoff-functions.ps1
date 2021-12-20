@@ -34,7 +34,7 @@ function get-batteryLevel {
 
 function evaluate {
   param(
-    [switch]$force,
+    [bool]$force,
     [int]$proc,
     [int]$lastProc = -1,
     [int]$lowerTreshold,
