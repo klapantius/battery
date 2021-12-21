@@ -5,12 +5,24 @@ function commit_a_change {
   git push
 }
 
+$triggerFolder = 'g:\My Drive\iktato\laptop';
 function place_a_trigger_file {
-  $path = 'g:\My Drive\iktato\laptop'
-  del $path\\*
-  "switch" | out-file "$path\$(get-date -Format yyMMdd_HHmm)_$proc"
+  Remove-Item $triggerFolder\\*
+  "switch" | out-file "$triggerFolder\$(get-date -Format yyMMdd_HHmm)_$proc"
 }
 
+function get-lastTrigger {
+  return Get-ChildItem -file $triggerFolder | Sort-Object LastWriteTime | Select-Object -First 1 -ExpandProperty FullName
+}
+
+function get-level {
+  param(
+    [parameter(ValueFromPipeline)]
+    [string]$trigger
+  )
+  if ([string]::IsNullOrEmpty($trigger)) { return -1 }
+  return [int]$($trigger -split '_' | Select-Object -Last 1)
+}
 function show-notification {
   [cmdletbinding()]
   param(
@@ -36,11 +48,27 @@ function evaluate {
   param(
     [bool]$force = $false,
     [int]$proc,
-    [int]$lastProc = -1,
     [int]$lowerTreshold,
     [int]$upperTreshold
   )
-  return $force -or ($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)
+  if ($force) { return $true }
+  if (($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) { 
+    $lastProc = get-lastTrigger | get-level
+    if ($lastProc -ge 0) {
+      if ($lastProc -le  $proc -and $proc -lt $lowerTreshold) {
+        # todo: trigger again or show an error if current level is lower than the level of at last trigger
+        # already triggered
+        return $false
+      }
+      if ($upperTreshold -lt $proc -and $proc -le $lastProc) {
+        # todo: trigger again or show an error if current level is lower than the level of at last trigger
+        # already triggered
+        return $false
+      }
+    }
+    return $true
+  }
+  return $false
 }
 
 function trigger-ifttt {
