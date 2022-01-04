@@ -14,7 +14,9 @@ function commit_a_change {
 $triggerFolder = 'g:\My Drive\iktato\laptop';
 function place_a_trigger_file {
   Remove-Item $triggerFolder\\*
-  "switch" | out-file "$triggerFolder\$(get-date -Format yyMMdd_HHmm)_$proc"
+  $fileName = "$triggerFolder\$(get-date -Format yyMMdd_HHmm)_$proc"
+  write-log "place a trigger file: $fileName"
+  "switch" | out-file $fileName
 }
 
 function get-lastTrigger {
@@ -57,23 +59,30 @@ function evaluate {
     [int]$lowerTreshold,
     [int]$upperTreshold
   )
-  if ($force) { return $true }
-  if (($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) { 
+  if ($force) {
+    write-log "evaluate: force ==> true"
+    return $true 
+  }
+  if (($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) {
+    write-log "a limit has been exceeded"
     $lastProc = get-lastTrigger | get-level
     if ($lastProc -ge 0) {
-      if ($lastProc -le  $proc -and $proc -lt $lowerTreshold) {
-        # todo: trigger again or show an error if current level is lower than the level of at last trigger
-        # already triggered
+      write-log "last trigger created at $lastProc%"
+      if ($lastProc -le $proc -and $proc -lt $lowerTreshold) {
+        write-log "already triggered (on) and charging"
         return $false
       }
       if ($upperTreshold -lt $proc -and $proc -le $lastProc) {
-        # todo: trigger again or show an error if current level is lower than the level of at last trigger
-        # already triggered
+        write-log "already triggered (off) and depleting"
         return $false
       }
+      # todo: show an error if current level is further out than the last trigger
+      write-log "trigger comparision allows to continue"
     }
+    write-log "evaluate: true"
     return $true
   }
+  write-log "evaluate: no limit violation detected ==> false"
   return $false
 }
 
@@ -91,18 +100,19 @@ function compose-message {
     [int]$proc,
     [bool]$force = $false
   )
-  $message = "$proc -> switched"
+  $message = "charging will be toggled at $proc%"
   if ($force) { $message = "$message (manual)" }
   return $message
 }
 
-function launch { 
+function launch {
   param(
     [bool]$force = $false,
     [int]$lowerTreshold,
     [int]$upperTreshold
   )
   $proc = get-batteryLevel
+  write-log "current level is $proc%"
   if (evaluate -force $force -proc $proc -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
     trigger-ifttt) {
     compose-message -proc $proc -force $force | show-notification

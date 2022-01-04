@@ -9,16 +9,17 @@ param(
 Import-Module '.\onoff-functions.ps1' -force
 
 function Start-Once {
-  write-log ">>>>> Start-Once"
   launch -force $force -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
-  write-log "----- Start-Once completed"
 }
 
 if ($iterationDelay -gt 0) {
   do {
-    write-log "new iteration starts"
+    write-log "-------- new iteration starts"
     Start-Once
     Start-Sleep -Seconds $(60 * $iterationDelay)
   } while ($true) 
 }
-else { Start-Once }
+else { 
+  write-log "-------- single execution starts"
+  Start-Once 
+}
