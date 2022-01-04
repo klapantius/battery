@@ -1,3 +1,9 @@
+function write-log {
+  param(
+    [string]$message
+  )
+  "$(Get-Date -Format 'yyMMdd HHmm') - $message" | Out-File $env:temp\onoff.log -Append
+}
 function commit_a_change {
   $message = "$(Get-Date) - $proc%"
   $message | Out-File onoff.txt -Append
