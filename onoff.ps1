@@ -9,8 +9,6 @@ param(
 
 Import-Module '.\onoff-functions.ps1' -force
 
-$jobName = "BatteryCharger"
-
 function Start-Once {
   write-log ">>>>> Start-Once"
   launch -force $force -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
@@ -30,15 +28,10 @@ if ($null -ne $job -and ($iterationDelay -gt 0 -or $terminate.IsPresent)) {
 }
 
 if ($iterationDelay -gt 0) {
-  # write-log "start an iterating job"
-  # $thisJob = Start-Job -Name $jobName -Script {
-  #   $jobTitle = "$($thisJob.Name) ($($thisJob.Id))"
-  #   write-log "$jobTitle created"
   do {
     write-log "new iteration starts"
     Start-Once
     Start-Sleep -Seconds $(60 * $iterationDelay)
   } while ($true) 
-  # }
 }
 else { Start-Once }
