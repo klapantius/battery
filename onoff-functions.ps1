@@ -2,7 +2,7 @@ function write-log {
   param(
     [string]$message
   )
-  "$(Get-Date -Format 'yyMMdd HHmm') - $message" | Out-File $env:temp\onoff.log -Append
+  Add-Content -Path $env:temp\onoff.log -Value "$(Get-Date -Format 'yyMMdd HHmm') - $message"
 }
 function commit_a_change {
   $message = "$(Get-Date) - $proc%"
