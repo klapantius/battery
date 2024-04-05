@@ -1,17 +1,13 @@
+$triggerFolder = 'g:\My Drive\iktato\laptop';
+
 function write-log {
   param(
     [string]$message
   )
-  Add-Content -Path $env:temp\onoff.log -Value "$(Get-Date -Format 'yyMMdd HHmm') - $message"
-}
-function commit_a_change {
-  $message = "$(Get-Date) - $proc%"
-  $message | Out-File onoff.txt -Append
-  git commit -am "$message"
-  git push
+  $logFile = "$triggerFolder\\log\\onoff.log"
+  "$(Get-Date -Format 'yyMMdd HHmm') - $message" >> $logFile
 }
 
-$triggerFolder = 'g:\My Drive\iktato\laptop';
 function place_a_trigger_file {
   Remove-Item $triggerFolder\\*
   $fileName = "$triggerFolder\$(get-date -Format yyMMdd_HHmm)_$proc"
@@ -37,19 +33,20 @@ function show-notification {
     [parameter(ValueFromPipeline)]
     [string]$message
   )
-  Add-Type -AssemblyName System.Windows.Forms 
-  $global:balloon = New-Object System.Windows.Forms.NotifyIcon
-  $path = (Get-Process -id $pid).Path
-  $balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
-  $balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Info 
-  $balloon.BalloonTipText = $message
-  $balloon.BalloonTipTitle = "battery saver" 
-  $balloon.Visible = $true
-  $balloon.ShowBalloonTip(5000)
+  return;
+  # Add-Type -AssemblyName System.Windows.Forms 
+  # $global:balloon = New-Object System.Windows.Forms.NotifyIcon
+  # $path = (Get-Process -id $pid).Path
+  # $balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
+  # $balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Info 
+  # $balloon.BalloonTipText = $message
+  # $balloon.BalloonTipTitle = "battery saver" 
+  # $balloon.Visible = $true
+  # $balloon.ShowBalloonTip(5000)
 }
 
 function get-batteryLevel {
-  return Get-WmiObject Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
+  return Get-CimInstance Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
 }
 
 function evaluate {
