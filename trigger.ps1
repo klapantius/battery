@@ -6,8 +6,7 @@ function place_a_trigger_file {
 }
 
 function get-lastTrigger {
-    $result = Get-ChildItem -file $triggerFolder | Sort-Object LastWriteTime | Select-Object -First 1 -ExpandProperty FullName
-    # Write-Host "get-lastTrigger returns '$result'"
+    $result = Get-ChildItem -file $triggerFolder | Sort-Object LastWriteTime | Select-Object -First 1 -ExpandProperty Name
     return $result
 }
 

@@ -29,15 +29,13 @@ Describe 'onoff-functions' {
             } 
         }
         Context "<test>" -Foreach @(
-            @{test = "level is low, but trigger already has been sent"; trigger = 10; current = 15; expected = $false },
-            @{test = "level is low, last trigger left from turn-off"; trigger = 82; current = 15; expected = $true },
-            @{test = "level is high, last trigger left from turn-on"; trigger = 15; current = 82; expected = $true },
-            @{test = "level is high, but trigger already has been sent"; trigger = 85; current = 83; expected = $false }
+            @{test = "level is low, but trigger already has been sent"; lastTrigger = 10; current = 15; expected = $false },
+            @{test = "level is low, last trigger left from turn-off"; lastTrigger = 82; current = 15; expected = $true },
+            @{test = "level is high, last trigger left from turn-on"; lastTrigger = 15; current = 82; expected = $true },
+            @{test = "level is high, but trigger already has been sent"; lastTrigger = 85; current = 83; expected = $false }
         ) {
-            BeforeEach {
-                Mock get-level { return $trigger }
-            }
             It "sends $expected" {
+                Mock get-level { return $lastTrigger }
                 evaluate -proc $current -lowerTreshold 20 -upperTreshold 80 | should -be $expected
             }
         }

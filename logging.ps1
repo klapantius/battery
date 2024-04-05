@@ -1,8 +1,7 @@
 
 function write-log {
     param(
-        [string]$message,
-        [string]$triggerFolder
+        [string]$message
     )
     $logFile = "$triggerFolder\\log\\onoff.log"
     "$(Get-Date -Format 'yyMMdd HHmm') - $message" >> $logFile
