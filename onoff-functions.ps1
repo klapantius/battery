@@ -1,53 +1,8 @@
 $triggerFolder = 'g:\My Drive\iktato\laptop';
 
-function write-log {
-  param(
-    [string]$message
-  )
-  $logFile = "$triggerFolder\\log\\onoff.log"
-  "$(Get-Date -Format 'yyMMdd HHmm') - $message" >> $logFile
-}
-
-function place_a_trigger_file {
-  Remove-Item $triggerFolder\\*
-  $fileName = "$triggerFolder\$(get-date -Format yyMMdd_HHmm)_$proc"
-  write-log "place a trigger file: $fileName"
-  "switch" | out-file $fileName
-}
-
-function get-lastTrigger {
-  return Get-ChildItem -file $triggerFolder | Sort-Object LastWriteTime | Select-Object -First 1 -ExpandProperty FullName
-}
-
-function get-level {
-  param(
-    [parameter(ValueFromPipeline)]
-    [string]$trigger
-  )
-  if ([string]::IsNullOrEmpty($trigger)) { return -1 }
-  return [int]$($trigger -split '_' | Select-Object -Last 1)
-}
-function show-notification {
-  [cmdletbinding()]
-  param(
-    [parameter(ValueFromPipeline)]
-    [string]$message
-  )
-  return;
-  # Add-Type -AssemblyName System.Windows.Forms 
-  # $global:balloon = New-Object System.Windows.Forms.NotifyIcon
-  # $path = (Get-Process -id $pid).Path
-  # $balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
-  # $balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Info 
-  # $balloon.BalloonTipText = $message
-  # $balloon.BalloonTipTitle = "battery saver" 
-  # $balloon.Visible = $true
-  # $balloon.ShowBalloonTip(5000)
-}
-
-function get-batteryLevel {
-  return Get-CimInstance Win32_Battery | select -ExpandProperty EstimatedChargeRemaining
-}
+. .\logging.ps1
+. .\battery.ps1
+. .\trigger.ps1
 
 function evaluate {
   param(
@@ -91,16 +46,6 @@ function trigger-ifttt {
   if ($armed) { place_a_trigger_file }
   return $armed
 }  
-
-function compose-message {
-  param(
-    [int]$proc,
-    [bool]$force = $false
-  )
-  $message = "charging will be toggled at $proc%"
-  if ($force) { $message = "$message (manual)" }
-  return $message
-}
 
 function launch {
   param(
