@@ -1,0 +1,5 @@
+- `[ ]` rename variable proc --> currentValue
+- `[ ]` rename function get_last_trigger
+- `[ ]` triggerFolder --> workingFolder
+- `[ ]` rename function place_a_trigger_file
+- `[ ]` turn bool parameter force to a switch
