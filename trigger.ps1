@@ -1,8 +1,10 @@
 function place_a_trigger_file {
-    Remove-Item $triggerFolder\\*
     $fileName = "$triggerFolder\$(get-date -Format yyMMdd_HHmm)_$proc"
     write-log "place a trigger file: $fileName"
     "switch" | out-file $fileName
+    # remove older triggers
+    $recently = (Get-Date).AddHours(-1)
+    dir $triggerFolder -File | where { $_.CreationTime -lt $recently} | foreach { del $_ -ErrorAction SilentlyContinue }
 }
 
 function get-lastTrigger {
