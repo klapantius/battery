@@ -6,9 +6,9 @@ param(
   [int]$iterationDelay = 0
 )
 
-Import-Module '.\onoff-functions.ps1' -force
 
 function Start-Once {
+  . "$PSScriptRoot\onoff-functions.ps1" -force # reload every time to ensure latest design
   launch -force $force -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
 }
 
