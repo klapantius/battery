@@ -89,3 +89,9 @@
 240424 1120 - lastTriggerAssumedToBeInvalid: True
 240424 1120 - place a trigger file: C:\ws\battery\trigger\240424_1120_22
 240424 1120 - synchronizing git repository
+240424 1125 - -------- new iteration starts
+240424 1125 - current level is 27%
+240424 1125 - a limit has been exceeded
+240424 1125 - lastTriggerAssumedToBeInvalid: True
+240424 1125 - place a trigger file: C:\ws\battery\trigger\240424_1125_27
+240424 1125 - synchronizing git repository
