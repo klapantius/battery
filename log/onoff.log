@@ -253,3 +253,45 @@
 240424 1511 - last trigger: 240424_1256_81 --> 81% at 04/24/2024 12:56:20; validity treshold: 30 ==> lastTriggerAssumedToBeInvalid: True
 240424 1511 - place a trigger file: C:\ws\battery\trigger\240424_1511_28
 240424 1511 - synchronizing git repository
+240424 1516 - -------- new iteration starts
+240424 1516 - current level is 30%
+240424 1516 - evaluate: no limit violation detected ==> false
+240424 1521 - -------- new iteration starts
+240424 1521 - current level is 35%
+240424 1521 - evaluate: no limit violation detected ==> false
+240424 1526 - -------- new iteration starts
+240424 1526 - current level is 40%
+240424 1526 - evaluate: no limit violation detected ==> false
+240424 1531 - -------- new iteration starts
+240424 1531 - current level is 45%
+240424 1531 - evaluate: no limit violation detected ==> false
+240424 1536 - -------- new iteration starts
+240424 1536 - current level is 50%
+240424 1536 - evaluate: no limit violation detected ==> false
+240424 1541 - -------- new iteration starts
+240424 1541 - current level is 55%
+240424 1541 - evaluate: no limit violation detected ==> false
+240424 1546 - -------- new iteration starts
+240424 1546 - current level is 60%
+240424 1546 - evaluate: no limit violation detected ==> false
+240424 1551 - -------- new iteration starts
+240424 1551 - current level is 65%
+240424 1551 - evaluate: no limit violation detected ==> false
+240424 1556 - -------- new iteration starts
+240424 1556 - current level is 71%
+240424 1556 - evaluate: no limit violation detected ==> false
+240424 1601 - -------- new iteration starts
+240424 1601 - current level is 74%
+240424 1601 - evaluate: no limit violation detected ==> false
+240424 1606 - -------- new iteration starts
+240424 1606 - current level is 77%
+240424 1606 - evaluate: no limit violation detected ==> false
+240424 1611 - -------- new iteration starts
+240424 1611 - current level is 80%
+240424 1611 - evaluate: no limit violation detected ==> false
+240424 1616 - -------- new iteration starts
+240424 1616 - current level is 83%
+240424 1616 - a limit has been exceeded
+240424 1616 - last trigger: 240424_1511_28 --> 28% at 04/24/2024 15:11:33; validity treshold: 30 ==> lastTriggerAssumedToBeInvalid: True
+240424 1616 - place a trigger file: C:\ws\battery\trigger\240424_1616_83
+240424 1616 - synchronizing git repository
