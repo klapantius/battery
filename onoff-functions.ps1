@@ -1,8 +1,8 @@
-$triggerFolder = 'g:\My Drive\iktato\laptop';
+$triggerFolder = Join-Path -Path $PSScriptRoot -ChildPath 'trigger';
 
-. .\logging.ps1
-. .\battery.ps1
-. .\trigger.ps1
+. "$PSScriptRoot\logging.ps1"
+. "$PSScriptRoot\battery.ps1"
+. "$PSScriptRoot\trigger.ps1"
 
 function evaluate {
   param(
@@ -19,7 +19,13 @@ function evaluate {
     write-log "a limit has been exceeded"
     $lastProc = get-lastTrigger | get-level
     if ($lastProc -ge 0) {
-      write-log "last trigger created at $lastProc%"
+      $supposedDurationToGetIntoInnerTresholdRange = 30 # minutes
+      $lastTriggerTime = get-lastTriggerTime
+      $lastTriggerAssumedToBeInvalid = ((Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoInnerTresholdRange))
+      write-log "lastTriggerAssumedToBeInvalid: $lastTriggerAssumedToBeInvalid"
+      if ($lastTriggerAssumedToBeInvalid) {
+        return $true
+      }
       if ($lastProc -le $proc -and $proc -lt $lowerTreshold) {
         write-log "already triggered (on) and charging"
         return $false
@@ -43,9 +49,12 @@ function trigger-ifttt {
     [parameter(ValueFromPipeline)]
     [switch]$armed
   )
-  if ($armed) { place_a_trigger_file }
+  if ($armed) {
+    place_a_trigger_file 
+    synchronise-trigger
+  }
   return $armed
-}  
+}
 
 function launch {
   param(

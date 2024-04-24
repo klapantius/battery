@@ -4,11 +4,30 @@ function place_a_trigger_file {
     "switch" | out-file $fileName
     # remove older triggers
     $recently = (Get-Date).AddHours(-1)
-    dir $triggerFolder -File | where { $_.CreationTime -lt $recently} | foreach { del $_ -ErrorAction SilentlyContinue }
+    dir $triggerFolder -File | where { $_.CreationTime -lt $recently } | foreach { del $_ -ErrorAction SilentlyContinue }
+}
+
+function synchronise-trigger {
+    if (-not ( Test-Path (Join-Path $triggerFolder '.git'))) { return }
+    try {
+        pushd $triggerFolder
+        git add .
+        git commit -am "sync $(Get-Date -Format yyMMdd_HHmm)"
+        git pull
+        git push
+    }
+    finally {
+        popd
+    }
 }
 
 function get-lastTrigger {
     $result = Get-ChildItem -file $triggerFolder | Sort-Object LastWriteTime | Select-Object -First 1 -ExpandProperty Name
+    return $result
+}
+
+function get-lastTriggerTime {
+    $result = Get-ChildItem -file $triggerFolder | Sort-Object LastWriteTime | Select-Object -First 1 -ExpandProperty CreationTime
     return $result
 }
 
