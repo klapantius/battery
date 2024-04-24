@@ -17,12 +17,13 @@ function evaluate {
   }
   if (($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) {
     write-log "a limit has been exceeded"
-    $lastProc = get-lastTrigger | get-level
+    $lastTrigger = get-lastTrigger
+    $lastProc = $lastTrigger | get-level
     if ($lastProc -ge 0) {
       $supposedDurationToGetIntoInnerTresholdRange = 30 # minutes
       $lastTriggerTime = get-lastTriggerTime
       $lastTriggerAssumedToBeInvalid = ((Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoInnerTresholdRange))
-      write-log "lastTriggerAssumedToBeInvalid: $lastTriggerAssumedToBeInvalid"
+      write-log "last trigger: $lastTrigger --> $lastProc% at $lastTriggerTime; validity treshold: $supposedDurationToGetIntoInnerTresholdRange ==> lastTriggerAssumedToBeInvalid: $lastTriggerAssumedToBeInvalid"
       if ($lastTriggerAssumedToBeInvalid) {
         return $true
       }

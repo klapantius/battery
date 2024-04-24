@@ -167,3 +167,89 @@
 240424 1256 - lastTriggerAssumedToBeInvalid: True
 240424 1256 - place a trigger file: C:\ws\battery\trigger\240424_1256_81
 240424 1256 - synchronizing git repository
+240424 1301 - -------- new iteration starts
+240424 1301 - current level is 81%
+240424 1301 - a limit has been exceeded
+240424 1301 - lastTriggerAssumedToBeInvalid: False
+240424 1301 - already triggered (off) and depleting
+240424 1306 - -------- new iteration starts
+240424 1306 - current level is 79%
+240424 1306 - evaluate: no limit violation detected ==> false
+240424 1311 - -------- new iteration starts
+240424 1311 - current level is 78%
+240424 1311 - evaluate: no limit violation detected ==> false
+240424 1316 - -------- new iteration starts
+240424 1316 - current level is 77%
+240424 1316 - evaluate: no limit violation detected ==> false
+240424 1321 - -------- new iteration starts
+240424 1321 - current level is 76%
+240424 1321 - evaluate: no limit violation detected ==> false
+240424 1326 - -------- new iteration starts
+240424 1326 - current level is 74%
+240424 1326 - evaluate: no limit violation detected ==> false
+240424 1331 - -------- new iteration starts
+240424 1331 - current level is 72%
+240424 1331 - evaluate: no limit violation detected ==> false
+240424 1336 - -------- new iteration starts
+240424 1336 - current level is 70%
+240424 1336 - evaluate: no limit violation detected ==> false
+240424 1341 - -------- new iteration starts
+240424 1341 - current level is 68%
+240424 1341 - evaluate: no limit violation detected ==> false
+240424 1346 - -------- new iteration starts
+240424 1346 - current level is 65%
+240424 1346 - evaluate: no limit violation detected ==> false
+240424 1351 - -------- new iteration starts
+240424 1351 - current level is 63%
+240424 1351 - evaluate: no limit violation detected ==> false
+240424 1356 - -------- new iteration starts
+240424 1356 - current level is 60%
+240424 1356 - evaluate: no limit violation detected ==> false
+240424 1401 - -------- new iteration starts
+240424 1401 - current level is 58%
+240424 1401 - evaluate: no limit violation detected ==> false
+240424 1406 - -------- new iteration starts
+240424 1406 - current level is 56%
+240424 1406 - evaluate: no limit violation detected ==> false
+240424 1411 - -------- new iteration starts
+240424 1411 - current level is 55%
+240424 1411 - evaluate: no limit violation detected ==> false
+240424 1416 - -------- new iteration starts
+240424 1416 - current level is 52%
+240424 1416 - evaluate: no limit violation detected ==> false
+240424 1421 - -------- new iteration starts
+240424 1421 - current level is 50%
+240424 1421 - evaluate: no limit violation detected ==> false
+240424 1426 - -------- new iteration starts
+240424 1426 - current level is 48%
+240424 1426 - evaluate: no limit violation detected ==> false
+240424 1431 - -------- new iteration starts
+240424 1431 - current level is 46%
+240424 1431 - evaluate: no limit violation detected ==> false
+240424 1436 - -------- new iteration starts
+240424 1436 - current level is 43%
+240424 1436 - evaluate: no limit violation detected ==> false
+240424 1441 - -------- new iteration starts
+240424 1441 - current level is 41%
+240424 1441 - evaluate: no limit violation detected ==> false
+240424 1446 - -------- new iteration starts
+240424 1446 - current level is 39%
+240424 1446 - evaluate: no limit violation detected ==> false
+240424 1451 - -------- new iteration starts
+240424 1451 - current level is 37%
+240424 1451 - evaluate: no limit violation detected ==> false
+240424 1456 - -------- new iteration starts
+240424 1456 - current level is 35%
+240424 1456 - evaluate: no limit violation detected ==> false
+240424 1501 - -------- new iteration starts
+240424 1501 - current level is 32%
+240424 1501 - evaluate: no limit violation detected ==> false
+240424 1506 - -------- new iteration starts
+240424 1506 - current level is 30%
+240424 1506 - evaluate: no limit violation detected ==> false
+240424 1511 - -------- new iteration starts
+240424 1511 - current level is 28%
+240424 1511 - a limit has been exceeded
+240424 1511 - last trigger: 240424_1256_81 --> 81% at 04/24/2024 12:56:20; validity treshold: 30 ==> lastTriggerAssumedToBeInvalid: True
+240424 1511 - place a trigger file: C:\ws\battery\trigger\240424_1511_28
+240424 1511 - synchronizing git repository
