@@ -2,7 +2,7 @@
 function write-log {
     param(
         [string]$message,
-        [string]$loggingFolder = "$triggerFolder\\log"
+        [string]$loggingFolder = "$PSScriptRoot\\log"
     )
     $logFile = "$loggingFolder\\onoff.log"
     "$(Get-Date -Format 'yyMMdd HHmm') - $message" | Out-File $logFile -Append -Encoding utf8

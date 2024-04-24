@@ -6,6 +6,7 @@ param(
   [int]$iterationDelay = 0
 )
 
+. "$PSScriptRoot\onoff-functions.ps1" -force # load first
 
 function Start-Once {
   . "$PSScriptRoot\onoff-functions.ps1" -force # reload every time to ensure latest design
