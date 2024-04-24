@@ -3,7 +3,8 @@ param(
   [bool]$force = $false,
   [int]$lowerTreshold = 30, #22
   [int]$upperTreshold = 80, #82
-  [int]$iterationDelay = 0
+  [int]$iterationDelay = 0,
+  [switch]$LogToConsole
 )
 
 . "$PSScriptRoot\onoff-functions.ps1" -force # load first

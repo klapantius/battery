@@ -4,6 +4,7 @@ function write-log {
         [string]$message,
         [string]$loggingFolder = "$PSScriptRoot\\log"
     )
+    if ($LogToConsole) { Write-Host $message }
     $logFile = "$loggingFolder\\onoff.log"
     "$(Get-Date -Format 'yyMMdd HHmm') - $message" | Out-File $logFile -Append -Encoding utf8
 }
