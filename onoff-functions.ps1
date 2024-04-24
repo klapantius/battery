@@ -22,8 +22,8 @@ function evaluate {
     if ($lastProc -ge 0) {
       $supposedDurationToGetIntoInnerTresholdRange = 30 # minutes
       $lastTriggerTime = get-lastTriggerTime
-      $lastTriggerAssumedToBeInvalid = ((Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoInnerTresholdRange))
-      write-log "last trigger: $lastTrigger --> $lastProc% at $lastTriggerTime; validity treshold: $supposedDurationToGetIntoInnerTresholdRange ==> lastTriggerAssumedToBeInvalid: $lastTriggerAssumedToBeInvalid"
+      $lastTriggerAssumedToBeInvalid = -not ((Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoInnerTresholdRange))
+      write-log "it is $(Get-Date -Format 'HH:mm'); last trigger: $lastTrigger --> $lastProc% at $lastTriggerTime; validity treshold: $supposedDurationToGetIntoInnerTresholdRange ==> lastTriggerAssumedToBeInvalid: $lastTriggerAssumedToBeInvalid"
       if ($lastTriggerAssumedToBeInvalid) {
         return $true
       }
