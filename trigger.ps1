@@ -8,8 +8,9 @@ function place_a_trigger_file {
 }
 
 function synchronise-trigger {
-    if (-not ( Test-Path (Join-Path $triggerFolder '.git'))) { return }
+    if (-not ( Test-Path (Join-Path $PSScriptRoot '.git'))) { return }
     try {
+        write-log "synchronizing git repository"
         pushd $triggerFolder
         git add .
         git commit -am "sync $(Get-Date -Format yyMMdd_HHmm)"

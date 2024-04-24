@@ -62,3 +62,18 @@
 240424 1100 - trigger comparision allows to continue
 240424 1100 - evaluate: true
 240424 1100 - place a trigger file: C:\ws\battery\trigger\240424_1100_20
+240424 1105 - -------- new iteration starts
+240424 1105 - current level is 18%
+240424 1105 - a limit has been exceeded
+240424 1105 - lastTriggerAssumedToBeInvalid: False
+240424 1105 - trigger comparision allows to continue
+240424 1105 - evaluate: true
+240424 1105 - place a trigger file: C:\ws\battery\trigger\240424_1105_18
+240424 1110 - -------- new iteration starts
+240424 1110 - current level is 21%
+240424 1110 - a limit has been exceeded
+240424 1110 - lastTriggerAssumedToBeInvalid: False
+240424 1110 - trigger comparision allows to continue
+240424 1110 - evaluate: true
+240424 1110 - place a trigger file: C:\ws\battery\trigger\240424_1110_21
+240424 1110 - synchronizing git repository
