@@ -125,3 +125,45 @@
 240424 1151 - lastTriggerAssumedToBeInvalid: True
 240424 1151 - place a trigger file: C:\ws\battery\trigger\240424_1151_28
 240424 1151 - synchronizing git repository
+240424 1156 - -------- new iteration starts
+240424 1156 - current level is 32%
+240424 1156 - evaluate: no limit violation detected ==> false
+240424 1201 - -------- new iteration starts
+240424 1201 - current level is 37%
+240424 1201 - evaluate: no limit violation detected ==> false
+240424 1206 - -------- new iteration starts
+240424 1206 - current level is 42%
+240424 1206 - evaluate: no limit violation detected ==> false
+240424 1211 - -------- new iteration starts
+240424 1211 - current level is 47%
+240424 1211 - evaluate: no limit violation detected ==> false
+240424 1216 - -------- new iteration starts
+240424 1216 - current level is 52%
+240424 1216 - evaluate: no limit violation detected ==> false
+240424 1221 - -------- new iteration starts
+240424 1221 - current level is 57%
+240424 1221 - evaluate: no limit violation detected ==> false
+240424 1226 - -------- new iteration starts
+240424 1226 - current level is 61%
+240424 1226 - evaluate: no limit violation detected ==> false
+240424 1231 - -------- new iteration starts
+240424 1231 - current level is 66%
+240424 1231 - evaluate: no limit violation detected ==> false
+240424 1236 - -------- new iteration starts
+240424 1236 - current level is 70%
+240424 1236 - evaluate: no limit violation detected ==> false
+240424 1241 - -------- new iteration starts
+240424 1241 - current level is 73%
+240424 1241 - evaluate: no limit violation detected ==> false
+240424 1246 - -------- new iteration starts
+240424 1246 - current level is 76%
+240424 1246 - evaluate: no limit violation detected ==> false
+240424 1251 - -------- new iteration starts
+240424 1251 - current level is 79%
+240424 1251 - evaluate: no limit violation detected ==> false
+240424 1256 - -------- new iteration starts
+240424 1256 - current level is 81%
+240424 1256 - a limit has been exceeded
+240424 1256 - lastTriggerAssumedToBeInvalid: True
+240424 1256 - place a trigger file: C:\ws\battery\trigger\240424_1256_81
+240424 1256 - synchronizing git repository
