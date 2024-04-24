@@ -3,3 +3,62 @@
 240424 0856 - -------- single execution starts
 240424 0856 - current level is 68%
 240424 0856 - evaluate: no limit violation detected ==> false
+240424 0950 - -------- new iteration starts
+240424 0950 - current level is 47%
+240424 0950 - evaluate: no limit violation detected ==> false
+240424 0955 - -------- new iteration starts
+240424 0955 - current level is 46%
+240424 0955 - evaluate: no limit violation detected ==> false
+240424 1000 - -------- new iteration starts
+240424 1000 - current level is 43%
+240424 1000 - evaluate: no limit violation detected ==> false
+240424 1005 - -------- new iteration starts
+240424 1005 - current level is 42%
+240424 1005 - evaluate: no limit violation detected ==> false
+240424 1010 - -------- new iteration starts
+240424 1010 - current level is 40%
+240424 1010 - evaluate: no limit violation detected ==> false
+240424 1015 - -------- new iteration starts
+240424 1015 - current level is 39%
+240424 1015 - evaluate: no limit violation detected ==> false
+240424 1020 - -------- new iteration starts
+240424 1020 - current level is 37%
+240424 1020 - evaluate: no limit violation detected ==> false
+240424 1025 - -------- new iteration starts
+240424 1025 - current level is 35%
+240424 1025 - evaluate: no limit violation detected ==> false
+240424 1030 - -------- new iteration starts
+240424 1030 - current level is 33%
+240424 1030 - evaluate: no limit violation detected ==> false
+240424 1035 - -------- new iteration starts
+240424 1035 - current level is 31%
+240424 1035 - evaluate: no limit violation detected ==> false
+240424 1040 - -------- new iteration starts
+240424 1040 - current level is 30%
+240424 1040 - evaluate: no limit violation detected ==> false
+240424 1045 - -------- new iteration starts
+240424 1045 - current level is 27%
+240424 1045 - a limit has been exceeded
+240424 1045 - evaluate: true
+240424 1045 - place a trigger file: C:\ws\battery\trigger\240424_1045_27
+240424 1050 - -------- new iteration starts
+240424 1050 - current level is 24%
+240424 1050 - a limit has been exceeded
+240424 1050 - lastTriggerAssumedToBeInvalid: False
+240424 1050 - trigger comparision allows to continue
+240424 1050 - evaluate: true
+240424 1050 - place a trigger file: C:\ws\battery\trigger\240424_1050_24
+240424 1055 - -------- new iteration starts
+240424 1055 - current level is 22%
+240424 1055 - a limit has been exceeded
+240424 1055 - lastTriggerAssumedToBeInvalid: False
+240424 1055 - trigger comparision allows to continue
+240424 1055 - evaluate: true
+240424 1055 - place a trigger file: C:\ws\battery\trigger\240424_1055_22
+240424 1100 - -------- new iteration starts
+240424 1100 - current level is 20%
+240424 1100 - a limit has been exceeded
+240424 1100 - lastTriggerAssumedToBeInvalid: False
+240424 1100 - trigger comparision allows to continue
+240424 1100 - evaluate: true
+240424 1100 - place a trigger file: C:\ws\battery\trigger\240424_1100_20
