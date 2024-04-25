@@ -36,11 +36,14 @@ function evaluate {
       if ($lastTriggerAssumedToBeInvalid) {
         return $currentLevel
       }
-      if ($lastLevel -le $currentLevel -and $currentLevel -lt $lowerTreshold) {
+      # last trigger is still valid, check the progress made since last trigger
+      #  <----- level is too low -------->  and <level is already increasing>
+      if ($currentLevel -lt $lowerTreshold -and $lastLevel -lt $currentLevel) {
         write-log "already triggered (on) and charging"
         return $null
       }
-      if ($upperTreshold -lt $currentLevel -and $currentLevel -le $lastLevel) {
+      #   <---- level is too high ------->  and < level is already sinking >
+      if ($upperTreshold -lt $currentLevel -and $currentLevel -le $lastLevel) { # -le because it may not depleting so fast
         write-log "already triggered (off) and depleting"
         return $null
       }

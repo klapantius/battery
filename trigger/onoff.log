@@ -1,1 +1,13 @@
 240425 0902 - synchronizing git repository
+240425 0907 - -------- 04.25 09:07 --------
+240425 0907 - new iteration starts
+240425 0907 - current level is 80%
+240425 0907 - 30(l) > 80 > 80(u)
+240425 0907 - no limit has been exceeded
+240425 0907 - evaluate ==> no trigger
+240425 0912 - -------- 04.25 09:12 --------
+240425 0912 - new iteration starts
+240425 0912 - current level is 79%
+240425 0912 - 30(l) > 79 > 80(u)
+240425 0912 - no limit has been exceeded
+240425 0912 - evaluate ==> no trigger
