@@ -13,8 +13,9 @@ function evaluate {
     write-log "evaluate: force ==> true"
     return $true 
   }
-  if (($currentLevel -lt $lowerTreshold) -or ($upperTreshold -lt $currentLevel)) {
-    write-log "a limit has been exceeded"
+  $activeLimit = if ($currentLevel -lt $lowerTreshold) { 'lower' } elseif ($upperTreshold -lt $currentLevel) { 'upper' } else { 'no' }
+  write-log "$activeLimit limit has been exceeded"
+  if (-not ('no' -eq $activeLimit)) {
     $lastTrigger = get-lastTrigger
     $lastLevel = $lastTrigger | get-level
     if ($lastLevel -ge 0) {
