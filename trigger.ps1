@@ -1,10 +1,13 @@
 $triggerFolder = Join-Path -Path $PSScriptRoot -ChildPath 'trigger';
 
 function place_a_trigger_file {
-    $fileName = "$triggerFolder\$(get-date -Format yyMMdd_HHmm)_$proc"
+    param(
+        $triggeringLevel
+    )
+    $fileName = "$triggerFolder\$(get-date -Format yyMMdd_HHmm)_$triggeringLevel"
     write-log "place a trigger file: $fileName"
     "switch" | out-file $fileName
-    # remove older triggers
+    # remove triggers older than a certain time
     $recently = (Get-Date).AddHours(-1)
     dir $triggerFolder -File | where { $_.CreationTime -lt $recently } | foreach { del $_ -ErrorAction SilentlyContinue }
 }
