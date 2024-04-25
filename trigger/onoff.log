@@ -289,3 +289,16 @@
 240425 1545 - triggering with 25%
 240425 1545 - place a trigger file: C:\ws\battery\trigger\trigger_240425_1545_25
 240425 1545 - synchronizing git repository
+240425 1550 - - done -
+240425 1550 - -------- 04.25 15:50 --------
+240425 1550 - new iteration starts
+240425 1550 - current level is 23%
+240425 1550 - 23 <= 30(l) <= 80(u)
+240425 1550 - lower limit has been violated
+240425 1550 - last trigger was placed due to 28% at 11:39
+240425 1550 - 28 <= 30(l) <= 80(u)
+240425 1550 - last trigger was due to lower limit violation but it is too old
+240425 1550 - a new trigger must be set
+240425 1550 - triggering with 23%
+240425 1550 - place a trigger file: C:\ws\battery\trigger\trigger_240425_1550_23
+240425 1550 - synchronizing git repository
