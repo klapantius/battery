@@ -8,8 +8,7 @@ function get-violation{
     [int]$lowerTreshold,
     [int]$upperTreshold
   )
-  $numbers = ("$currentLevel", "$lowerTreshold(l)", "$upperTreshold(u)") | sort
-  write-log $numbers
+  write-log ("$currentLevel", "$lowerTreshold(l)", "$upperTreshold(u)" | sort) -join ', '
   if ($currentLevel -lt $lowerTreshold) { 'lower' } elseif ($upperTreshold -lt $currentLevel) { 'upper' } else { 'no' }
 }
 
