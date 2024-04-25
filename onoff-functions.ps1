@@ -61,6 +61,7 @@ function trigger-ifttt {
     [int]$level
   )
   if ($null -ne $level) {
+    write-log "triggering with $level%"
     place_a_trigger_file $level
     synchronise-trigger
     return $true
