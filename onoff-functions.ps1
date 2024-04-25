@@ -8,7 +8,7 @@ function get-violation{
     [int]$lowerTreshold,
     [int]$upperTreshold
   )
-  $numbers = ("$currentLevel", "$lowerTreshold (l)", "$upperTreshold (u)") | sort
+  $numbers = ("$currentLevel", "$lowerTreshold(l)", "$upperTreshold(u)") | sort
   write-log $numbers
   if ($currentLevel -lt $lowerTreshold) { 'lower' } elseif ($upperTreshold -lt $currentLevel) { 'upper' } else { 'no' }
 }
@@ -21,8 +21,8 @@ function evaluate {
     [int]$upperTreshold
   )
   if ($force) {
-    write-log "evaluate: force ==> true"
-    return $true 
+    write-log "evaluate: force ==> trigger with $currentLevel%"
+    return $currentLevel 
   }
   $activeLimit = get-violation -currentLevel $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
   write-log "$activeLimit limit has been exceeded"
@@ -35,37 +35,38 @@ function evaluate {
       $lastTriggerAssumedToBeInvalid = -not ((Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoInnerTresholdRange))
       write-log "it is $(Get-Date -Format 'HH:mm'); last trigger: $lastTrigger --> $lastLevel% at $lastTriggerTime; validity treshold: $supposedDurationToGetIntoInnerTresholdRange ==> lastTriggerAssumedToBeInvalid: $lastTriggerAssumedToBeInvalid"
       if ($lastTriggerAssumedToBeInvalid) {
-        return $true
+        return $currentLevel
       }
       if ($lastLevel -le $currentLevel -and $currentLevel -lt $lowerTreshold) {
         write-log "already triggered (on) and charging"
-        return $false
+        return $null
       }
       if ($upperTreshold -lt $currentLevel -and $currentLevel -le $lastLevel) {
         write-log "already triggered (off) and depleting"
-        return $false
+        return $null
       }
       else { "last trigger could not be found" }
       # todo: show an error if current level is further out than the last trigger
       write-log "trigger comparision allows to continue"
     }
-    write-log "evaluate: true"
-    return $true
+    write-log "evaluation decides to trigger"
+    return $currentLevel
   }
-  write-log "evaluate: no limit violation detected ==> false"
-  return $false
+  write-log "evaluate: no limit violation detected"
+  return $null
 }
 
 function trigger-ifttt {
   param(
     [parameter(ValueFromPipeline)]
-    [switch]$armed
+    [int]$level
   )
-  if ($armed) {
-    place_a_trigger_file 
+  if ($null -ne $level) {
+    place_a_trigger_file $level
     synchronise-trigger
+    return $true
   }
-  return $armed
+  return $false
 }
 
 function launch {
@@ -76,7 +77,7 @@ function launch {
   )
   $currentLevel = get-batteryLevel
   write-log "current level is $currentLevel%"
-  if (evaluate -force $force -proc $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
+  if (evaluate -force $force -currentLevel $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
     trigger-ifttt) {
     compose-message -proc $currentLevel -force $force | show-notification
   }
