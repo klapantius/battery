@@ -5,7 +5,7 @@
 function evaluate {
   param(
     [bool]$force = $false,
-    [int]$proc,
+    [int]$currentLevel,
     [int]$lowerTreshold,
     [int]$upperTreshold
   )
@@ -13,23 +13,23 @@ function evaluate {
     write-log "evaluate: force ==> true"
     return $true 
   }
-  if (($proc -lt $lowerTreshold) -or ($upperTreshold -lt $proc)) {
+  if (($currentLevel -lt $lowerTreshold) -or ($upperTreshold -lt $currentLevel)) {
     write-log "a limit has been exceeded"
     $lastTrigger = get-lastTrigger
-    $lastProc = $lastTrigger | get-level
-    if ($lastProc -ge 0) {
+    $lastLevel = $lastTrigger | get-level
+    if ($lastLevel -ge 0) {
       $supposedDurationToGetIntoInnerTresholdRange = 30 # minutes
       $lastTriggerTime = get-lastTriggerTime
       $lastTriggerAssumedToBeInvalid = -not ((Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoInnerTresholdRange))
-      write-log "it is $(Get-Date -Format 'HH:mm'); last trigger: $lastTrigger --> $lastProc% at $lastTriggerTime; validity treshold: $supposedDurationToGetIntoInnerTresholdRange ==> lastTriggerAssumedToBeInvalid: $lastTriggerAssumedToBeInvalid"
+      write-log "it is $(Get-Date -Format 'HH:mm'); last trigger: $lastTrigger --> $lastLevel% at $lastTriggerTime; validity treshold: $supposedDurationToGetIntoInnerTresholdRange ==> lastTriggerAssumedToBeInvalid: $lastTriggerAssumedToBeInvalid"
       if ($lastTriggerAssumedToBeInvalid) {
         return $true
       }
-      if ($lastProc -le $proc -and $proc -lt $lowerTreshold) {
+      if ($lastLevel -le $currentLevel -and $currentLevel -lt $lowerTreshold) {
         write-log "already triggered (on) and charging"
         return $false
       }
-      if ($upperTreshold -lt $proc -and $proc -le $lastProc) {
+      if ($upperTreshold -lt $currentLevel -and $currentLevel -le $lastLevel) {
         write-log "already triggered (off) and depleting"
         return $false
       }
@@ -61,10 +61,10 @@ function launch {
     [int]$lowerTreshold,
     [int]$upperTreshold
   )
-  $proc = get-batteryLevel
-  write-log "current level is $proc%"
-  if (evaluate -force $force -proc $proc -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
+  $currentLevel = get-batteryLevel
+  write-log "current level is $currentLevel%"
+  if (evaluate -force $force -proc $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
     trigger-ifttt) {
-    compose-message -proc $proc -force $force | show-notification
+    compose-message -proc $currentLevel -force $force | show-notification
   }
 }
