@@ -387,3 +387,11 @@
 240425 0657 - it is 06:57; last trigger: 240425_0641_ --> 0% at 04/25/2024 06:41:57; validity treshold: 30 ==> lastTriggerAssumedToBeInvalid: True
 240425 0657 - place a trigger file: C:\ws\battery\trigger\240425_0657_
 240425 0657 - synchronizing git repository
+240425 0702 - -------- 04.25 07:02 --------
+240425 0702 - new iteration starts
+240425 0702 - current level is 49%
+240425 0702 - 0 30 (l) 80 (u)
+240425 0702 - lower limit has been exceeded
+240425 0702 - evaluate: true
+240425 0702 - place a trigger file: C:\ws\battery\trigger\240425_0702_
+240425 0702 - synchronizing git repository

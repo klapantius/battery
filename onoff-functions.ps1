@@ -9,6 +9,7 @@ function get-violation{
     [int]$upperTreshold
   )
   $numbers = ("$currentLevel", "$lowerTreshold (l)", "$upperTreshold (u)") | sort
+  write-log $numbers
   if ($currentLevel -lt $lowerTreshold) { 'lower' } elseif ($upperTreshold -lt $currentLevel) { 'upper' } else { 'no' }
 }
 
@@ -28,7 +29,7 @@ function evaluate {
   if (-not ('no' -eq $activeLimit)) {
     $lastTrigger = get-lastTrigger
     $lastLevel = $lastTrigger | get-level
-    if ($lastLevel -ge 0) {
+    if ($lastLevel -gt 0) {
       $supposedDurationToGetIntoInnerTresholdRange = 30 # minutes
       $lastTriggerTime = get-lastTriggerTime
       $lastTriggerAssumedToBeInvalid = -not ((Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoInnerTresholdRange))
@@ -44,6 +45,7 @@ function evaluate {
         write-log "already triggered (off) and depleting"
         return $false
       }
+      else { "last trigger could not be found" }
       # todo: show an error if current level is further out than the last trigger
       write-log "trigger comparision allows to continue"
     }
