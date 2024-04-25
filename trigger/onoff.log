@@ -354,3 +354,32 @@
 240425 1611 - triggering with 27%
 240425 1611 - place a trigger file: C:\ws\battery\trigger\trigger_240425_1611_27
 240425 1611 - synchronizing git repository
+240425 1616 - - done -
+240425 1616 - -------- 04.25 16:16 --------
+240425 1616 - new iteration starts
+240425 1616 - current level is 32%
+240425 1616 - 30(l) <= 32 <= 80(u)
+240425 1616 - no limit has been violated
+240425 1616 - evaluate ==> no trigger
+240425 1621 - - done -
+240425 1621 - -------- 04.25 16:21 --------
+240425 1621 - new iteration starts
+240425 1621 - current level is 37%
+240425 1621 - 30(l) <= 37 <= 80(u)
+240425 1621 - no limit has been violated
+240425 1621 - evaluate ==> no trigger
+240425 1625 - -------- 04.25 16:25 --------
+240425 1625 - new iteration starts
+240425 1625 - current level is 42%
+240425 1625 - 40(l) <= 42 <= 80(u)
+240425 1625 - no limit has been violated
+240425 1625 - evaluate ==> no trigger
+240425 1625 - -------- 04.25 16:25 --------
+240425 1625 - new iteration starts
+240425 1625 - current level is 42%
+240425 1625 - 42 <= 45(l) <= 80(u)
+240425 1625 - lower limit has been violated
+240425 1625 - evaluation decides to trigger
+240425 1625 - triggering with 42%
+240425 1625 - place a trigger file: C:\ws\battery\trigger\trigger_240425_1625_42
+240425 1625 - synchronizing git repository
