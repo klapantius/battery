@@ -8,7 +8,7 @@ function get-violation{
     [int]$lowerTreshold,
     [int]$upperTreshold
   )
-  write-log (("$currentLevel", "$lowerTreshold(l)", "$upperTreshold(u)" | sort) -join ', ')
+  write-log (("$currentLevel", "$lowerTreshold(l)", "$upperTreshold(u)" | sort) -join ' > ')
   if ($currentLevel -lt $lowerTreshold) { 'lower' } elseif ($upperTreshold -lt $currentLevel) { 'upper' } else { 'no' }
 }
 
@@ -20,7 +20,7 @@ function evaluate {
     [int]$upperTreshold
   )
   if ($force) {
-    write-log "evaluate: force ==> trigger with $currentLevel%"
+    write-log "evaluate force ==> trigger with $currentLevel%"
     return $currentLevel 
   }
   $activeLimit = get-violation -currentLevel $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
@@ -51,7 +51,7 @@ function evaluate {
     write-log "evaluation decides to trigger"
     return $currentLevel
   }
-  write-log "evaluate: no limit violation detected"
+  write-log "evaluate ==> no trigger"
   return $null
 }
 
