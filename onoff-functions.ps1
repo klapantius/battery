@@ -2,6 +2,16 @@
 . "$PSScriptRoot\battery.ps1"
 . "$PSScriptRoot\trigger.ps1"
 
+function get-violation{
+  param(
+    [int]$currentLevel,
+    [int]$lowerTreshold,
+    [int]$upperTreshold
+  )
+  $numbers = ("$currentLevel", "$lowerTreshold (l)", "$upperTreshold (u)") | sort
+  if ($currentLevel -lt $lowerTreshold) { 'lower' } elseif ($upperTreshold -lt $currentLevel) { 'upper' } else { 'no' }
+}
+
 function evaluate {
   param(
     [bool]$force = $false,
@@ -13,7 +23,7 @@ function evaluate {
     write-log "evaluate: force ==> true"
     return $true 
   }
-  $activeLimit = if ($currentLevel -lt $lowerTreshold) { 'lower' } elseif ($upperTreshold -lt $currentLevel) { 'upper' } else { 'no' }
+  $activeLimit = get-violation -currentLevel $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
   write-log "$activeLimit limit has been exceeded"
   if (-not ('no' -eq $activeLimit)) {
     $lastTrigger = get-lastTrigger
