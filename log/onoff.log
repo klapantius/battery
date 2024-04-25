@@ -361,3 +361,11 @@
 240425 0636 - new iteration starts
 240425 0636 - current level is 45%
 240425 0636 - evaluate: no limit violation detected ==> false
+240425 0641 - new iteration starts
+240425 0641 - current level is 43%
+240425 0641 - a limit has been exceeded
+240425 0641 - it is 06:41; last trigger: 240424_1616_83 --> 83% at 04/24/2024 16:16:43; validity treshold: 30 ==> lastTriggerAssumedToBeInvalid: False
+240425 0641 - trigger comparision allows to continue
+240425 0641 - evaluate: true
+240425 0641 - place a trigger file: C:\ws\battery\trigger\240425_0641_
+240425 0641 - synchronizing git repository
