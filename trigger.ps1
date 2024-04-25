@@ -14,7 +14,7 @@ function synchronise-trigger {
     try {
         write-log "synchronizing git repository"
         pushd $triggerFolder
-        git add .
+        git add ./trigger
         git commit -am "sync $(Get-Date -Format yyMMdd_HHmm)"
         git pull
         git push
