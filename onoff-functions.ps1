@@ -1,5 +1,3 @@
-$triggerFolder = Join-Path -Path $PSScriptRoot -ChildPath 'trigger';
-
 . "$PSScriptRoot\logging.ps1"
 . "$PSScriptRoot\battery.ps1"
 . "$PSScriptRoot\trigger.ps1"

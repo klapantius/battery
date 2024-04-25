@@ -1,3 +1,5 @@
+$triggerFolder = Join-Path -Path $PSScriptRoot -ChildPath 'trigger';
+
 function place_a_trigger_file {
     $fileName = "$triggerFolder\$(get-date -Format yyMMdd_HHmm)_$proc"
     write-log "place a trigger file: $fileName"
