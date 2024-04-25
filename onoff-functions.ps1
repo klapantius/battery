@@ -2,7 +2,7 @@
 . "$PSScriptRoot\battery.ps1"
 . "$PSScriptRoot\trigger.ps1"
 
-function get-violation{
+function get-violation {
   param(
     [int]$currentLevel,
     [int]$lowerTreshold,
@@ -27,12 +27,12 @@ function evaluate {
   write-log "$activeLimit limit has been violated"
   if (-not ('no' -eq $activeLimit)) {
     $lastTrigger = get-lastTrigger
-    $lastLevel = $lastTrigger | get-level
+    $lastLevel = $lastTrigger | get-TriggerLevel
     if ($lastLevel -gt 0) {
       # check if the last trigger was reacting to the same situation
       # - it should not be too old
       $supposedDurationToGetIntoValidRange = 30 # minutes
-      $lastTriggerTime = get-lastTriggerTime
+      $lastTriggerTime = $lastTrigger | get-TriggerTime
       $lastTriggerIsTooOld = (Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoValidRange)
       # - it should react to the same situation
       write-log "last trigger was placed due to $lastLevel% at $($lastTriggerTime.ToString('HH:mm'))"
@@ -50,7 +50,7 @@ function evaluate {
         return $null
       }
       #   <---- level is too high ------->  and < level is already sinking >
-      if ($upperTreshold -lt $currentLevel -and $currentLevel -le $lastLevel) { # -le because it may not depleting so fast
+      if ($upperTreshold -lt $currentLevel -and $currentLevel -le $lastLevel) {
         write-log "already triggered (off) and depleting"
         return $null
       }

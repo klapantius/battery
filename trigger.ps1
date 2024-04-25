@@ -4,12 +4,13 @@ function place_a_trigger_file {
     param(
         $triggeringLevel
     )
-    $fileName = "$triggerFolder\$(get-date -Format yyMMdd_HHmm)_$triggeringLevel"
+    $fileName = "$triggerFolder\trigger_$(get-date -Format yyMMdd_HHmm)_$triggeringLevel"
+    $year
     write-log "place a trigger file: $fileName"
     "switch" | out-file $fileName
     # remove triggers older than a certain time
     $recently = (Get-Date).AddHours(-1)
-    dir $triggerFolder -File | where { $_.CreationTime -lt $recently } | foreach { del $_ -ErrorAction SilentlyContinue }
+    dir $triggerFolder -File trigger_* | where { $_.CreationTime -lt $recently } | foreach { del $_ -ErrorAction SilentlyContinue }
 }
 
 function synchronise-trigger {
@@ -28,20 +29,31 @@ function synchronise-trigger {
 }
 
 function get-lastTrigger {
-    $result = Get-ChildItem -file $triggerFolder | Sort-Object LastWriteTime | Select-Object -First 1 -ExpandProperty Name
+    $result = dir $triggerFolder -file trigger_* | Sort-Object -Descending CreationTime | Select-Object -First 1
     return $result
 }
 
-function get-lastTriggerTime {
-    $result = Get-ChildItem -file $triggerFolder | Sort-Object LastWriteTime | Select-Object -First 1 -ExpandProperty CreationTime
-    return $result
-}
-
-function get-level {
+function get-TriggerName {
     param(
         [parameter(ValueFromPipeline)]
-        [string]$trigger
+        $triggerFile
+    )
+    return (get-item $triggerFile | select -ExpandProperty Name)
+}
+function get-TriggerTime {
+    param(
+        [parameter(ValueFromPipeline)]
+        $triggerFile
+    )
+    return (get-item $triggerFile | select -ExpandProperty CreationTime)
+}
+
+function get-TriggerLevel {
+    param(
+        [parameter(ValueFromPipeline)]
+        [string]$triggerFile
     )
     if ([string]::IsNullOrEmpty($trigger)) { return -1 }
-    return [int]$($trigger -split '_' | Select-Object -Last 1)
+    $fileName = $triggerFile | get-TriggerName
+    return [int]$($name -split '_' | Select-Object -Last 1)
 }
