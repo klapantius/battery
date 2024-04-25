@@ -395,3 +395,11 @@
 240425 0702 - evaluate: true
 240425 0702 - place a trigger file: C:\ws\battery\trigger\240425_0702_
 240425 0702 - synchronizing git repository
+240425 0711 - -------- 04.25 07:11 --------
+240425 0711 - new iteration starts
+240425 0711 - current level is 45%
+240425 0711 - 0 30 (l) 80 (u)
+240425 0711 - lower limit has been exceeded
+240425 0711 - evaluate: true
+240425 0711 - place a trigger file: C:\ws\battery\trigger\240425_0711_
+240425 0711 - synchronizing git repository
