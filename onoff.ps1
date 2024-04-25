@@ -20,6 +20,7 @@ if ($iterationDelay -gt 0) {
     write-log "new iteration starts"
     Start-Once
     Start-Sleep -Seconds $(60 * $iterationDelay)
+    write-log "- done -"
   } while ($true) 
 }
 else { 

@@ -8,7 +8,7 @@ function get-violation{
     [int]$lowerTreshold,
     [int]$upperTreshold
   )
-  write-log (("$currentLevel", "$lowerTreshold(l)", "$upperTreshold(u)" | sort) -join ' > ')
+  write-log (("$currentLevel", "$lowerTreshold(l)", "$upperTreshold(u)" | sort) -join ' <= ')
   if ($currentLevel -lt $lowerTreshold) { 'lower' } elseif ($upperTreshold -lt $currentLevel) { 'upper' } else { 'no' }
 }
 
@@ -24,16 +24,23 @@ function evaluate {
     return $currentLevel 
   }
   $activeLimit = get-violation -currentLevel $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
-  write-log "$activeLimit limit has been exceeded"
+  write-log "$activeLimit limit has been violated"
   if (-not ('no' -eq $activeLimit)) {
     $lastTrigger = get-lastTrigger
     $lastLevel = $lastTrigger | get-level
     if ($lastLevel -gt 0) {
-      $supposedDurationToGetIntoInnerTresholdRange = 30 # minutes
+      # check if the last trigger was reacting to the same situation
+      # - it should not be too old
+      $supposedDurationToGetIntoValidRange = 30 # minutes
       $lastTriggerTime = get-lastTriggerTime
-      $lastTriggerAssumedToBeInvalid = -not ((Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoInnerTresholdRange))
-      write-log "it is $(Get-Date -Format 'HH:mm'); last trigger: $lastTrigger --> $lastLevel% at $lastTriggerTime; validity treshold: $supposedDurationToGetIntoInnerTresholdRange ==> lastTriggerAssumedToBeInvalid: $lastTriggerAssumedToBeInvalid"
+      $lastTriggerIsTooOld = (Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoValidRange)
+      # - it should react to the same situation
+      write-log "last trigger was placed due to $lastLevel% at $($lastTriggerTime.ToString('HH:mm'))"
+      $lastViolation = get-violation -currentLevel $lastLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
+      write-log "last trigger was due to $lastViolation limit violation $(if ($lastTriggerIsTooOld) {'but it is'} else {'and it is not'}) too old"
+      $lastTriggerAssumedToBeInvalid = $lastViolation -ne $activeLimit -or $lastTriggerIsTooOld
       if ($lastTriggerAssumedToBeInvalid) {
+        write-log "a new trigger must be set"
         return $currentLevel
       }
       # last trigger is still valid, check the progress made since last trigger
