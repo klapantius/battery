@@ -58,7 +58,7 @@ function evaluate {
 function trigger-ifttt {
   param(
     [parameter(ValueFromPipeline)]
-    [int]$level
+    [string]$level
   )
   if ($null -ne $level) {
     write-log "triggering with $level%"
