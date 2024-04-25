@@ -2,7 +2,7 @@
 function write-log {
     param(
         [string]$message,
-        [string]$loggingFolder = "$PSScriptRoot\\log"
+        [string]$loggingFolder = "$PSScriptRoot\\trigger"
     )
     if ($LogToConsole) { Write-Host $message }
     $logFile = "$loggingFolder\\onoff.log"

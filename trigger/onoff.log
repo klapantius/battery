@@ -460,3 +460,12 @@
 240425 0720 - triggering with 41%
 240425 0720 - place a trigger file: C:\ws\battery\trigger\240425_0720_
 240425 0720 - synchronizing git repository
+240425 0726 - -------- 04.25 07:26 --------
+240425 0726 - new iteration starts
+240425 0726 - current level is 39%
+240425 0726 - 39, 45(l), 80(u)
+240425 0726 - lower limit has been exceeded
+240425 0726 - evaluation decides to trigger
+240425 0726 - triggering with 39%
+240425 0726 - place a trigger file: C:\ws\battery\trigger\240425_0726_
+240425 0726 - synchronizing git repository
