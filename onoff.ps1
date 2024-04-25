@@ -14,14 +14,15 @@ function Start-Once {
   launch -force $force -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
 }
 
+write-log "-------- $(Get-Date -Format "MM.dd HH:mm") --------"
 if ($iterationDelay -gt 0) {
   do {
-    write-log "-------- new iteration starts"
+    write-log "new iteration starts"
     Start-Once
     Start-Sleep -Seconds $(60 * $iterationDelay)
   } while ($true) 
 }
 else { 
-  write-log "-------- single execution starts"
+  write-log "single execution starts"
   Start-Once 
 }
