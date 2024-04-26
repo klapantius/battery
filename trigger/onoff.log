@@ -383,3 +383,205 @@
 240425 1625 - triggering with 42%
 240425 1625 - place a trigger file: C:\ws\battery\trigger\trigger_240425_1625_42
 240425 1625 - synchronizing git repository
+240426 0722 - -------- 04.26 07:22 --------
+240426 0722 - single execution starts
+240426 0722 - current level is 63%
+240426 0722 - 30(l) <= 63 <= 80(u)
+240426 0722 - no limit has been violated
+240426 0722 - evaluate ==> no trigger
+240426 0723 - -------- 04.26 07:23 --------
+240426 0723 - single execution starts
+240426 0723 - current level is 63%
+240426 0723 - 30(l) <= 63 <= 80(u)
+240426 0723 - no limit has been violated
+240426 0723 - evaluate ==> no trigger
+240426 0723 - -------- 04.26 07:23 --------
+240426 0723 - single execution starts
+240426 0723 - current level is 63%
+240426 0723 - 30(l) <= 63 <= 80(u)
+240426 0723 - no limit has been violated
+240426 0723 - evaluate ==> no trigger
+240426 0723 - -------- 04.26 07:23 --------
+240426 0723 - new iteration starts
+240426 0723 - current level is 62%
+240426 0723 - 30(l) <= 62 <= 80(u)
+240426 0723 - no limit has been violated
+240426 0723 - evaluate ==> no trigger
+240426 0728 - - done -
+240426 0728 - -------- 04.26 07:28 --------
+240426 0728 - new iteration starts
+240426 0728 - current level is 61%
+240426 0728 - 30(l) <= 61 <= 80(u)
+240426 0728 - no limit has been violated
+240426 0728 - evaluate ==> no trigger
+240426 0733 - - done -
+240426 0733 - -------- 04.26 07:33 --------
+240426 0733 - new iteration starts
+240426 0733 - current level is 61%
+240426 0733 - 30(l) <= 61 <= 80(u)
+240426 0733 - no limit has been violated
+240426 0733 - evaluate ==> no trigger
+240426 0738 - - done -
+240426 0738 - -------- 04.26 07:38 --------
+240426 0738 - new iteration starts
+240426 0738 - current level is 59%
+240426 0738 - 30(l) <= 59 <= 80(u)
+240426 0738 - no limit has been violated
+240426 0738 - evaluate ==> no trigger
+240426 0743 - - done -
+240426 0743 - -------- 04.26 07:43 --------
+240426 0743 - new iteration starts
+240426 0743 - current level is 58%
+240426 0743 - 30(l) <= 58 <= 80(u)
+240426 0743 - no limit has been violated
+240426 0743 - evaluate ==> no trigger
+240426 0748 - - done -
+240426 0748 - -------- 04.26 07:48 --------
+240426 0748 - new iteration starts
+240426 0748 - current level is 57%
+240426 0748 - 30(l) <= 57 <= 80(u)
+240426 0748 - no limit has been violated
+240426 0748 - evaluate ==> no trigger
+240426 0753 - - done -
+240426 0753 - -------- 04.26 07:53 --------
+240426 0753 - new iteration starts
+240426 0753 - current level is 56%
+240426 0753 - 30(l) <= 56 <= 80(u)
+240426 0753 - no limit has been violated
+240426 0753 - evaluate ==> no trigger
+240426 0758 - - done -
+240426 0758 - -------- 04.26 07:58 --------
+240426 0758 - new iteration starts
+240426 0758 - current level is 55%
+240426 0758 - 30(l) <= 55 <= 80(u)
+240426 0758 - no limit has been violated
+240426 0758 - evaluate ==> no trigger
+240426 0803 - - done -
+240426 0803 - -------- 04.26 08:03 --------
+240426 0803 - new iteration starts
+240426 0803 - current level is 53%
+240426 0803 - 30(l) <= 53 <= 80(u)
+240426 0803 - no limit has been violated
+240426 0803 - evaluate ==> no trigger
+240426 0808 - - done -
+240426 0808 - -------- 04.26 08:08 --------
+240426 0808 - new iteration starts
+240426 0808 - current level is 52%
+240426 0808 - 30(l) <= 52 <= 80(u)
+240426 0808 - no limit has been violated
+240426 0808 - evaluate ==> no trigger
+240426 0813 - - done -
+240426 0813 - -------- 04.26 08:13 --------
+240426 0813 - new iteration starts
+240426 0813 - current level is 51%
+240426 0813 - 30(l) <= 51 <= 80(u)
+240426 0813 - no limit has been violated
+240426 0813 - evaluate ==> no trigger
+240426 0818 - - done -
+240426 0818 - -------- 04.26 08:18 --------
+240426 0818 - new iteration starts
+240426 0818 - current level is 50%
+240426 0818 - 30(l) <= 50 <= 80(u)
+240426 0818 - no limit has been violated
+240426 0818 - evaluate ==> no trigger
+240426 0823 - - done -
+240426 0823 - -------- 04.26 08:23 --------
+240426 0823 - new iteration starts
+240426 0823 - current level is 48%
+240426 0823 - 30(l) <= 48 <= 80(u)
+240426 0823 - no limit has been violated
+240426 0823 - evaluate ==> no trigger
+240426 0828 - - done -
+240426 0828 - -------- 04.26 08:28 --------
+240426 0828 - new iteration starts
+240426 0828 - current level is 47%
+240426 0828 - 30(l) <= 47 <= 80(u)
+240426 0828 - no limit has been violated
+240426 0828 - evaluate ==> no trigger
+240426 0833 - - done -
+240426 0833 - -------- 04.26 08:33 --------
+240426 0833 - new iteration starts
+240426 0833 - current level is 46%
+240426 0833 - 30(l) <= 46 <= 80(u)
+240426 0833 - no limit has been violated
+240426 0833 - evaluate ==> no trigger
+240426 0838 - - done -
+240426 0838 - -------- 04.26 08:38 --------
+240426 0838 - new iteration starts
+240426 0838 - current level is 45%
+240426 0838 - 30(l) <= 45 <= 80(u)
+240426 0838 - no limit has been violated
+240426 0838 - evaluate ==> no trigger
+240426 0843 - - done -
+240426 0843 - -------- 04.26 08:43 --------
+240426 0843 - new iteration starts
+240426 0843 - current level is 44%
+240426 0843 - 30(l) <= 44 <= 80(u)
+240426 0843 - no limit has been violated
+240426 0843 - evaluate ==> no trigger
+240426 0848 - - done -
+240426 0848 - -------- 04.26 08:48 --------
+240426 0848 - new iteration starts
+240426 0848 - current level is 42%
+240426 0848 - 30(l) <= 42 <= 80(u)
+240426 0848 - no limit has been violated
+240426 0848 - evaluate ==> no trigger
+240426 0853 - - done -
+240426 0853 - -------- 04.26 08:53 --------
+240426 0853 - new iteration starts
+240426 0853 - current level is 41%
+240426 0853 - 30(l) <= 41 <= 80(u)
+240426 0853 - no limit has been violated
+240426 0853 - evaluate ==> no trigger
+240426 0858 - - done -
+240426 0858 - -------- 04.26 08:58 --------
+240426 0858 - new iteration starts
+240426 0858 - current level is 40%
+240426 0858 - 30(l) <= 40 <= 80(u)
+240426 0858 - no limit has been violated
+240426 0858 - evaluate ==> no trigger
+240426 0903 - - done -
+240426 0903 - -------- 04.26 09:03 --------
+240426 0903 - new iteration starts
+240426 0903 - current level is 38%
+240426 0903 - 30(l) <= 38 <= 80(u)
+240426 0903 - no limit has been violated
+240426 0903 - evaluate ==> no trigger
+240426 0908 - - done -
+240426 0908 - -------- 04.26 09:08 --------
+240426 0908 - new iteration starts
+240426 0908 - current level is 37%
+240426 0908 - 30(l) <= 37 <= 80(u)
+240426 0908 - no limit has been violated
+240426 0908 - evaluate ==> no trigger
+240426 0913 - - done -
+240426 0913 - -------- 04.26 09:13 --------
+240426 0913 - new iteration starts
+240426 0913 - current level is 35%
+240426 0913 - 30(l) <= 35 <= 80(u)
+240426 0913 - no limit has been violated
+240426 0913 - evaluate ==> no trigger
+240426 0918 - - done -
+240426 0918 - -------- 04.26 09:18 --------
+240426 0918 - new iteration starts
+240426 0918 - current level is 33%
+240426 0918 - 30(l) <= 33 <= 80(u)
+240426 0918 - no limit has been violated
+240426 0918 - evaluate ==> no trigger
+240426 0923 - - done -
+240426 0923 - -------- 04.26 09:23 --------
+240426 0923 - new iteration starts
+240426 0923 - current level is 31%
+240426 0923 - 30(l) <= 31 <= 80(u)
+240426 0923 - no limit has been violated
+240426 0923 - evaluate ==> no trigger
+240426 0928 - - done -
+240426 0928 - -------- 04.26 09:28 --------
+240426 0928 - new iteration starts
+240426 0928 - current level is 29%
+240426 0928 - 29 <= 30(l) <= 80(u)
+240426 0928 - lower limit has been violated
+240426 0928 - evaluation decides to trigger
+240426 0928 - triggering with 29%
+240426 0928 - place a trigger file: C:\ws\battery\trigger\trigger_240426_0928_29
+240426 0928 - synchronizing git repository
