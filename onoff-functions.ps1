@@ -24,7 +24,7 @@ function evaluate {
     return $currentLevel 
   }
   $activeLimit = get-violation -currentLevel $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
-  write-log "$activeLimit limit has been violated"
+  write-log "$activeLimit limit violation detected"
   if (-not ('no' -eq $activeLimit)) {
     $lastTrigger = get-lastTrigger
     $lastLevel = $lastTrigger | get-TriggerLevel
@@ -44,17 +44,24 @@ function evaluate {
         return $currentLevel
       }
       # last trigger is still valid, check the progress made since last trigger
+      $isCharging = test-charging
+      $isDepleting = -not $isCharging
       #  <----- level is too low -------->  and <level is already increasing>
-      if ($currentLevel -lt $lowerTreshold -and $lastLevel -lt $currentLevel) {
-        write-log "already triggered (on) and charging"
-        return $null
+      if ($activeLimit -eq 'lower') {
+        if ($isCharging) {
+          write-log "already triggered (on) and charging"
+          return $null
+        }
+        write-log "*** based on the last trigger it should be already charging but the charger is off"
       }
       #   <---- level is too high ------->  and < level is already sinking >
-      if ($upperTreshold -lt $currentLevel -and $currentLevel -le $lastLevel) {
-        write-log "already triggered (off) and depleting"
-        return $null
+      if ($activeLimit -eq 'upper') {
+        if ($isDepleting) {
+          write-log "already triggered (off) and depleting"
+          return $null
+        }
+        write-log "*** based on the last trigger it should be already depleting but the charger is on"
       }
-      else { "last trigger could not be found" }
       # todo: show an error if current level is further out than the last trigger
       write-log "trigger comparision allows to continue"
     }
