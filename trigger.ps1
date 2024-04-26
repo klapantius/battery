@@ -53,7 +53,7 @@ function get-TriggerLevel {
         [parameter(ValueFromPipeline)]
         [string]$triggerFile
     )
-    if ([string]::IsNullOrEmpty($trigger)) { return -1 }
+    if ($null -eq $triggerFile) { return -1 }
     $fileName = $triggerFile | get-TriggerName
-    return [int]$($name -split '_' | Select-Object -Last 1)
+    return [int]$($fileName -split '_' | Select-Object -Last 1)
 }
