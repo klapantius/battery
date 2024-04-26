@@ -19,8 +19,8 @@ if ($iterationDelay -gt 0) {
     write-log "-------- $(Get-Date -Format "MM.dd HH:mm") --------"
     write-log "new iteration starts"
     Start-Once
-    Start-Sleep -Seconds $(60 * $iterationDelay)
     write-log "- done -"
+    Start-Sleep -Seconds $(60 * $iterationDelay)
   } while ($true) 
 }
 else { 
