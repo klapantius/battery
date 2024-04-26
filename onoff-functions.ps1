@@ -62,13 +62,10 @@ function evaluate {
         }
         show-notification "based on the last trigger it should be already depleting but the charger is on"
       }
-      # todo: show an error if current level is further out than the last trigger
-      write-log "trigger comparision allows to continue"
     }
     write-log "evaluation decides to trigger"
     return $currentLevel
   }
-  write-log "evaluate ==> no trigger"
   return $null
 }
 
@@ -81,9 +78,7 @@ function trigger-ifttt {
     write-log "triggering with $level%"
     place_a_trigger_file $level
     synchronise-trigger
-    return $true
   }
-  return $false
 }
 
 function launch {
@@ -96,5 +91,4 @@ function launch {
   write-log "current level is $currentLevel%"
   evaluate -force $force -currentLevel $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
     trigger-ifttt
-  write-log "- done -"
 }
