@@ -672,3 +672,13 @@
 240426 1029 - triggering with 81%
 240426 1029 - place a trigger file: C:\ws\battery\trigger\trigger_240426_1029_81
 240426 1029 - synchronizing git repository
+240426 1034 - - done -
+240426 1034 - -------- 04.26 10:34 --------
+240426 1034 - new iteration starts
+240426 1034 - current level is 83%
+240426 1034 - 30(l) <= 80(u) <= 83
+240426 1034 - upper limit has been violated
+240426 1034 - evaluation decides to trigger
+240426 1034 - triggering with 83%
+240426 1034 - place a trigger file: C:\ws\battery\trigger\trigger_240426_1034_83
+240426 1034 - synchronizing git repository
