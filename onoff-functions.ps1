@@ -52,7 +52,7 @@ function evaluate {
           write-log "already triggered (on) and charging"
           return $null
         }
-        write-log "*** based on the last trigger it should be already charging but the charger is off"
+        show-notification "based on the last trigger it should be already charging but the charger is off"
       }
       #   <---- level is too high ------->  and < level is already sinking >
       if ($activeLimit -eq 'upper') {
@@ -60,7 +60,7 @@ function evaluate {
           write-log "already triggered (off) and depleting"
           return $null
         }
-        write-log "*** based on the last trigger it should be already depleting but the charger is on"
+        show-notification "based on the last trigger it should be already depleting but the charger is on"
       }
       # todo: show an error if current level is further out than the last trigger
       write-log "trigger comparision allows to continue"
@@ -94,8 +94,7 @@ function launch {
   )
   $currentLevel = get-batteryLevel
   write-log "current level is $currentLevel%"
-  if (evaluate -force $force -currentLevel $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
-    trigger-ifttt) {
-    compose-message -proc $currentLevel -force $force | show-notification
-  }
+  evaluate -force $force -currentLevel $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
+    trigger-ifttt
+  write-log "- done -"
 }
