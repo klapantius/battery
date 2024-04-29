@@ -1173,3 +1173,184 @@
 240426 1525 - triggering with 81%
 240426 1525 - place a trigger file: C:\ws\battery\trigger\trigger_240426_1525_81
 240426 1525 - synchronizing git repository
+240426 1530 - - done -
+240426 1530 - -------- 04.26 15:30 --------
+240426 1530 - new iteration starts
+240426 1530 - current level is 84%
+240426 1530 - 30(l) <= 80(u) <= 84
+240426 1530 - upper limit violation detected
+240426 1530 - last trigger was placed due to 81% at 15:25
+240426 1530 - 30(l) <= 80(u) <= 81
+240426 1530 - last trigger was due to upper limit violation and it is not too old
+240426 1530 - already triggered (off) and depleting
+240426 1535 - - done -
+240426 1535 - -------- 04.26 15:35 --------
+240426 1535 - new iteration starts
+240426 1535 - current level is 82%
+240426 1535 - 30(l) <= 80(u) <= 82
+240426 1535 - upper limit violation detected
+240426 1535 - last trigger was placed due to 81% at 15:25
+240426 1535 - 30(l) <= 80(u) <= 81
+240426 1535 - last trigger was due to upper limit violation and it is not too old
+240426 1535 - already triggered (off) and depleting
+240426 1540 - - done -
+240426 1540 - -------- 04.26 15:40 --------
+240426 1540 - new iteration starts
+240426 1540 - current level is 81%
+240426 1540 - 30(l) <= 80(u) <= 81
+240426 1540 - upper limit violation detected
+240426 1540 - last trigger was placed due to 81% at 15:25
+240426 1540 - 30(l) <= 80(u) <= 81
+240426 1540 - last trigger was due to upper limit violation and it is not too old
+240426 1540 - already triggered (off) and depleting
+240426 1545 - - done -
+240426 1545 - -------- 04.26 15:45 --------
+240426 1545 - new iteration starts
+240426 1545 - current level is 79%
+240426 1545 - 30(l) <= 79 <= 80(u)
+240426 1545 - no limit violation detected
+240426 1550 - - done -
+240426 1550 - -------- 04.26 15:50 --------
+240426 1550 - new iteration starts
+240426 1550 - current level is 78%
+240426 1550 - 30(l) <= 78 <= 80(u)
+240426 1550 - no limit violation detected
+240426 1555 - - done -
+240426 1555 - -------- 04.26 15:55 --------
+240426 1555 - new iteration starts
+240426 1555 - current level is 76%
+240426 1555 - 30(l) <= 76 <= 80(u)
+240426 1555 - no limit violation detected
+240426 1600 - - done -
+240426 1600 - -------- 04.26 16:00 --------
+240426 1600 - new iteration starts
+240426 1600 - current level is 74%
+240426 1600 - 30(l) <= 74 <= 80(u)
+240426 1600 - no limit violation detected
+240426 1605 - - done -
+240426 1605 - -------- 04.26 16:05 --------
+240426 1605 - new iteration starts
+240426 1605 - current level is 73%
+240426 1605 - 30(l) <= 73 <= 80(u)
+240426 1605 - no limit violation detected
+240426 1610 - - done -
+240426 1610 - -------- 04.26 16:10 --------
+240426 1610 - new iteration starts
+240426 1610 - current level is 70%
+240426 1610 - 30(l) <= 70 <= 80(u)
+240426 1610 - no limit violation detected
+240426 1615 - - done -
+240426 1615 - -------- 04.26 16:15 --------
+240426 1615 - new iteration starts
+240426 1615 - current level is 69%
+240426 1615 - 30(l) <= 69 <= 80(u)
+240426 1615 - no limit violation detected
+240426 1620 - - done -
+240426 1620 - -------- 04.26 16:20 --------
+240426 1620 - new iteration starts
+240426 1620 - current level is 67%
+240426 1620 - 30(l) <= 67 <= 80(u)
+240426 1620 - no limit violation detected
+240426 1625 - - done -
+240426 1625 - -------- 04.26 16:25 --------
+240426 1625 - new iteration starts
+240426 1625 - current level is 65%
+240426 1625 - 30(l) <= 65 <= 80(u)
+240426 1625 - no limit violation detected
+240426 1630 - - done -
+240426 1630 - -------- 04.26 16:30 --------
+240426 1630 - new iteration starts
+240426 1630 - current level is 63%
+240426 1630 - 30(l) <= 63 <= 80(u)
+240426 1630 - no limit violation detected
+240426 1635 - - done -
+240426 1635 - -------- 04.26 16:35 --------
+240426 1635 - new iteration starts
+240426 1635 - current level is 61%
+240426 1635 - 30(l) <= 61 <= 80(u)
+240426 1635 - no limit violation detected
+240426 1640 - - done -
+240426 1640 - -------- 04.26 16:40 --------
+240426 1640 - new iteration starts
+240426 1640 - current level is 59%
+240426 1640 - 30(l) <= 59 <= 80(u)
+240426 1640 - no limit violation detected
+240426 1645 - - done -
+240426 1645 - -------- 04.26 16:45 --------
+240426 1645 - new iteration starts
+240426 1645 - current level is 56%
+240426 1645 - 30(l) <= 56 <= 80(u)
+240426 1645 - no limit violation detected
+240426 1650 - - done -
+240426 1650 - -------- 04.26 16:50 --------
+240426 1650 - new iteration starts
+240426 1650 - current level is 55%
+240426 1650 - 30(l) <= 55 <= 80(u)
+240426 1650 - no limit violation detected
+240426 1655 - - done -
+240426 1655 - -------- 04.26 16:55 --------
+240426 1655 - new iteration starts
+240426 1655 - current level is 52%
+240426 1655 - 30(l) <= 52 <= 80(u)
+240426 1655 - no limit violation detected
+240426 1700 - - done -
+240426 1700 - -------- 04.26 17:00 --------
+240426 1700 - new iteration starts
+240426 1700 - current level is 51%
+240426 1700 - 30(l) <= 51 <= 80(u)
+240426 1700 - no limit violation detected
+240426 1705 - - done -
+240426 1705 - -------- 04.26 17:05 --------
+240426 1705 - new iteration starts
+240426 1705 - current level is 48%
+240426 1705 - 30(l) <= 48 <= 80(u)
+240426 1705 - no limit violation detected
+240426 1710 - - done -
+240426 1710 - -------- 04.26 17:10 --------
+240426 1710 - new iteration starts
+240426 1710 - current level is 46%
+240426 1710 - 30(l) <= 46 <= 80(u)
+240426 1710 - no limit violation detected
+240426 1715 - - done -
+240426 1715 - -------- 04.26 17:15 --------
+240426 1715 - new iteration starts
+240426 1715 - current level is 44%
+240426 1715 - 30(l) <= 44 <= 80(u)
+240426 1715 - no limit violation detected
+240426 1720 - - done -
+240426 1720 - -------- 04.26 17:20 --------
+240426 1720 - new iteration starts
+240426 1720 - current level is 42%
+240426 1720 - 30(l) <= 42 <= 80(u)
+240426 1720 - no limit violation detected
+240426 1725 - - done -
+240426 1725 - -------- 04.26 17:25 --------
+240426 1725 - new iteration starts
+240426 1725 - current level is 40%
+240426 1725 - 30(l) <= 40 <= 80(u)
+240426 1725 - no limit violation detected
+240426 1730 - - done -
+240426 1730 - -------- 04.26 17:30 --------
+240426 1730 - new iteration starts
+240426 1730 - current level is 38%
+240426 1730 - 30(l) <= 38 <= 80(u)
+240426 1730 - no limit violation detected
+240429 0636 - - done -
+240429 0637 - -------- 04.29 06:37 --------
+240429 0637 - new iteration starts
+240429 0637 - current level is 30%
+240429 0637 - 30 <= 30(l) <= 80(u)
+240429 0637 - no limit violation detected
+240429 0642 - - done -
+240429 0642 - -------- 04.29 06:42 --------
+240429 0642 - new iteration starts
+240429 0642 - current level is 17%
+240429 0642 - 17 <= 30(l) <= 80(u)
+240429 0642 - lower limit violation detected
+240429 0642 - last trigger was placed due to 81% at 15:25
+240429 0642 - 30(l) <= 80(u) <= 81
+240429 0642 - last trigger was due to upper limit violation but it is too old
+240429 0642 - a new trigger must be set
+240429 0642 - triggering with 17%
+240429 0642 - place a trigger file: C:\ws\battery\trigger\trigger_240429_0642_17
+240429 0642 - synchronizing git repository
