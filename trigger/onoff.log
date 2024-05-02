@@ -3008,3 +3008,52 @@
 240430 1713 - triggering with 21%
 240430 1713 - place a trigger file: C:\ws\battery\trigger\trigger_240430_1713_21
 240430 1713 - synchronizing git repository
+240430 1718 - - done -
+240430 1718 - -------- 04.30 17:18 --------
+240430 1718 - new iteration starts
+240430 1718 - current level is 19%
+240430 1718 - 19 <= 30(l) <= 80(u)
+240430 1718 - lower limit violation detected
+240430 1718 - last trigger was placed due to 21% at 17:13
+240430 1718 - 21 <= 30(l) <= 80(u)
+240430 1718 - last trigger was due to lower limit violation and it is not too old
+240430 1718 - already triggered (on) and charging
+240430 1723 - - done -
+240430 1723 - -------- 04.30 17:23 --------
+240430 1723 - new iteration starts
+240430 1723 - current level is 25%
+240430 1723 - 25 <= 30(l) <= 80(u)
+240430 1723 - lower limit violation detected
+240430 1723 - last trigger was placed due to 21% at 17:13
+240430 1723 - 21 <= 30(l) <= 80(u)
+240430 1723 - last trigger was due to lower limit violation and it is not too old
+240430 1723 - already triggered (on) and charging
+240430 1728 - - done -
+240430 1728 - -------- 04.30 17:28 --------
+240430 1728 - new iteration starts
+240430 1728 - current level is 29%
+240430 1728 - 29 <= 30(l) <= 80(u)
+240430 1728 - lower limit violation detected
+240430 1728 - last trigger was placed due to 21% at 17:13
+240430 1728 - 21 <= 30(l) <= 80(u)
+240430 1728 - last trigger was due to lower limit violation and it is not too old
+240430 1728 - already triggered (on) and charging
+240430 1733 - - done -
+240430 1733 - -------- 04.30 17:33 --------
+240430 1733 - new iteration starts
+240430 1733 - current level is 33%
+240430 1733 - 30(l) <= 33 <= 80(u)
+240430 1733 - no limit violation detected
+240502 0550 - - done -
+240502 0550 - -------- 05.02 05:50 --------
+240502 0550 - new iteration starts
+240502 0550 - current level is 97%
+240502 0550 - 30(l) <= 80(u) <= 97
+240502 0550 - upper limit violation detected
+240502 0550 - last trigger was placed due to 21% at 17:13
+240502 0550 - 21 <= 30(l) <= 80(u)
+240502 0550 - last trigger was due to lower limit violation but it is too old
+240502 0550 - a new trigger must be set
+240502 0550 - triggering with 97%
+240502 0550 - place a trigger file: C:\ws\battery\trigger\trigger_240502_0550_97
+240502 0550 - synchronizing git repository
