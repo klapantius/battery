@@ -3057,3 +3057,17 @@
 240502 0550 - triggering with 97%
 240502 0550 - place a trigger file: C:\ws\battery\trigger\trigger_240502_0550_97
 240502 0550 - synchronizing git repository
+240502 0555 - - done -
+240502 0555 - -------- 05.02 05:55 --------
+240502 0555 - new iteration starts
+240502 0555 - current level is 96%
+240502 0555 - 30(l) <= 80(u) <= 96
+240502 0555 - upper limit violation detected
+240502 0555 - last trigger was placed due to 97% at 05:50
+240502 0555 - 30(l) <= 80(u) <= 97
+240502 0555 - last trigger was due to upper limit violation and it is not too old
+240502 0555 - based on the last trigger it should be already depleting but the charger is on
+240502 0555 - evaluation decides to trigger
+240502 0555 - triggering with 96%
+240502 0555 - place a trigger file: C:\ws\battery\trigger\trigger_240502_0555_96
+240502 0555 - synchronizing git repository
