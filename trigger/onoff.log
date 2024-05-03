@@ -4325,3 +4325,102 @@
 240503 1127 - triggering with 22%
 240503 1127 - place a trigger file: C:\ws\battery\trigger\trigger_240503_1127_22
 240503 1127 - synchronizing git repository
+240503 1132 - - done -
+240503 1132 - -------- 05.03 11:32 --------
+240503 1132 - new iteration starts
+240503 1132 - current level is 24%
+240503 1132 - 24 <= 30(l) <= 80(u)
+240503 1132 - lower limit violation detected
+240503 1132 - last trigger was placed due to 22% at 11:27
+240503 1132 - 22 <= 30(l) <= 80(u)
+240503 1132 - last trigger was due to lower limit violation and it is not too old
+240503 1132 - already triggered (on) and charging
+240503 1137 - - done -
+240503 1137 - -------- 05.03 11:37 --------
+240503 1137 - new iteration starts
+240503 1137 - current level is 29%
+240503 1137 - 29 <= 30(l) <= 80(u)
+240503 1137 - lower limit violation detected
+240503 1137 - last trigger was placed due to 22% at 11:27
+240503 1137 - 22 <= 30(l) <= 80(u)
+240503 1137 - last trigger was due to lower limit violation and it is not too old
+240503 1137 - already triggered (on) and charging
+240503 1142 - - done -
+240503 1142 - -------- 05.03 11:42 --------
+240503 1142 - new iteration starts
+240503 1142 - current level is 34%
+240503 1142 - 30(l) <= 34 <= 80(u)
+240503 1142 - no limit violation detected
+240503 1147 - - done -
+240503 1147 - -------- 05.03 11:47 --------
+240503 1147 - new iteration starts
+240503 1147 - current level is 39%
+240503 1147 - 30(l) <= 39 <= 80(u)
+240503 1147 - no limit violation detected
+240503 1152 - - done -
+240503 1152 - -------- 05.03 11:52 --------
+240503 1152 - new iteration starts
+240503 1152 - current level is 44%
+240503 1152 - 30(l) <= 44 <= 80(u)
+240503 1152 - no limit violation detected
+240503 1157 - - done -
+240503 1157 - -------- 05.03 11:57 --------
+240503 1157 - new iteration starts
+240503 1157 - current level is 49%
+240503 1157 - 30(l) <= 49 <= 80(u)
+240503 1157 - no limit violation detected
+240503 1202 - - done -
+240503 1202 - -------- 05.03 12:02 --------
+240503 1202 - new iteration starts
+240503 1202 - current level is 54%
+240503 1202 - 30(l) <= 54 <= 80(u)
+240503 1202 - no limit violation detected
+240503 1207 - - done -
+240503 1207 - -------- 05.03 12:07 --------
+240503 1207 - new iteration starts
+240503 1207 - current level is 59%
+240503 1207 - 30(l) <= 59 <= 80(u)
+240503 1207 - no limit violation detected
+240503 1212 - - done -
+240503 1212 - -------- 05.03 12:12 --------
+240503 1212 - new iteration starts
+240503 1212 - current level is 64%
+240503 1212 - 30(l) <= 64 <= 80(u)
+240503 1212 - no limit violation detected
+240503 1217 - - done -
+240503 1217 - -------- 05.03 12:17 --------
+240503 1217 - new iteration starts
+240503 1217 - current level is 68%
+240503 1217 - 30(l) <= 68 <= 80(u)
+240503 1217 - no limit violation detected
+240503 1222 - - done -
+240503 1222 - -------- 05.03 12:22 --------
+240503 1222 - new iteration starts
+240503 1222 - current level is 72%
+240503 1222 - 30(l) <= 72 <= 80(u)
+240503 1222 - no limit violation detected
+240503 1227 - - done -
+240503 1227 - -------- 05.03 12:27 --------
+240503 1227 - new iteration starts
+240503 1227 - current level is 76%
+240503 1227 - 30(l) <= 76 <= 80(u)
+240503 1227 - no limit violation detected
+240503 1232 - - done -
+240503 1232 - -------- 05.03 12:32 --------
+240503 1232 - new iteration starts
+240503 1232 - current level is 79%
+240503 1232 - 30(l) <= 79 <= 80(u)
+240503 1232 - no limit violation detected
+240503 1237 - - done -
+240503 1237 - -------- 05.03 12:37 --------
+240503 1237 - new iteration starts
+240503 1237 - current level is 81%
+240503 1237 - 30(l) <= 80(u) <= 81
+240503 1237 - upper limit violation detected
+240503 1237 - last trigger was placed due to 22% at 11:27
+240503 1237 - 22 <= 30(l) <= 80(u)
+240503 1237 - last trigger was due to lower limit violation but it is too old
+240503 1237 - a new trigger must be set
+240503 1237 - triggering with 81%
+240503 1237 - place a trigger file: C:\ws\battery\trigger\trigger_240503_1237_81
+240503 1237 - synchronizing git repository
