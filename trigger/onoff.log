@@ -5765,3 +5765,58 @@
 240506 1552 - triggering with 29%
 240506 1552 - place a trigger file: C:\ws\battery\trigger\trigger_240506_1552_29
 240506 1552 - synchronizing git repository
+240506 1557 - - done -
+240506 1557 - -------- 05.06 15:57 --------
+240506 1557 - new iteration starts
+240506 1557 - current level is 30%
+240506 1557 - 30 <= 30(l) <= 80(u)
+240506 1557 - no limit violation detected
+240506 1602 - - done -
+240506 1602 - -------- 05.06 16:02 --------
+240506 1602 - new iteration starts
+240506 1602 - current level is 36%
+240506 1602 - 30(l) <= 36 <= 80(u)
+240506 1602 - no limit violation detected
+240506 1607 - - done -
+240506 1607 - -------- 05.06 16:07 --------
+240506 1607 - new iteration starts
+240506 1607 - current level is 41%
+240506 1607 - 30(l) <= 41 <= 80(u)
+240506 1607 - no limit violation detected
+240506 1612 - - done -
+240506 1612 - -------- 05.06 16:12 --------
+240506 1612 - new iteration starts
+240506 1612 - current level is 46%
+240506 1612 - 30(l) <= 46 <= 80(u)
+240506 1612 - no limit violation detected
+240506 1617 - - done -
+240506 1617 - -------- 05.06 16:17 --------
+240506 1617 - new iteration starts
+240506 1617 - current level is 49%
+240506 1617 - 30(l) <= 49 <= 80(u)
+240506 1617 - no limit violation detected
+240506 1622 - - done -
+240506 1622 - -------- 05.06 16:22 --------
+240506 1622 - new iteration starts
+240506 1622 - current level is 47%
+240506 1622 - 30(l) <= 47 <= 80(u)
+240506 1622 - no limit violation detected
+240506 1627 - - done -
+240506 1627 - -------- 05.06 16:27 --------
+240506 1627 - new iteration starts
+240506 1627 - current level is 44%
+240506 1627 - 30(l) <= 44 <= 80(u)
+240506 1627 - no limit violation detected
+240507 0648 - - done -
+240507 0648 - -------- 05.07 06:48 --------
+240507 0648 - new iteration starts
+240507 0648 - current level is 98%
+240507 0648 - 30(l) <= 80(u) <= 98
+240507 0649 - upper limit violation detected
+240507 0649 - last trigger was placed due to 29% at 15:52
+240507 0649 - 29 <= 30(l) <= 80(u)
+240507 0649 - last trigger was due to lower limit violation but it is too old
+240507 0649 - a new trigger must be set
+240507 0649 - triggering with 98%
+240507 0649 - place a trigger file: C:\ws\battery\trigger\trigger_240507_0649_98
+240507 0649 - synchronizing git repository
