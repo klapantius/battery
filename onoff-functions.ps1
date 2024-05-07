@@ -12,6 +12,39 @@ function get-violation {
   if ($currentLevel -lt $lowerTreshold) { 'lower' } elseif ($upperTreshold -lt $currentLevel) { 'upper' } else { 'no' }
 }
 
+function x {
+  return [PSCustomObject]@{
+    activeLimit = "lower"
+    expectedChargerState = "loading"
+    textWhenStatusError = ""
+  }
+}
+
+function trigger-or-alarm {
+  param(
+    [int]$currentLevel,
+    [string]$activeLimit,
+    [string]$errorMessage
+  )
+  $lastTrigger = get-lastTrigger
+  $lastLevel = $lastTrigger | get-TriggerLevel
+
+  $supposedDurationToGetIntoValidRange = 30 # minutes
+
+  $lastTriggerTime = $lastTrigger | get-TriggerTime
+  $lastTriggerIsTooOld = (Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoValidRange)
+  write-log "last trigger was placed due to $lastLevel% at $($lastTriggerTime.ToString('HH:mm'))"
+  $lastViolation = get-violation -currentLevel $lastLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
+  $lastTriggerAssumedToBeInvalid = $lastViolation -ne $activeLimit -or $lastTriggerIsTooOld
+  write-log "last trigger was due to $lastViolation limit violation $(if ($lastTriggerAssumedToBeInvalid) {'but it is already'} else {'and it is not yet'}) invalid"
+  if ($lastTriggerAssumedToBeInvalid) {
+    write-log "a new trigger must be set"
+    return $currentLevel
+  }
+  show-notification $errorMessage
+  return $null
+}
+
 function evaluate {
   param(
     [bool]$force = $false,
@@ -29,38 +62,28 @@ function evaluate {
     $lastTrigger = get-lastTrigger
     $lastLevel = $lastTrigger | get-TriggerLevel
     if ($lastLevel -gt 0) {
-      # check if the last trigger was reacting to the same situation
-      # - it should not be too old
-      $supposedDurationToGetIntoValidRange = 30 # minutes
-      $lastTriggerTime = $lastTrigger | get-TriggerTime
-      $lastTriggerIsTooOld = (Get-Date) -gt $lastTriggerTime.AddMinutes($supposedDurationToGetIntoValidRange)
-      # - it should react to the same situation
-      write-log "last trigger was placed due to $lastLevel% at $($lastTriggerTime.ToString('HH:mm'))"
-      $lastViolation = get-violation -currentLevel $lastLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
-      write-log "last trigger was due to $lastViolation limit violation $(if ($lastTriggerIsTooOld) {'but it is'} else {'and it is not'}) too old"
-      $lastTriggerAssumedToBeInvalid = $lastViolation -ne $activeLimit -or $lastTriggerIsTooOld
-      if ($lastTriggerAssumedToBeInvalid) {
-        write-log "a new trigger must be set"
-        return $currentLevel
-      }
-      # last trigger is still valid, check the progress made since last trigger
+      # find out the current charging status
       $isCharging = test-charging
       $isDepleting = -not $isCharging
-      #  <----- level is too low -------->  and <level is already increasing>
       if ($activeLimit -eq 'lower') {
         if ($isCharging) {
-          write-log "already triggered (on) and charging"
+          write-log "already charging"
           return $null
         }
-        show-notification "based on the last trigger it should be already charging but the charger is off"
-      }
-      #   <---- level is too high ------->  and < level is already sinking >
+        trigger-or-alarm `
+          -currentLevel $currentLevel `
+          -activeLimit $activeLimit `
+          -errorMessage "based on the last trigger it should be already charging but the charger is off"
+        }
       if ($activeLimit -eq 'upper') {
         if ($isDepleting) {
-          write-log "already triggered (off) and depleting"
+          write-log "already depleting"
           return $null
         }
-        show-notification "based on the last trigger it should be already depleting but the charger is on"
+        trigger-or-alarm `
+          -currentLevel $currentLevel `
+          -activeLimit $activeLimit `
+          -errorMessage "based on the last trigger it should be already depleting but the charger is on"
       }
     }
     write-log "evaluation decides to trigger"
