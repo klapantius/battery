@@ -9625,3 +9625,54 @@
 240603 1327 - triggering with 25%
 240603 1327 - place a trigger file: C:\ws\battery\trigger\trigger_240603_1327_25
 240603 1327 - synchronizing git repository
+240603 1327 - - done -
+240603 1332 - -------- 06.03 13:32 --------
+240603 1332 - new iteration starts
+240603 1332 - current level is 28%
+240603 1332 - 28 <= 30(l) <= 80(u)
+240603 1332 - lower limit violation detected
+240603 1332 - already charging
+240603 1332 - - done -
+240603 1337 - -------- 06.03 13:37 --------
+240603 1337 - new iteration starts
+240603 1337 - current level is 33%
+240603 1337 - 30(l) <= 33 <= 80(u)
+240603 1337 - no limit violation detected
+240603 1337 - - done -
+240603 1342 - -------- 06.03 13:42 --------
+240603 1342 - new iteration starts
+240603 1342 - current level is 38%
+240603 1342 - 30(l) <= 38 <= 80(u)
+240603 1342 - no limit violation detected
+240603 1342 - - done -
+240603 1347 - -------- 06.03 13:47 --------
+240603 1347 - new iteration starts
+240603 1347 - current level is 37%
+240603 1347 - 30(l) <= 37 <= 80(u)
+240603 1347 - no limit violation detected
+240603 1347 - - done -
+240603 1352 - -------- 06.03 13:52 --------
+240603 1352 - new iteration starts
+240603 1352 - current level is 34%
+240603 1352 - 30(l) <= 34 <= 80(u)
+240603 1352 - no limit violation detected
+240603 1352 - - done -
+240603 1357 - -------- 06.03 13:57 --------
+240603 1357 - new iteration starts
+240603 1357 - current level is 30%
+240603 1357 - 30 <= 30(l) <= 80(u)
+240603 1357 - no limit violation detected
+240603 1357 - - done -
+240603 1402 - -------- 06.03 14:02 --------
+240603 1402 - new iteration starts
+240603 1402 - current level is 26%
+240603 1402 - 26 <= 30(l) <= 80(u)
+240603 1402 - lower limit violation detected
+240603 1402 - last trigger was placed due to 25% at 13:27
+240603 1402 - 25 <= 30(l) <= 80(u)
+240603 1402 - last trigger was due to lower limit violation but it is already invalid
+240603 1402 - a new trigger must be set
+240603 1402 - evaluation decides to trigger
+240603 1402 - triggering with 26%
+240603 1402 - place a trigger file: C:\ws\battery\trigger\trigger_240603_1402_26
+240603 1402 - synchronizing git repository
