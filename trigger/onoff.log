@@ -9082,3 +9082,112 @@
 240603 0633 - triggering with 21%
 240603 0633 - place a trigger file: C:\ws\battery\trigger\trigger_240603_0633_21
 240603 0633 - synchronizing git repository
+240603 0633 - - done -
+240603 0646 - -------- 06.03 06:46 --------
+240603 0646 - new iteration starts
+240603 0646 - current level is 3%
+240603 0646 - 3 <= 30(l) <= 80(u)
+240603 0646 - lower limit violation detected
+240603 0646 - already charging
+240603 0646 - - done -
+240603 0651 - -------- 06.03 06:51 --------
+240603 0651 - new iteration starts
+240603 0651 - current level is 9%
+240603 0651 - 30(l) <= 80(u) <= 9
+240603 0651 - lower limit violation detected
+240603 0651 - already charging
+240603 0651 - - done -
+240603 0656 - -------- 06.03 06:56 --------
+240603 0656 - new iteration starts
+240603 0656 - current level is 15%
+240603 0656 - 15 <= 30(l) <= 80(u)
+240603 0656 - lower limit violation detected
+240603 0656 - already charging
+240603 0656 - - done -
+240603 0701 - -------- 06.03 07:01 --------
+240603 0701 - new iteration starts
+240603 0701 - current level is 21%
+240603 0701 - 21 <= 30(l) <= 80(u)
+240603 0701 - lower limit violation detected
+240603 0701 - already charging
+240603 0701 - - done -
+240603 0706 - -------- 06.03 07:06 --------
+240603 0706 - new iteration starts
+240603 0706 - current level is 27%
+240603 0706 - 27 <= 30(l) <= 80(u)
+240603 0706 - lower limit violation detected
+240603 0706 - already charging
+240603 0706 - - done -
+240603 0711 - -------- 06.03 07:11 --------
+240603 0711 - new iteration starts
+240603 0711 - current level is 33%
+240603 0711 - 30(l) <= 33 <= 80(u)
+240603 0711 - no limit violation detected
+240603 0711 - - done -
+240603 0716 - -------- 06.03 07:16 --------
+240603 0716 - new iteration starts
+240603 0716 - current level is 39%
+240603 0716 - 30(l) <= 39 <= 80(u)
+240603 0716 - no limit violation detected
+240603 0716 - - done -
+240603 0721 - -------- 06.03 07:21 --------
+240603 0721 - new iteration starts
+240603 0721 - current level is 45%
+240603 0721 - 30(l) <= 45 <= 80(u)
+240603 0721 - no limit violation detected
+240603 0721 - - done -
+240603 0726 - -------- 06.03 07:26 --------
+240603 0726 - new iteration starts
+240603 0726 - current level is 51%
+240603 0726 - 30(l) <= 51 <= 80(u)
+240603 0726 - no limit violation detected
+240603 0726 - - done -
+240603 0731 - -------- 06.03 07:31 --------
+240603 0731 - new iteration starts
+240603 0731 - current level is 57%
+240603 0731 - 30(l) <= 57 <= 80(u)
+240603 0731 - no limit violation detected
+240603 0731 - - done -
+240603 0736 - -------- 06.03 07:36 --------
+240603 0736 - new iteration starts
+240603 0736 - current level is 63%
+240603 0736 - 30(l) <= 63 <= 80(u)
+240603 0736 - no limit violation detected
+240603 0736 - - done -
+240603 0741 - -------- 06.03 07:41 --------
+240603 0741 - new iteration starts
+240603 0741 - current level is 68%
+240603 0741 - 30(l) <= 68 <= 80(u)
+240603 0741 - no limit violation detected
+240603 0741 - - done -
+240603 0746 - -------- 06.03 07:46 --------
+240603 0746 - new iteration starts
+240603 0746 - current level is 72%
+240603 0746 - 30(l) <= 72 <= 80(u)
+240603 0746 - no limit violation detected
+240603 0746 - - done -
+240603 0751 - -------- 06.03 07:51 --------
+240603 0751 - new iteration starts
+240603 0751 - current level is 75%
+240603 0751 - 30(l) <= 75 <= 80(u)
+240603 0751 - no limit violation detected
+240603 0751 - - done -
+240603 0756 - -------- 06.03 07:56 --------
+240603 0756 - new iteration starts
+240603 0756 - current level is 78%
+240603 0756 - 30(l) <= 78 <= 80(u)
+240603 0756 - no limit violation detected
+240603 0756 - - done -
+240603 0801 - -------- 06.03 08:01 --------
+240603 0801 - new iteration starts
+240603 0801 - current level is 81%
+240603 0801 - 30(l) <= 80(u) <= 81
+240603 0801 - upper limit violation detected
+240603 0801 - last trigger was placed due to 21% at 06:33
+240603 0801 - 21 <= 30(l) <= 80(u)
+240603 0801 - last trigger was due to lower limit violation but it is already invalid
+240603 0801 - a new trigger must be set
+240603 0801 - evaluation decides to trigger
+240603 0801 - triggering with 81%
+240603 0801 - place a trigger file: C:\ws\battery\trigger\trigger_240603_0801_81
+240603 0801 - synchronizing git repository
