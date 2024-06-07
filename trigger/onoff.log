@@ -9737,3 +9737,79 @@
 240607 0655 - triggering with 27%
 240607 0655 - place a trigger file: C:\ws\battery\trigger\trigger_240607_0655_27
 240607 0655 - synchronizing git repository
+240607 0655 - - done -
+240607 0700 - -------- 06.07 07:00 --------
+240607 0700 - new iteration starts
+240607 0700 - current level is 30%
+240607 0700 - 30 <= 30(l) <= 80(u)
+240607 0700 - no limit violation detected
+240607 0700 - - done -
+240607 0705 - -------- 06.07 07:05 --------
+240607 0705 - new iteration starts
+240607 0705 - current level is 35%
+240607 0705 - 30(l) <= 35 <= 80(u)
+240607 0705 - no limit violation detected
+240607 0705 - - done -
+240607 0710 - -------- 06.07 07:10 --------
+240607 0710 - new iteration starts
+240607 0710 - current level is 41%
+240607 0710 - 30(l) <= 41 <= 80(u)
+240607 0710 - no limit violation detected
+240607 0710 - - done -
+240607 0715 - -------- 06.07 07:15 --------
+240607 0715 - new iteration starts
+240607 0715 - current level is 46%
+240607 0715 - 30(l) <= 46 <= 80(u)
+240607 0715 - no limit violation detected
+240607 0715 - - done -
+240607 0720 - -------- 06.07 07:20 --------
+240607 0720 - new iteration starts
+240607 0720 - current level is 52%
+240607 0720 - 30(l) <= 52 <= 80(u)
+240607 0720 - no limit violation detected
+240607 0720 - - done -
+240607 0725 - -------- 06.07 07:25 --------
+240607 0725 - new iteration starts
+240607 0725 - current level is 57%
+240607 0725 - 30(l) <= 57 <= 80(u)
+240607 0725 - no limit violation detected
+240607 0725 - - done -
+240607 0730 - -------- 06.07 07:30 --------
+240607 0730 - new iteration starts
+240607 0730 - current level is 62%
+240607 0730 - 30(l) <= 62 <= 80(u)
+240607 0730 - no limit violation detected
+240607 0730 - - done -
+240607 0735 - -------- 06.07 07:35 --------
+240607 0735 - new iteration starts
+240607 0735 - current level is 67%
+240607 0735 - 30(l) <= 67 <= 80(u)
+240607 0735 - no limit violation detected
+240607 0735 - - done -
+240607 0740 - -------- 06.07 07:40 --------
+240607 0740 - new iteration starts
+240607 0740 - current level is 72%
+240607 0740 - 30(l) <= 72 <= 80(u)
+240607 0740 - no limit violation detected
+240607 0740 - - done -
+240607 0745 - -------- 06.07 07:45 --------
+240607 0745 - new iteration starts
+240607 0745 - current level is 76%
+240607 0745 - 30(l) <= 76 <= 80(u)
+240607 0745 - no limit violation detected
+240607 0745 - - done -
+240607 0750 - -------- 06.07 07:50 --------
+240607 0750 - new iteration starts
+240607 0750 - current level is 79%
+240607 0750 - 30(l) <= 79 <= 80(u)
+240607 0750 - no limit violation detected
+240607 0750 - - done -
+240607 0755 - -------- 06.07 07:55 --------
+240607 0755 - new iteration starts
+240607 0755 - current level is 82%
+240607 0755 - 30(l) <= 80(u) <= 82
+240607 0755 - upper limit violation detected
+240607 0755 - evaluation decides to trigger
+240607 0755 - triggering with 82%
+240607 0755 - place a trigger file: C:\ws\battery\trigger\trigger_240607_0755_82
+240607 0755 - synchronizing git repository
