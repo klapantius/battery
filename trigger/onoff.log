@@ -10003,3 +10003,31 @@
 240607 1012 - triggering with 26%
 240607 1012 - place a trigger file: C:\ws\battery\trigger\trigger_240607_1012_26
 240607 1012 - synchronizing git repository
+240607 1012 - - done -
+240607 1017 - -------- 06.07 10:17 --------
+240607 1017 - new iteration starts
+240607 1017 - current level is 32%
+240607 1017 - 30(l) <= 32 <= 80(u)
+240607 1017 - no limit violation detected
+240607 1017 - - done -
+240607 1022 - -------- 06.07 10:22 --------
+240607 1022 - new iteration starts
+240607 1022 - current level is 33%
+240607 1022 - 30(l) <= 33 <= 80(u)
+240607 1022 - no limit violation detected
+240607 1022 - - done -
+240607 1027 - -------- 06.07 10:27 --------
+240607 1027 - new iteration starts
+240607 1027 - current level is 30%
+240607 1027 - 30 <= 30(l) <= 80(u)
+240607 1027 - no limit violation detected
+240607 1027 - - done -
+240607 1032 - -------- 06.07 10:32 --------
+240607 1032 - new iteration starts
+240607 1032 - current level is 28%
+240607 1032 - 28 <= 30(l) <= 80(u)
+240607 1032 - lower limit violation detected
+240607 1032 - evaluation decides to trigger
+240607 1032 - triggering with 28%
+240607 1032 - place a trigger file: C:\ws\battery\trigger\trigger_240607_1032_28
+240607 1032 - synchronizing git repository
