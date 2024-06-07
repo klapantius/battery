@@ -9833,3 +9833,13 @@
 240607 0806 - triggering with 82%
 240607 0806 - place a trigger file: C:\ws\battery\trigger\trigger_240607_0806_82
 240607 0806 - synchronizing git repository
+240607 0806 - - done -
+240607 0811 - -------- 06.07 08:11 --------
+240607 0811 - new iteration starts
+240607 0811 - current level is 82%
+240607 0811 - 30(l) <= 80(u) <= 82
+240607 0811 - upper limit violation detected
+240607 0811 - evaluation decides to trigger
+240607 0811 - triggering with 82%
+240607 0811 - place a trigger file: C:\ws\battery\trigger\trigger_240607_0811_82
+240607 0811 - synchronizing git repository
