@@ -9690,3 +9690,20 @@
 240603 1407 - triggering with 21%
 240603 1407 - place a trigger file: C:\ws\battery\trigger\trigger_240603_1407_21
 240603 1407 - synchronizing git repository
+240603 1407 - - done -
+240603 1412 - -------- 06.03 14:12 --------
+240603 1412 - new iteration starts
+240603 1412 - current level is 24%
+240603 1412 - 24 <= 30(l) <= 80(u)
+240603 1412 - lower limit violation detected
+240603 1412 - already charging
+240603 1412 - - done -
+240607 0639 - -------- 06.07 06:39 --------
+240607 0639 - new iteration starts
+240607 0639 - current level is 25%
+240607 0639 - 25 <= 30(l) <= 80(u)
+240607 0639 - lower limit violation detected
+240607 0639 - evaluation decides to trigger
+240607 0639 - triggering with 25%
+240607 0639 - place a trigger file: C:\ws\battery\trigger\trigger_240607_0639_25
+240607 0639 - synchronizing git repository
