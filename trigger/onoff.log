@@ -9983,3 +9983,13 @@
 240607 1001 - triggering with 25%
 240607 1001 - place a trigger file: C:\ws\battery\trigger\trigger_240607_1001_25
 240607 1001 - synchronizing git repository
+240607 1002 - - done -
+240607 1007 - -------- 06.07 10:07 --------
+240607 1007 - new iteration starts
+240607 1007 - current level is 29%
+240607 1007 - 29 <= 30(l) <= 80(u)
+240607 1007 - lower limit violation detected
+240607 1007 - evaluation decides to trigger
+240607 1007 - triggering with 29%
+240607 1007 - place a trigger file: C:\ws\battery\trigger\trigger_240607_1007_29
+240607 1007 - synchronizing git repository
