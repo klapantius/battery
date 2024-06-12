@@ -11827,3 +11827,17 @@
 240612 1136 - triggering with 27%
 240612 1136 - place a trigger file: C:\ws\battery\trigger\trigger_240612_1136_27
 240612 1136 - synchronizing git repository
+240612 1137 - - done -
+240612 1142 - -------- 06.12 11:42 --------
+240612 1142 - new iteration starts
+240612 1142 - current level is 24%
+240612 1142 - 24 <= 30(l) <= 80(u)
+240612 1142 - lower limit violation detected
+240612 1142 - last trigger was placed due to 27% at 11:36
+240612 1142 - 27 <= 30(l) <= 80(u)
+240612 1142 - last trigger was due to lower limit violation and it is not yet invalid
+240612 1142 - based on the last trigger it should be already charging but the charger is off
+240612 1142 - evaluation decides to trigger
+240612 1142 - triggering with 24%
+240612 1142 - place a trigger file: C:\ws\battery\trigger\trigger_240612_1142_24
+240612 1142 - synchronizing git repository
