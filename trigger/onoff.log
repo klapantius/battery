@@ -12043,3 +12043,42 @@
 240612 1348 - triggering with 82%
 240612 1348 - place a trigger file: C:\ws\battery\trigger\trigger_240612_1348_82
 240612 1348 - synchronizing git repository
+240612 1348 - - done -
+240612 1353 - -------- 06.12 13:53 --------
+240612 1353 - new iteration starts
+240612 1353 - current level is 81%
+240612 1353 - 30(l) <= 80(u) <= 81
+240612 1353 - upper limit violation detected
+240612 1353 - already depleting
+240612 1353 - - done -
+240612 1358 - -------- 06.12 13:58 --------
+240612 1358 - new iteration starts
+240612 1358 - current level is 78%
+240612 1358 - 30(l) <= 78 <= 80(u)
+240612 1358 - no limit violation detected
+240612 1358 - - done -
+240612 1403 - -------- 06.12 14:03 --------
+240612 1403 - new iteration starts
+240612 1403 - current level is 76%
+240612 1403 - 30(l) <= 76 <= 80(u)
+240612 1403 - no limit violation detected
+240612 1403 - - done -
+240612 1408 - -------- 06.12 14:08 --------
+240612 1408 - new iteration starts
+240612 1408 - current level is 80%
+240612 1408 - 30(l) <= 80 <= 80(u)
+240612 1408 - no limit violation detected
+240612 1408 - - done -
+240612 1413 - -------- 06.12 14:13 --------
+240612 1413 - new iteration starts
+240612 1413 - current level is 83%
+240612 1413 - 30(l) <= 80(u) <= 83
+240612 1413 - upper limit violation detected
+240612 1413 - last trigger was placed due to 82% at 13:48
+240612 1413 - 30(l) <= 80(u) <= 82
+240612 1413 - last trigger was due to upper limit violation and it is not yet invalid
+240612 1413 - based on the last trigger it should be already depleting but the charger is on
+240612 1413 - evaluation decides to trigger
+240612 1413 - triggering with 83%
+240612 1413 - place a trigger file: C:\ws\battery\trigger\trigger_240612_1413_83
+240612 1413 - synchronizing git repository
