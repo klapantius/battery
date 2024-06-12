@@ -11324,3 +11324,297 @@
 240611 1501 - triggering with 85%
 240611 1501 - place a trigger file: C:\ws\battery\trigger\trigger_240611_1501_85
 240611 1501 - synchronizing git repository
+240611 1501 - - done -
+240611 1506 - -------- 06.11 15:06 --------
+240611 1506 - new iteration starts
+240611 1506 - current level is 88%
+240611 1506 - 30(l) <= 80(u) <= 88
+240611 1506 - upper limit violation detected
+240611 1506 - already depleting
+240611 1506 - - done -
+240611 1511 - -------- 06.11 15:11 --------
+240611 1511 - new iteration starts
+240611 1511 - current level is 85%
+240611 1511 - 30(l) <= 80(u) <= 85
+240611 1511 - upper limit violation detected
+240611 1511 - already depleting
+240611 1511 - - done -
+240611 1516 - -------- 06.11 15:16 --------
+240611 1516 - new iteration starts
+240611 1516 - current level is 82%
+240611 1516 - 30(l) <= 80(u) <= 82
+240611 1516 - upper limit violation detected
+240611 1516 - already depleting
+240611 1516 - - done -
+240611 1521 - -------- 06.11 15:21 --------
+240611 1521 - new iteration starts
+240611 1521 - current level is 80%
+240611 1521 - 30(l) <= 80 <= 80(u)
+240611 1521 - no limit violation detected
+240611 1521 - - done -
+240611 1526 - -------- 06.11 15:26 --------
+240611 1526 - new iteration starts
+240611 1526 - current level is 77%
+240611 1526 - 30(l) <= 77 <= 80(u)
+240611 1526 - no limit violation detected
+240611 1526 - - done -
+240611 1531 - -------- 06.11 15:31 --------
+240611 1531 - new iteration starts
+240611 1531 - current level is 75%
+240611 1531 - 30(l) <= 75 <= 80(u)
+240611 1531 - no limit violation detected
+240611 1531 - - done -
+240611 1536 - -------- 06.11 15:36 --------
+240611 1536 - new iteration starts
+240611 1536 - current level is 73%
+240611 1536 - 30(l) <= 73 <= 80(u)
+240611 1536 - no limit violation detected
+240611 1536 - - done -
+240611 1541 - -------- 06.11 15:41 --------
+240611 1541 - new iteration starts
+240611 1541 - current level is 70%
+240611 1541 - 30(l) <= 70 <= 80(u)
+240611 1541 - no limit violation detected
+240611 1541 - - done -
+240611 1546 - -------- 06.11 15:46 --------
+240611 1546 - new iteration starts
+240611 1546 - current level is 69%
+240611 1546 - 30(l) <= 69 <= 80(u)
+240611 1546 - no limit violation detected
+240611 1546 - - done -
+240611 1551 - -------- 06.11 15:51 --------
+240611 1551 - new iteration starts
+240611 1551 - current level is 66%
+240611 1551 - 30(l) <= 66 <= 80(u)
+240611 1551 - no limit violation detected
+240611 1551 - - done -
+240611 1556 - -------- 06.11 15:56 --------
+240611 1556 - new iteration starts
+240611 1556 - current level is 63%
+240611 1556 - 30(l) <= 63 <= 80(u)
+240611 1556 - no limit violation detected
+240611 1556 - - done -
+240611 1601 - -------- 06.11 16:01 --------
+240611 1601 - new iteration starts
+240611 1601 - current level is 61%
+240611 1601 - 30(l) <= 61 <= 80(u)
+240611 1601 - no limit violation detected
+240611 1601 - - done -
+240611 1606 - -------- 06.11 16:06 --------
+240611 1606 - new iteration starts
+240611 1606 - current level is 58%
+240611 1606 - 30(l) <= 58 <= 80(u)
+240611 1606 - no limit violation detected
+240611 1606 - - done -
+240611 1611 - -------- 06.11 16:11 --------
+240611 1611 - new iteration starts
+240611 1611 - current level is 56%
+240611 1611 - 30(l) <= 56 <= 80(u)
+240611 1611 - no limit violation detected
+240611 1611 - - done -
+240611 1616 - -------- 06.11 16:16 --------
+240611 1616 - new iteration starts
+240611 1616 - current level is 53%
+240611 1616 - 30(l) <= 53 <= 80(u)
+240611 1616 - no limit violation detected
+240611 1616 - - done -
+240611 1621 - -------- 06.11 16:21 --------
+240611 1621 - new iteration starts
+240611 1621 - current level is 51%
+240611 1621 - 30(l) <= 51 <= 80(u)
+240611 1621 - no limit violation detected
+240611 1621 - - done -
+240611 1626 - -------- 06.11 16:26 --------
+240611 1626 - new iteration starts
+240611 1626 - current level is 49%
+240611 1626 - 30(l) <= 49 <= 80(u)
+240611 1626 - no limit violation detected
+240611 1626 - - done -
+240611 1631 - -------- 06.11 16:31 --------
+240611 1631 - new iteration starts
+240611 1631 - current level is 47%
+240611 1631 - 30(l) <= 47 <= 80(u)
+240611 1631 - no limit violation detected
+240611 1631 - - done -
+240611 1636 - -------- 06.11 16:36 --------
+240611 1636 - new iteration starts
+240611 1636 - current level is 44%
+240611 1636 - 30(l) <= 44 <= 80(u)
+240611 1636 - no limit violation detected
+240611 1636 - - done -
+240611 1641 - -------- 06.11 16:41 --------
+240611 1641 - new iteration starts
+240611 1641 - current level is 42%
+240611 1641 - 30(l) <= 42 <= 80(u)
+240611 1641 - no limit violation detected
+240611 1641 - - done -
+240611 1646 - -------- 06.11 16:46 --------
+240611 1646 - new iteration starts
+240611 1646 - current level is 40%
+240611 1646 - 30(l) <= 40 <= 80(u)
+240611 1646 - no limit violation detected
+240611 1646 - - done -
+240612 0656 - -------- 06.12 06:56 --------
+240612 0656 - new iteration starts
+240612 0656 - current level is 98%
+240612 0656 - 30(l) <= 80(u) <= 98
+240612 0656 - upper limit violation detected
+240612 0656 - already depleting
+240612 0656 - - done -
+240612 0701 - -------- 06.12 07:01 --------
+240612 0701 - new iteration starts
+240612 0701 - current level is 94%
+240612 0701 - 30(l) <= 80(u) <= 94
+240612 0701 - upper limit violation detected
+240612 0701 - already depleting
+240612 0701 - - done -
+240612 0706 - -------- 06.12 07:06 --------
+240612 0706 - new iteration starts
+240612 0706 - current level is 92%
+240612 0706 - 30(l) <= 80(u) <= 92
+240612 0706 - upper limit violation detected
+240612 0706 - already depleting
+240612 0706 - - done -
+240612 0711 - -------- 06.12 07:11 --------
+240612 0711 - new iteration starts
+240612 0711 - current level is 90%
+240612 0711 - 30(l) <= 80(u) <= 90
+240612 0711 - upper limit violation detected
+240612 0711 - already depleting
+240612 0711 - - done -
+240612 0716 - -------- 06.12 07:16 --------
+240612 0716 - new iteration starts
+240612 0716 - current level is 87%
+240612 0716 - 30(l) <= 80(u) <= 87
+240612 0716 - upper limit violation detected
+240612 0716 - already depleting
+240612 0716 - - done -
+240612 0721 - -------- 06.12 07:21 --------
+240612 0721 - new iteration starts
+240612 0721 - current level is 84%
+240612 0721 - 30(l) <= 80(u) <= 84
+240612 0721 - upper limit violation detected
+240612 0721 - already depleting
+240612 0721 - - done -
+240612 0726 - -------- 06.12 07:26 --------
+240612 0726 - new iteration starts
+240612 0726 - current level is 82%
+240612 0726 - 30(l) <= 80(u) <= 82
+240612 0726 - upper limit violation detected
+240612 0726 - already depleting
+240612 0726 - - done -
+240612 0731 - -------- 06.12 07:31 --------
+240612 0731 - new iteration starts
+240612 0731 - current level is 79%
+240612 0731 - 30(l) <= 79 <= 80(u)
+240612 0731 - no limit violation detected
+240612 0731 - - done -
+240612 0736 - -------- 06.12 07:36 --------
+240612 0736 - new iteration starts
+240612 0736 - current level is 76%
+240612 0736 - 30(l) <= 76 <= 80(u)
+240612 0736 - no limit violation detected
+240612 0736 - - done -
+240612 0741 - -------- 06.12 07:41 --------
+240612 0741 - new iteration starts
+240612 0741 - current level is 74%
+240612 0741 - 30(l) <= 74 <= 80(u)
+240612 0741 - no limit violation detected
+240612 0741 - - done -
+240612 0746 - -------- 06.12 07:46 --------
+240612 0746 - new iteration starts
+240612 0746 - current level is 71%
+240612 0746 - 30(l) <= 71 <= 80(u)
+240612 0746 - no limit violation detected
+240612 0746 - - done -
+240612 0751 - -------- 06.12 07:51 --------
+240612 0751 - new iteration starts
+240612 0751 - current level is 68%
+240612 0751 - 30(l) <= 68 <= 80(u)
+240612 0751 - no limit violation detected
+240612 0751 - - done -
+240612 0756 - -------- 06.12 07:56 --------
+240612 0756 - new iteration starts
+240612 0756 - current level is 65%
+240612 0756 - 30(l) <= 65 <= 80(u)
+240612 0756 - no limit violation detected
+240612 0756 - - done -
+240612 0801 - -------- 06.12 08:01 --------
+240612 0801 - new iteration starts
+240612 0801 - current level is 63%
+240612 0801 - 30(l) <= 63 <= 80(u)
+240612 0801 - no limit violation detected
+240612 0801 - - done -
+240612 0806 - -------- 06.12 08:06 --------
+240612 0806 - new iteration starts
+240612 0806 - current level is 61%
+240612 0806 - 30(l) <= 61 <= 80(u)
+240612 0806 - no limit violation detected
+240612 0806 - - done -
+240612 0811 - -------- 06.12 08:11 --------
+240612 0811 - new iteration starts
+240612 0811 - current level is 58%
+240612 0811 - 30(l) <= 58 <= 80(u)
+240612 0811 - no limit violation detected
+240612 0811 - - done -
+240612 0816 - -------- 06.12 08:16 --------
+240612 0816 - new iteration starts
+240612 0816 - current level is 55%
+240612 0816 - 30(l) <= 55 <= 80(u)
+240612 0816 - no limit violation detected
+240612 0816 - - done -
+240612 0821 - -------- 06.12 08:21 --------
+240612 0821 - new iteration starts
+240612 0821 - current level is 52%
+240612 0821 - 30(l) <= 52 <= 80(u)
+240612 0821 - no limit violation detected
+240612 0821 - - done -
+240612 0826 - -------- 06.12 08:26 --------
+240612 0826 - new iteration starts
+240612 0826 - current level is 49%
+240612 0826 - 30(l) <= 49 <= 80(u)
+240612 0826 - no limit violation detected
+240612 0826 - - done -
+240612 0831 - -------- 06.12 08:31 --------
+240612 0831 - new iteration starts
+240612 0831 - current level is 46%
+240612 0831 - 30(l) <= 46 <= 80(u)
+240612 0831 - no limit violation detected
+240612 0831 - - done -
+240612 0836 - -------- 06.12 08:36 --------
+240612 0836 - new iteration starts
+240612 0836 - current level is 42%
+240612 0836 - 30(l) <= 42 <= 80(u)
+240612 0836 - no limit violation detected
+240612 0836 - - done -
+240612 0841 - -------- 06.12 08:41 --------
+240612 0841 - new iteration starts
+240612 0841 - current level is 39%
+240612 0841 - 30(l) <= 39 <= 80(u)
+240612 0841 - no limit violation detected
+240612 0841 - - done -
+240612 0846 - -------- 06.12 08:46 --------
+240612 0846 - new iteration starts
+240612 0846 - current level is 36%
+240612 0846 - 30(l) <= 36 <= 80(u)
+240612 0846 - no limit violation detected
+240612 0846 - - done -
+240612 0851 - -------- 06.12 08:51 --------
+240612 0851 - new iteration starts
+240612 0851 - current level is 32%
+240612 0851 - 30(l) <= 32 <= 80(u)
+240612 0851 - no limit violation detected
+240612 0851 - - done -
+240612 0856 - -------- 06.12 08:56 --------
+240612 0856 - new iteration starts
+240612 0856 - current level is 28%
+240612 0856 - 28 <= 30(l) <= 80(u)
+240612 0856 - lower limit violation detected
+240612 0856 - last trigger was placed due to 85% at 15:01
+240612 0856 - 30(l) <= 80(u) <= 85
+240612 0856 - last trigger was due to upper limit violation but it is already invalid
+240612 0856 - a new trigger must be set
+240612 0856 - evaluation decides to trigger
+240612 0856 - triggering with 28%
+240612 0856 - place a trigger file: C:\ws\battery\trigger\trigger_240612_0856_28
+240612 0856 - synchronizing git repository
