@@ -12461,3 +12461,112 @@
 240613 0827 - triggering with 84%
 240613 0827 - place a trigger file: C:\ws\battery\trigger\trigger_240613_0827_84
 240613 0827 - synchronizing git repository
+240613 0827 - - done -
+240614 0715 - -------- 06.14 07:15 --------
+240614 0715 - new iteration starts
+240614 0715 - current level is 19%
+240614 0715 - 19 <= 30(l) <= 80(u)
+240614 0715 - lower limit violation detected
+240614 0715 - last trigger was placed due to 84% at 08:27
+240614 0715 - 30(l) <= 80(u) <= 84
+240614 0715 - last trigger was due to upper limit violation but it is already invalid
+240614 0715 - a new trigger must be set
+240614 0715 - evaluation decides to trigger
+240614 0715 - triggering with 19%
+240614 0715 - place a trigger file: C:\ws\battery\trigger\trigger_240614_0715_19
+240614 0715 - synchronizing git repository
+240614 0716 - - done -
+240614 0716 - -------- 06.14 07:16 --------
+240614 0716 - new iteration starts
+240614 0716 - current level is 19%
+240614 0716 - 19 <= 30(l) <= 80(u)
+240614 0716 - lower limit violation detected
+240614 0716 - already charging
+240614 0716 - - done -
+240614 0721 - -------- 06.14 07:21 --------
+240614 0721 - new iteration starts
+240614 0721 - current level is 24%
+240614 0721 - 24 <= 30(l) <= 80(u)
+240614 0721 - lower limit violation detected
+240614 0721 - already charging
+240614 0721 - - done -
+240614 0726 - -------- 06.14 07:26 --------
+240614 0726 - new iteration starts
+240614 0726 - current level is 29%
+240614 0726 - 29 <= 30(l) <= 80(u)
+240614 0726 - lower limit violation detected
+240614 0726 - already charging
+240614 0726 - - done -
+240614 0731 - -------- 06.14 07:31 --------
+240614 0731 - new iteration starts
+240614 0731 - current level is 35%
+240614 0731 - 30(l) <= 35 <= 80(u)
+240614 0731 - no limit violation detected
+240614 0731 - - done -
+240614 0736 - -------- 06.14 07:36 --------
+240614 0736 - new iteration starts
+240614 0736 - current level is 41%
+240614 0736 - 30(l) <= 41 <= 80(u)
+240614 0736 - no limit violation detected
+240614 0736 - - done -
+240614 0741 - -------- 06.14 07:41 --------
+240614 0741 - new iteration starts
+240614 0741 - current level is 47%
+240614 0741 - 30(l) <= 47 <= 80(u)
+240614 0741 - no limit violation detected
+240614 0741 - - done -
+240614 0746 - -------- 06.14 07:46 --------
+240614 0746 - new iteration starts
+240614 0746 - current level is 52%
+240614 0746 - 30(l) <= 52 <= 80(u)
+240614 0746 - no limit violation detected
+240614 0746 - - done -
+240614 0751 - -------- 06.14 07:51 --------
+240614 0751 - new iteration starts
+240614 0751 - current level is 58%
+240614 0751 - 30(l) <= 58 <= 80(u)
+240614 0751 - no limit violation detected
+240614 0751 - - done -
+240614 0756 - -------- 06.14 07:56 --------
+240614 0756 - new iteration starts
+240614 0756 - current level is 63%
+240614 0756 - 30(l) <= 63 <= 80(u)
+240614 0756 - no limit violation detected
+240614 0756 - - done -
+240614 0801 - -------- 06.14 08:01 --------
+240614 0801 - new iteration starts
+240614 0801 - current level is 68%
+240614 0801 - 30(l) <= 68 <= 80(u)
+240614 0801 - no limit violation detected
+240614 0801 - - done -
+240614 0806 - -------- 06.14 08:06 --------
+240614 0806 - new iteration starts
+240614 0806 - current level is 72%
+240614 0806 - 30(l) <= 72 <= 80(u)
+240614 0806 - no limit violation detected
+240614 0806 - - done -
+240614 0811 - -------- 06.14 08:11 --------
+240614 0811 - new iteration starts
+240614 0811 - current level is 76%
+240614 0811 - 30(l) <= 76 <= 80(u)
+240614 0811 - no limit violation detected
+240614 0811 - - done -
+240614 0816 - -------- 06.14 08:16 --------
+240614 0816 - new iteration starts
+240614 0816 - current level is 79%
+240614 0816 - 30(l) <= 79 <= 80(u)
+240614 0816 - no limit violation detected
+240614 0816 - - done -
+240614 0821 - -------- 06.14 08:21 --------
+240614 0821 - new iteration starts
+240614 0821 - current level is 82%
+240614 0821 - 30(l) <= 80(u) <= 82
+240614 0821 - upper limit violation detected
+240614 0821 - last trigger was placed due to 19% at 07:15
+240614 0821 - 19 <= 30(l) <= 80(u)
+240614 0821 - last trigger was due to lower limit violation but it is already invalid
+240614 0821 - a new trigger must be set
+240614 0821 - evaluation decides to trigger
+240614 0821 - triggering with 82%
+240614 0821 - place a trigger file: C:\ws\battery\trigger\trigger_240614_0821_82
+240614 0821 - synchronizing git repository
