@@ -13558,3 +13558,35 @@
 240617 0919 - triggering with 69%
 240617 0919 - place a trigger file: C:\ws\battery\trigger\trigger_240617_0919_69
 240617 0919 - synchronizing git repository
+240617 0919 - - done -
+240617 0924 - -------- 06.17 09:24 --------
+240617 0924 - new iteration starts
+240617 0924 - current level is 71%
+240617 0924 - 70(l) <= 71 <= 80(u)
+240617 0924 - no limit violation detected
+240617 0924 - - done -
+240617 0929 - -------- 06.17 09:29 --------
+240617 0929 - new iteration starts
+240617 0929 - current level is 75%
+240617 0929 - 70(l) <= 75 <= 80(u)
+240617 0929 - no limit violation detected
+240617 0929 - - done -
+240617 0934 - -------- 06.17 09:34 --------
+240617 0934 - new iteration starts
+240617 0934 - current level is 78%
+240617 0934 - 70(l) <= 78 <= 80(u)
+240617 0934 - no limit violation detected
+240617 0934 - - done -
+240617 0939 - -------- 06.17 09:39 --------
+240617 0939 - new iteration starts
+240617 0939 - current level is 81%
+240617 0939 - 70(l) <= 80(u) <= 81
+240617 0939 - upper limit violation detected
+240617 0939 - last trigger was placed due to 69% at 09:19
+240617 0939 - 69 <= 70(l) <= 80(u)
+240617 0939 - last trigger was due to lower limit violation but it is already invalid
+240617 0939 - a new trigger must be set
+240617 0939 - evaluation decides to trigger
+240617 0939 - triggering with 81%
+240617 0939 - place a trigger file: C:\ws\battery\trigger\trigger_240617_0939_81
+240617 0939 - synchronizing git repository
