@@ -13452,3 +13452,54 @@
 240617 0817 - triggering with 81%
 240617 0817 - place a trigger file: C:\ws\battery\trigger\trigger_240617_0817_81
 240617 0817 - synchronizing git repository
+240617 0818 - - done -
+240617 0823 - -------- 06.17 08:23 --------
+240617 0823 - new iteration starts
+240617 0823 - current level is 82%
+240617 0823 - 70(l) <= 80(u) <= 82
+240617 0823 - upper limit violation detected
+240617 0823 - already depleting
+240617 0823 - - done -
+240617 0828 - -------- 06.17 08:28 --------
+240617 0828 - new iteration starts
+240617 0828 - current level is 79%
+240617 0828 - 70(l) <= 79 <= 80(u)
+240617 0828 - no limit violation detected
+240617 0828 - - done -
+240617 0833 - -------- 06.17 08:33 --------
+240617 0833 - new iteration starts
+240617 0833 - current level is 77%
+240617 0833 - 70(l) <= 77 <= 80(u)
+240617 0833 - no limit violation detected
+240617 0833 - - done -
+240617 0838 - -------- 06.17 08:38 --------
+240617 0838 - new iteration starts
+240617 0838 - current level is 75%
+240617 0838 - 70(l) <= 75 <= 80(u)
+240617 0838 - no limit violation detected
+240617 0838 - - done -
+240617 0843 - -------- 06.17 08:43 --------
+240617 0843 - new iteration starts
+240617 0843 - current level is 72%
+240617 0843 - 70(l) <= 72 <= 80(u)
+240617 0843 - no limit violation detected
+240617 0843 - - done -
+240617 0848 - -------- 06.17 08:48 --------
+240617 0848 - new iteration starts
+240617 0848 - current level is 70%
+240617 0848 - 70 <= 70(l) <= 80(u)
+240617 0848 - no limit violation detected
+240617 0848 - - done -
+240617 0853 - -------- 06.17 08:53 --------
+240617 0853 - new iteration starts
+240617 0853 - current level is 68%
+240617 0853 - 68 <= 70(l) <= 80(u)
+240617 0853 - lower limit violation detected
+240617 0853 - last trigger was placed due to 81% at 08:17
+240617 0853 - 70(l) <= 80(u) <= 81
+240617 0853 - last trigger was due to upper limit violation but it is already invalid
+240617 0853 - a new trigger must be set
+240617 0853 - evaluation decides to trigger
+240617 0853 - triggering with 68%
+240617 0853 - place a trigger file: C:\ws\battery\trigger\trigger_240617_0853_68
+240617 0853 - synchronizing git repository
