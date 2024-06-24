@@ -14,14 +14,17 @@ function place_a_trigger_file {
 }
 
 function synchronise-trigger {
+    param(
+        $triggeringLevel
+    )
     if (-not ( Test-Path (Join-Path $PSScriptRoot '.git'))) { return }
     try {
         write-log "synchronizing git repository"
         pushd $triggerFolder
         git add .
-        git commit -m "sync $(Get-Date -Format yyMMdd_HHmm)"
-        git pull
+        git commit -m "sync $(Get-Date -Format yyMMdd_HHmm) $triggeringLevel%"
         git push
+        git pull
     }
     finally {
         popd
