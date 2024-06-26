@@ -16365,3 +16365,17 @@
 240626 1102 - triggering with 81%
 240626 1102 - place a trigger file: C:\ws\battery\trigger\trigger_240626_1102_81
 240626 1102 - synchronizing git repository
+240626 1102 - - done -
+240626 1107 - -------- 06.26 11:07 --------
+240626 1107 - new iteration starts
+240626 1107 - current level is 84%
+240626 1107 - 70(l) <= 80(u) <= 84
+240626 1107 - upper limit violation detected
+240626 1107 - last trigger was placed due to 81% at 11:02
+240626 1107 - 70(l) <= 80(u) <= 81
+240626 1107 - last trigger was due to upper limit violation and it is not yet invalid
+240626 1107 - based on the last trigger it should be already depleting but the charger is on
+240626 1107 - evaluation decides to trigger
+240626 1107 - triggering with 84%
+240626 1107 - place a trigger file: C:\ws\battery\trigger\trigger_240626_1107_84
+240626 1107 - synchronizing git repository
