@@ -104,6 +104,11 @@ function trigger-ifttt {
   }
 }
 
+function test-officeConnection {
+  # in office we are connected to ethernet lan
+  (get-netConnectionProfile | where { $_.InterfaceAlias -like 'ethernet' } | measure).Count -gt 0
+}
+
 function launch {
   param(
     [bool]$force = $false,
@@ -112,6 +117,10 @@ function launch {
   )
   $currentLevel = get-batteryLevel
   write-log "current level is $currentLevel%"
+  if (test-officeConnection) {
+    write-log "office connection detected"
+    return $null
+  }
   evaluate -force $force -currentLevel $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
     trigger-ifttt
 }
