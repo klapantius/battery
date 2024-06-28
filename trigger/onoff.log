@@ -17604,3 +17604,56 @@
 240628 0937 - triggering with 56%
 240628 0937 - place a trigger file: C:\ws\battery\trigger\trigger_240628_0937_56
 240628 0937 - synchronizing git repository
+240628 0937 - - done -
+240628 0942 - -------- 06.28 09:42 --------
+240628 0942 - new iteration starts
+240628 0942 - current level is 60%
+240628 0942 - 60 <= 70(l) <= 80(u)
+240628 0942 - lower limit violation detected
+240628 0942 - already charging
+240628 0942 - - done -
+240628 0947 - -------- 06.28 09:47 --------
+240628 0947 - new iteration starts
+240628 0947 - current level is 64%
+240628 0947 - 64 <= 70(l) <= 80(u)
+240628 0947 - lower limit violation detected
+240628 0947 - already charging
+240628 0947 - - done -
+240628 0952 - -------- 06.28 09:52 --------
+240628 0952 - new iteration starts
+240628 0952 - current level is 69%
+240628 0952 - 69 <= 70(l) <= 80(u)
+240628 0952 - lower limit violation detected
+240628 0952 - already charging
+240628 0952 - - done -
+240628 0957 - -------- 06.28 09:57 --------
+240628 0957 - new iteration starts
+240628 0957 - current level is 74%
+240628 0957 - 70(l) <= 74 <= 80(u)
+240628 0957 - no limit violation detected
+240628 0957 - - done -
+240628 1002 - -------- 06.28 10:02 --------
+240628 1002 - new iteration starts
+240628 1002 - current level is 77%
+240628 1002 - 70(l) <= 77 <= 80(u)
+240628 1002 - no limit violation detected
+240628 1002 - - done -
+240628 1007 - -------- 06.28 10:07 --------
+240628 1007 - new iteration starts
+240628 1007 - current level is 80%
+240628 1007 - 70(l) <= 80 <= 80(u)
+240628 1007 - no limit violation detected
+240628 1007 - - done -
+240628 1012 - -------- 06.28 10:12 --------
+240628 1012 - new iteration starts
+240628 1012 - current level is 83%
+240628 1012 - 70(l) <= 80(u) <= 83
+240628 1012 - upper limit violation detected
+240628 1012 - last trigger was placed due to 56% at 09:37
+240628 1012 - 56 <= 70(l) <= 80(u)
+240628 1012 - last trigger was due to lower limit violation but it is already invalid
+240628 1012 - a new trigger must be set
+240628 1012 - evaluation decides to trigger
+240628 1012 - triggering with 83%
+240628 1012 - place a trigger file: C:\ws\battery\trigger\trigger_240628_1012_83
+240628 1012 - synchronizing git repository
