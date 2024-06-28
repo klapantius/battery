@@ -16873,3 +16873,552 @@
 240626 1600 - triggering with 63%
 240626 1600 - place a trigger file: C:\ws\battery\trigger\trigger_240626_1600_63
 240626 1600 - synchronizing git repository
+240626 1600 - - done -
+240626 1605 - -------- 06.26 16:05 --------
+240626 1605 - new iteration starts
+240626 1605 - current level is 67%
+240626 1605 - 67 <= 70(l) <= 80(u)
+240626 1605 - lower limit violation detected
+240626 1605 - already charging
+240626 1605 - - done -
+240627 0714 - -------- 06.27 07:14 --------
+240627 0714 - new iteration starts
+240627 0715 - current level is 71%
+240627 0715 - 70(l) <= 71 <= 80(u)
+240627 0715 - no limit violation detected
+240627 0715 - - done -
+240627 0718 - -------- 06.27 07:18 --------
+240627 0718 - new iteration starts
+240627 0718 - current level is 73%
+240627 0718 - 70(l) <= 73 <= 80(u)
+240627 0718 - no limit violation detected
+240627 0718 - - done -
+240627 0723 - -------- 06.27 07:23 --------
+240627 0723 - new iteration starts
+240627 0723 - current level is 75%
+240627 0723 - office connection detected
+240627 0723 - - done -
+240627 0728 - -------- 06.27 07:28 --------
+240627 0728 - new iteration starts
+240627 0728 - current level is 77%
+240627 0728 - office connection detected
+240627 0728 - - done -
+240627 0733 - -------- 06.27 07:33 --------
+240627 0733 - new iteration starts
+240627 0733 - current level is 79%
+240627 0733 - office connection detected
+240627 0733 - - done -
+240627 0738 - -------- 06.27 07:38 --------
+240627 0738 - new iteration starts
+240627 0738 - current level is 81%
+240627 0738 - office connection detected
+240627 0738 - - done -
+240627 0743 - -------- 06.27 07:43 --------
+240627 0743 - new iteration starts
+240627 0743 - current level is 83%
+240627 0743 - office connection detected
+240627 0743 - - done -
+240627 0748 - -------- 06.27 07:48 --------
+240627 0748 - new iteration starts
+240627 0748 - current level is 85%
+240627 0748 - office connection detected
+240627 0748 - - done -
+240627 0753 - -------- 06.27 07:53 --------
+240627 0753 - new iteration starts
+240627 0753 - current level is 86%
+240627 0753 - office connection detected
+240627 0753 - - done -
+240627 0758 - -------- 06.27 07:58 --------
+240627 0758 - new iteration starts
+240627 0758 - current level is 88%
+240627 0758 - office connection detected
+240627 0758 - - done -
+240627 0803 - -------- 06.27 08:03 --------
+240627 0803 - new iteration starts
+240627 0803 - current level is 89%
+240627 0803 - office connection detected
+240627 0803 - - done -
+240627 0808 - -------- 06.27 08:08 --------
+240627 0808 - new iteration starts
+240627 0808 - current level is 90%
+240627 0808 - office connection detected
+240627 0808 - - done -
+240627 0813 - -------- 06.27 08:13 --------
+240627 0813 - new iteration starts
+240627 0813 - current level is 91%
+240627 0813 - office connection detected
+240627 0813 - - done -
+240627 0818 - -------- 06.27 08:18 --------
+240627 0818 - new iteration starts
+240627 0818 - current level is 92%
+240627 0818 - office connection detected
+240627 0818 - - done -
+240627 0823 - -------- 06.27 08:23 --------
+240627 0823 - new iteration starts
+240627 0823 - current level is 93%
+240627 0823 - office connection detected
+240627 0823 - - done -
+240627 0828 - -------- 06.27 08:28 --------
+240627 0828 - new iteration starts
+240627 0828 - current level is 94%
+240627 0828 - office connection detected
+240627 0828 - - done -
+240627 0833 - -------- 06.27 08:33 --------
+240627 0833 - new iteration starts
+240627 0833 - current level is 94%
+240627 0833 - office connection detected
+240627 0833 - - done -
+240627 0838 - -------- 06.27 08:38 --------
+240627 0838 - new iteration starts
+240627 0838 - current level is 95%
+240627 0838 - office connection detected
+240627 0838 - - done -
+240627 0843 - -------- 06.27 08:43 --------
+240627 0843 - new iteration starts
+240627 0843 - current level is 95%
+240627 0843 - office connection detected
+240627 0843 - - done -
+240627 0848 - -------- 06.27 08:48 --------
+240627 0848 - new iteration starts
+240627 0848 - current level is 96%
+240627 0848 - office connection detected
+240627 0848 - - done -
+240627 0853 - -------- 06.27 08:53 --------
+240627 0853 - new iteration starts
+240627 0853 - current level is 96%
+240627 0853 - office connection detected
+240627 0853 - - done -
+240627 0858 - -------- 06.27 08:58 --------
+240627 0858 - new iteration starts
+240627 0858 - current level is 100%
+240627 0858 - office connection detected
+240627 0858 - - done -
+240627 0903 - -------- 06.27 09:03 --------
+240627 0903 - new iteration starts
+240627 0903 - current level is 100%
+240627 0903 - office connection detected
+240627 0903 - - done -
+240627 0908 - -------- 06.27 09:08 --------
+240627 0908 - new iteration starts
+240627 0908 - current level is 100%
+240627 0908 - office connection detected
+240627 0908 - - done -
+240627 0913 - -------- 06.27 09:13 --------
+240627 0913 - new iteration starts
+240627 0913 - current level is 100%
+240627 0913 - office connection detected
+240627 0913 - - done -
+240627 0918 - -------- 06.27 09:18 --------
+240627 0918 - new iteration starts
+240627 0918 - current level is 100%
+240627 0918 - office connection detected
+240627 0918 - - done -
+240627 0923 - -------- 06.27 09:23 --------
+240627 0923 - new iteration starts
+240627 0923 - current level is 100%
+240627 0923 - office connection detected
+240627 0923 - - done -
+240627 0928 - -------- 06.27 09:28 --------
+240627 0928 - new iteration starts
+240627 0928 - current level is 100%
+240627 0928 - office connection detected
+240627 0928 - - done -
+240627 0933 - -------- 06.27 09:33 --------
+240627 0933 - new iteration starts
+240627 0933 - current level is 100%
+240627 0933 - office connection detected
+240627 0933 - - done -
+240627 0938 - -------- 06.27 09:38 --------
+240627 0938 - new iteration starts
+240627 0938 - current level is 100%
+240627 0938 - office connection detected
+240627 0938 - - done -
+240627 0943 - -------- 06.27 09:43 --------
+240627 0943 - new iteration starts
+240627 0943 - current level is 100%
+240627 0943 - office connection detected
+240627 0943 - - done -
+240627 0948 - -------- 06.27 09:48 --------
+240627 0948 - new iteration starts
+240627 0948 - current level is 100%
+240627 0948 - office connection detected
+240627 0948 - - done -
+240627 0953 - -------- 06.27 09:53 --------
+240627 0953 - new iteration starts
+240627 0953 - current level is 100%
+240627 0953 - office connection detected
+240627 0953 - - done -
+240627 0958 - -------- 06.27 09:58 --------
+240627 0958 - new iteration starts
+240627 0958 - current level is 100%
+240627 0958 - office connection detected
+240627 0958 - - done -
+240627 1003 - -------- 06.27 10:03 --------
+240627 1003 - new iteration starts
+240627 1003 - current level is 100%
+240627 1003 - office connection detected
+240627 1003 - - done -
+240627 1008 - -------- 06.27 10:08 --------
+240627 1008 - new iteration starts
+240627 1008 - current level is 100%
+240627 1008 - office connection detected
+240627 1008 - - done -
+240627 1013 - -------- 06.27 10:13 --------
+240627 1013 - new iteration starts
+240627 1013 - current level is 100%
+240627 1013 - office connection detected
+240627 1013 - - done -
+240627 1018 - -------- 06.27 10:18 --------
+240627 1018 - new iteration starts
+240627 1018 - current level is 100%
+240627 1018 - office connection detected
+240627 1018 - - done -
+240627 1023 - -------- 06.27 10:23 --------
+240627 1023 - new iteration starts
+240627 1023 - current level is 100%
+240627 1023 - office connection detected
+240627 1023 - - done -
+240627 1028 - -------- 06.27 10:28 --------
+240627 1028 - new iteration starts
+240627 1028 - current level is 100%
+240627 1028 - office connection detected
+240627 1028 - - done -
+240627 1033 - -------- 06.27 10:33 --------
+240627 1033 - new iteration starts
+240627 1033 - current level is 100%
+240627 1033 - office connection detected
+240627 1033 - - done -
+240627 1038 - -------- 06.27 10:38 --------
+240627 1038 - new iteration starts
+240627 1038 - current level is 100%
+240627 1038 - office connection detected
+240627 1038 - - done -
+240627 1043 - -------- 06.27 10:43 --------
+240627 1043 - new iteration starts
+240627 1043 - current level is 100%
+240627 1043 - office connection detected
+240627 1043 - - done -
+240627 1048 - -------- 06.27 10:48 --------
+240627 1048 - new iteration starts
+240627 1048 - current level is 100%
+240627 1048 - office connection detected
+240627 1048 - - done -
+240627 1053 - -------- 06.27 10:53 --------
+240627 1053 - new iteration starts
+240627 1053 - current level is 100%
+240627 1053 - office connection detected
+240627 1053 - - done -
+240627 1058 - -------- 06.27 10:58 --------
+240627 1058 - new iteration starts
+240627 1058 - current level is 100%
+240627 1058 - office connection detected
+240627 1058 - - done -
+240627 1103 - -------- 06.27 11:03 --------
+240627 1103 - new iteration starts
+240627 1103 - current level is 100%
+240627 1103 - office connection detected
+240627 1103 - - done -
+240627 1108 - -------- 06.27 11:08 --------
+240627 1108 - new iteration starts
+240627 1108 - current level is 100%
+240627 1108 - office connection detected
+240627 1108 - - done -
+240627 1113 - -------- 06.27 11:13 --------
+240627 1113 - new iteration starts
+240627 1113 - current level is 100%
+240627 1113 - office connection detected
+240627 1113 - - done -
+240627 1118 - -------- 06.27 11:18 --------
+240627 1118 - new iteration starts
+240627 1118 - current level is 100%
+240627 1118 - office connection detected
+240627 1118 - - done -
+240627 1123 - -------- 06.27 11:23 --------
+240627 1123 - new iteration starts
+240627 1123 - current level is 100%
+240627 1123 - office connection detected
+240627 1123 - - done -
+240627 1128 - -------- 06.27 11:28 --------
+240627 1128 - new iteration starts
+240627 1128 - current level is 100%
+240627 1128 - office connection detected
+240627 1128 - - done -
+240627 1133 - -------- 06.27 11:33 --------
+240627 1133 - new iteration starts
+240627 1133 - current level is 100%
+240627 1133 - office connection detected
+240627 1133 - - done -
+240627 1138 - -------- 06.27 11:38 --------
+240627 1138 - new iteration starts
+240627 1138 - current level is 100%
+240627 1138 - office connection detected
+240627 1138 - - done -
+240627 1143 - -------- 06.27 11:43 --------
+240627 1143 - new iteration starts
+240627 1143 - current level is 100%
+240627 1143 - office connection detected
+240627 1143 - - done -
+240627 1148 - -------- 06.27 11:48 --------
+240627 1148 - new iteration starts
+240627 1148 - current level is 100%
+240627 1148 - office connection detected
+240627 1148 - - done -
+240627 1153 - -------- 06.27 11:53 --------
+240627 1153 - new iteration starts
+240627 1153 - current level is 100%
+240627 1153 - office connection detected
+240627 1153 - - done -
+240627 1158 - -------- 06.27 11:58 --------
+240627 1158 - new iteration starts
+240627 1158 - current level is 100%
+240627 1158 - office connection detected
+240627 1158 - - done -
+240627 1203 - -------- 06.27 12:03 --------
+240627 1203 - new iteration starts
+240627 1203 - current level is 100%
+240627 1203 - office connection detected
+240627 1203 - - done -
+240627 1208 - -------- 06.27 12:08 --------
+240627 1208 - new iteration starts
+240627 1208 - current level is 100%
+240627 1208 - office connection detected
+240627 1208 - - done -
+240627 1213 - -------- 06.27 12:13 --------
+240627 1213 - new iteration starts
+240627 1213 - current level is 100%
+240627 1213 - office connection detected
+240627 1213 - - done -
+240627 1218 - -------- 06.27 12:18 --------
+240627 1218 - new iteration starts
+240627 1218 - current level is 100%
+240627 1218 - office connection detected
+240627 1218 - - done -
+240627 1223 - -------- 06.27 12:23 --------
+240627 1223 - new iteration starts
+240627 1223 - current level is 100%
+240627 1223 - office connection detected
+240627 1223 - - done -
+240627 1228 - -------- 06.27 12:28 --------
+240627 1228 - new iteration starts
+240627 1228 - current level is 100%
+240627 1228 - office connection detected
+240627 1228 - - done -
+240627 1233 - -------- 06.27 12:33 --------
+240627 1233 - new iteration starts
+240627 1233 - current level is 100%
+240627 1233 - office connection detected
+240627 1233 - - done -
+240627 1238 - -------- 06.27 12:38 --------
+240627 1238 - new iteration starts
+240627 1238 - current level is 100%
+240627 1238 - office connection detected
+240627 1238 - - done -
+240627 1243 - -------- 06.27 12:43 --------
+240627 1243 - new iteration starts
+240627 1243 - current level is 100%
+240627 1243 - office connection detected
+240627 1243 - - done -
+240627 1248 - -------- 06.27 12:48 --------
+240627 1248 - new iteration starts
+240627 1248 - current level is 100%
+240627 1248 - office connection detected
+240627 1248 - - done -
+240627 1253 - -------- 06.27 12:53 --------
+240627 1253 - new iteration starts
+240627 1253 - current level is 100%
+240627 1253 - office connection detected
+240627 1253 - - done -
+240627 1258 - -------- 06.27 12:58 --------
+240627 1258 - new iteration starts
+240627 1258 - current level is 100%
+240627 1258 - office connection detected
+240627 1258 - - done -
+240627 1303 - -------- 06.27 13:03 --------
+240627 1303 - new iteration starts
+240627 1303 - current level is 100%
+240627 1303 - office connection detected
+240627 1303 - - done -
+240627 1308 - -------- 06.27 13:08 --------
+240627 1308 - new iteration starts
+240627 1308 - current level is 100%
+240627 1308 - office connection detected
+240627 1308 - - done -
+240627 1313 - -------- 06.27 13:13 --------
+240627 1313 - new iteration starts
+240627 1313 - current level is 100%
+240627 1313 - office connection detected
+240627 1313 - - done -
+240627 1318 - -------- 06.27 13:18 --------
+240627 1318 - new iteration starts
+240627 1318 - current level is 100%
+240627 1318 - office connection detected
+240627 1318 - - done -
+240627 1323 - -------- 06.27 13:23 --------
+240627 1323 - new iteration starts
+240627 1323 - current level is 100%
+240627 1323 - office connection detected
+240627 1323 - - done -
+240627 1328 - -------- 06.27 13:28 --------
+240627 1328 - new iteration starts
+240627 1328 - current level is 100%
+240627 1328 - office connection detected
+240627 1328 - - done -
+240627 1333 - -------- 06.27 13:33 --------
+240627 1333 - new iteration starts
+240627 1333 - current level is 100%
+240627 1333 - office connection detected
+240627 1333 - - done -
+240627 1338 - -------- 06.27 13:38 --------
+240627 1338 - new iteration starts
+240627 1338 - current level is 100%
+240627 1338 - office connection detected
+240627 1338 - - done -
+240627 1343 - -------- 06.27 13:43 --------
+240627 1343 - new iteration starts
+240627 1343 - current level is 100%
+240627 1343 - office connection detected
+240627 1343 - - done -
+240627 1348 - -------- 06.27 13:48 --------
+240627 1348 - new iteration starts
+240627 1348 - current level is 100%
+240627 1348 - office connection detected
+240627 1348 - - done -
+240627 1353 - -------- 06.27 13:53 --------
+240627 1353 - new iteration starts
+240627 1353 - current level is 100%
+240627 1353 - office connection detected
+240627 1353 - - done -
+240627 1358 - -------- 06.27 13:58 --------
+240627 1358 - new iteration starts
+240627 1358 - current level is 100%
+240627 1358 - office connection detected
+240627 1358 - - done -
+240627 1403 - -------- 06.27 14:03 --------
+240627 1403 - new iteration starts
+240627 1403 - current level is 100%
+240627 1403 - office connection detected
+240627 1403 - - done -
+240627 1408 - -------- 06.27 14:08 --------
+240627 1408 - new iteration starts
+240627 1408 - current level is 100%
+240627 1408 - office connection detected
+240627 1408 - - done -
+240627 1413 - -------- 06.27 14:13 --------
+240627 1413 - new iteration starts
+240627 1413 - current level is 100%
+240627 1413 - office connection detected
+240627 1413 - - done -
+240627 1418 - -------- 06.27 14:18 --------
+240627 1418 - new iteration starts
+240627 1418 - current level is 100%
+240627 1418 - office connection detected
+240627 1418 - - done -
+240627 1423 - -------- 06.27 14:23 --------
+240627 1423 - new iteration starts
+240627 1423 - current level is 100%
+240627 1423 - office connection detected
+240627 1423 - - done -
+240627 1428 - -------- 06.27 14:28 --------
+240627 1428 - new iteration starts
+240627 1428 - current level is 100%
+240627 1428 - office connection detected
+240627 1428 - - done -
+240628 0637 - -------- 06.28 06:37 --------
+240628 0637 - new iteration starts
+240628 0637 - current level is 98%
+240628 0637 - 70(l) <= 80(u) <= 98
+240628 0637 - upper limit violation detected
+240628 0637 - already depleting
+240628 0637 - - done -
+240628 0642 - -------- 06.28 06:42 --------
+240628 0642 - new iteration starts
+240628 0642 - current level is 95%
+240628 0642 - 70(l) <= 80(u) <= 95
+240628 0642 - upper limit violation detected
+240628 0642 - already depleting
+240628 0642 - - done -
+240628 0647 - -------- 06.28 06:47 --------
+240628 0647 - new iteration starts
+240628 0647 - current level is 94%
+240628 0647 - 70(l) <= 80(u) <= 94
+240628 0647 - upper limit violation detected
+240628 0647 - already depleting
+240628 0647 - - done -
+240628 0652 - -------- 06.28 06:52 --------
+240628 0652 - new iteration starts
+240628 0652 - current level is 91%
+240628 0652 - 70(l) <= 80(u) <= 91
+240628 0652 - upper limit violation detected
+240628 0652 - already depleting
+240628 0652 - - done -
+240628 0657 - -------- 06.28 06:57 --------
+240628 0657 - new iteration starts
+240628 0657 - current level is 89%
+240628 0657 - 70(l) <= 80(u) <= 89
+240628 0657 - upper limit violation detected
+240628 0657 - already depleting
+240628 0657 - - done -
+240628 0702 - -------- 06.28 07:02 --------
+240628 0702 - new iteration starts
+240628 0702 - current level is 87%
+240628 0702 - 70(l) <= 80(u) <= 87
+240628 0702 - upper limit violation detected
+240628 0702 - already depleting
+240628 0702 - - done -
+240628 0707 - -------- 06.28 07:07 --------
+240628 0707 - new iteration starts
+240628 0707 - current level is 84%
+240628 0707 - 70(l) <= 80(u) <= 84
+240628 0707 - upper limit violation detected
+240628 0707 - already depleting
+240628 0707 - - done -
+240628 0712 - -------- 06.28 07:12 --------
+240628 0712 - new iteration starts
+240628 0712 - current level is 82%
+240628 0712 - 70(l) <= 80(u) <= 82
+240628 0712 - upper limit violation detected
+240628 0712 - already depleting
+240628 0712 - - done -
+240628 0717 - -------- 06.28 07:17 --------
+240628 0717 - new iteration starts
+240628 0717 - current level is 79%
+240628 0717 - 70(l) <= 79 <= 80(u)
+240628 0717 - no limit violation detected
+240628 0717 - - done -
+240628 0722 - -------- 06.28 07:22 --------
+240628 0722 - new iteration starts
+240628 0722 - current level is 77%
+240628 0722 - 70(l) <= 77 <= 80(u)
+240628 0722 - no limit violation detected
+240628 0722 - - done -
+240628 0727 - -------- 06.28 07:27 --------
+240628 0727 - new iteration starts
+240628 0727 - current level is 75%
+240628 0727 - 70(l) <= 75 <= 80(u)
+240628 0727 - no limit violation detected
+240628 0727 - - done -
+240628 0732 - -------- 06.28 07:32 --------
+240628 0732 - new iteration starts
+240628 0732 - current level is 72%
+240628 0732 - 70(l) <= 72 <= 80(u)
+240628 0732 - no limit violation detected
+240628 0732 - - done -
+240628 0737 - -------- 06.28 07:37 --------
+240628 0737 - new iteration starts
+240628 0737 - current level is 70%
+240628 0737 - 70 <= 70(l) <= 80(u)
+240628 0737 - no limit violation detected
+240628 0737 - - done -
+240628 0742 - -------- 06.28 07:42 --------
+240628 0742 - new iteration starts
+240628 0742 - current level is 68%
+240628 0742 - 68 <= 70(l) <= 80(u)
+240628 0742 - lower limit violation detected
+240628 0742 - last trigger was placed due to 63% at 16:00
+240628 0742 - 63 <= 70(l) <= 80(u)
+240628 0742 - last trigger was due to lower limit violation but it is already invalid
+240628 0742 - a new trigger must be set
+240628 0742 - evaluation decides to trigger
+240628 0742 - triggering with 68%
+240628 0742 - place a trigger file: C:\ws\battery\trigger\trigger_240628_0742_68
+240628 0742 - synchronizing git repository
