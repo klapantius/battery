@@ -18774,3 +18774,17 @@
 240701 1438 - triggering with 60%
 240701 1438 - place a trigger file: C:\ws\battery\trigger\trigger_240701_1438_60
 240701 1438 - synchronizing git repository
+240701 1438 - - done -
+240701 1443 - -------- 07.01 14:43 --------
+240701 1443 - new iteration starts
+240701 1443 - current level is 55%
+240701 1443 - 55 <= 70(l) <= 80(u)
+240701 1443 - lower limit violation detected
+240701 1443 - last trigger was placed due to 60% at 14:38
+240701 1443 - 60 <= 70(l) <= 80(u)
+240701 1443 - last trigger was due to lower limit violation and it is not yet invalid
+240701 1443 - based on the last trigger it should be already charging but the charger is off
+240701 1443 - evaluation decides to trigger
+240701 1443 - triggering with 55%
+240701 1443 - place a trigger file: C:\ws\battery\trigger\trigger_240701_1443_55
+240701 1443 - synchronizing git repository
