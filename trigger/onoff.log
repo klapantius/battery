@@ -18634,3 +18634,56 @@
 240701 1316 - triggering with 55%
 240701 1316 - place a trigger file: C:\ws\battery\trigger\trigger_240701_1316_55
 240701 1316 - synchronizing git repository
+240701 1316 - - done -
+240701 1321 - -------- 07.01 13:21 --------
+240701 1321 - new iteration starts
+240701 1321 - current level is 58%
+240701 1321 - 58 <= 70(l) <= 80(u)
+240701 1321 - lower limit violation detected
+240701 1321 - already charging
+240701 1321 - - done -
+240701 1326 - -------- 07.01 13:26 --------
+240701 1326 - new iteration starts
+240701 1326 - current level is 63%
+240701 1326 - 63 <= 70(l) <= 80(u)
+240701 1326 - lower limit violation detected
+240701 1326 - already charging
+240701 1326 - - done -
+240701 1331 - -------- 07.01 13:31 --------
+240701 1331 - new iteration starts
+240701 1331 - current level is 68%
+240701 1331 - 68 <= 70(l) <= 80(u)
+240701 1331 - lower limit violation detected
+240701 1331 - already charging
+240701 1331 - - done -
+240701 1336 - -------- 07.01 13:36 --------
+240701 1336 - new iteration starts
+240701 1336 - current level is 73%
+240701 1336 - 70(l) <= 73 <= 80(u)
+240701 1336 - no limit violation detected
+240701 1336 - - done -
+240701 1341 - -------- 07.01 13:41 --------
+240701 1341 - new iteration starts
+240701 1341 - current level is 77%
+240701 1341 - 70(l) <= 77 <= 80(u)
+240701 1341 - no limit violation detected
+240701 1341 - - done -
+240701 1346 - -------- 07.01 13:46 --------
+240701 1346 - new iteration starts
+240701 1346 - current level is 80%
+240701 1346 - 70(l) <= 80 <= 80(u)
+240701 1346 - no limit violation detected
+240701 1346 - - done -
+240701 1351 - -------- 07.01 13:51 --------
+240701 1351 - new iteration starts
+240701 1351 - current level is 83%
+240701 1351 - 70(l) <= 80(u) <= 83
+240701 1351 - upper limit violation detected
+240701 1351 - last trigger was placed due to 55% at 13:16
+240701 1351 - 55 <= 70(l) <= 80(u)
+240701 1351 - last trigger was due to lower limit violation but it is already invalid
+240701 1351 - a new trigger must be set
+240701 1351 - evaluation decides to trigger
+240701 1351 - triggering with 83%
+240701 1351 - place a trigger file: C:\ws\battery\trigger\trigger_240701_1351_83
+240701 1351 - synchronizing git repository
