@@ -18253,3 +18253,62 @@
 240701 0950 - triggering with 85%
 240701 0950 - place a trigger file: C:\ws\battery\trigger\trigger_240701_0950_85
 240701 0950 - synchronizing git repository
+240701 0950 - - done -
+240701 0955 - -------- 07.01 09:55 --------
+240701 0955 - new iteration starts
+240701 0956 - current level is 86%
+240701 0956 - 70(l) <= 80(u) <= 86
+240701 0956 - upper limit violation detected
+240701 0956 - already depleting
+240701 0956 - - done -
+240701 1001 - -------- 07.01 10:01 --------
+240701 1001 - new iteration starts
+240701 1001 - current level is 84%
+240701 1001 - 70(l) <= 80(u) <= 84
+240701 1001 - upper limit violation detected
+240701 1001 - already depleting
+240701 1001 - - done -
+240701 1006 - -------- 07.01 10:06 --------
+240701 1006 - new iteration starts
+240701 1006 - current level is 82%
+240701 1006 - 70(l) <= 80(u) <= 82
+240701 1006 - upper limit violation detected
+240701 1006 - already depleting
+240701 1006 - - done -
+240701 1011 - -------- 07.01 10:11 --------
+240701 1011 - new iteration starts
+240701 1011 - current level is 79%
+240701 1011 - 70(l) <= 79 <= 80(u)
+240701 1011 - no limit violation detected
+240701 1011 - - done -
+240701 1016 - -------- 07.01 10:16 --------
+240701 1016 - new iteration starts
+240701 1016 - current level is 76%
+240701 1016 - 70(l) <= 76 <= 80(u)
+240701 1016 - no limit violation detected
+240701 1016 - - done -
+240701 1021 - -------- 07.01 10:21 --------
+240701 1021 - new iteration starts
+240701 1021 - current level is 73%
+240701 1021 - 70(l) <= 73 <= 80(u)
+240701 1021 - no limit violation detected
+240701 1021 - - done -
+240701 1026 - -------- 07.01 10:26 --------
+240701 1026 - new iteration starts
+240701 1026 - current level is 70%
+240701 1026 - 70 <= 70(l) <= 80(u)
+240701 1026 - no limit violation detected
+240701 1026 - - done -
+240701 1031 - -------- 07.01 10:31 --------
+240701 1031 - new iteration starts
+240701 1031 - current level is 67%
+240701 1031 - 67 <= 70(l) <= 80(u)
+240701 1031 - lower limit violation detected
+240701 1031 - last trigger was placed due to 85% at 09:50
+240701 1031 - 70(l) <= 80(u) <= 85
+240701 1031 - last trigger was due to upper limit violation but it is already invalid
+240701 1031 - a new trigger must be set
+240701 1031 - evaluation decides to trigger
+240701 1031 - triggering with 67%
+240701 1031 - place a trigger file: C:\ws\battery\trigger\trigger_240701_1031_67
+240701 1031 - synchronizing git repository
