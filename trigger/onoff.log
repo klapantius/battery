@@ -20033,3 +20033,66 @@
 240703 1154 - triggering with 84%
 240703 1154 - place a trigger file: C:\ws\battery\trigger\trigger_240703_1154_84
 240703 1154 - synchronizing git repository
+240703 1155 - - done -
+240703 1200 - -------- 07.03 12:00 --------
+240703 1200 - new iteration starts
+240703 1200 - current level is 82%
+240703 1200 - 70(l) <= 80(u) <= 82
+240703 1200 - upper limit violation detected
+240703 1200 - already depleting
+240703 1200 - - done -
+240703 1205 - -------- 07.03 12:05 --------
+240703 1205 - new iteration starts
+240703 1205 - current level is 80%
+240703 1205 - 70(l) <= 80 <= 80(u)
+240703 1205 - no limit violation detected
+240703 1205 - - done -
+240703 1210 - -------- 07.03 12:10 --------
+240703 1210 - new iteration starts
+240703 1210 - current level is 79%
+240703 1210 - 70(l) <= 79 <= 80(u)
+240703 1210 - no limit violation detected
+240703 1210 - - done -
+240703 1215 - -------- 07.03 12:15 --------
+240703 1215 - new iteration starts
+240703 1215 - current level is 77%
+240703 1215 - 70(l) <= 77 <= 80(u)
+240703 1215 - no limit violation detected
+240703 1215 - - done -
+240703 1220 - -------- 07.03 12:20 --------
+240703 1220 - new iteration starts
+240703 1220 - current level is 75%
+240703 1220 - 70(l) <= 75 <= 80(u)
+240703 1220 - no limit violation detected
+240703 1220 - - done -
+240703 1225 - -------- 07.03 12:25 --------
+240703 1225 - new iteration starts
+240703 1225 - current level is 74%
+240703 1225 - 70(l) <= 74 <= 80(u)
+240703 1225 - no limit violation detected
+240703 1225 - - done -
+240703 1230 - -------- 07.03 12:30 --------
+240703 1230 - new iteration starts
+240703 1230 - current level is 72%
+240703 1230 - 70(l) <= 72 <= 80(u)
+240703 1230 - no limit violation detected
+240703 1230 - - done -
+240703 1235 - -------- 07.03 12:35 --------
+240703 1235 - new iteration starts
+240703 1235 - current level is 70%
+240703 1235 - 70 <= 70(l) <= 80(u)
+240703 1235 - no limit violation detected
+240703 1235 - - done -
+240703 1240 - -------- 07.03 12:40 --------
+240703 1240 - new iteration starts
+240703 1240 - current level is 68%
+240703 1240 - 68 <= 70(l) <= 80(u)
+240703 1240 - lower limit violation detected
+240703 1240 - last trigger was placed due to 84% at 11:54
+240703 1240 - 70(l) <= 80(u) <= 84
+240703 1240 - last trigger was due to upper limit violation but it is already invalid
+240703 1240 - a new trigger must be set
+240703 1240 - evaluation decides to trigger
+240703 1240 - triggering with 68%
+240703 1240 - place a trigger file: C:\ws\battery\trigger\trigger_240703_1240_68
+240703 1240 - synchronizing git repository
