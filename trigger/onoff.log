@@ -19900,3 +19900,55 @@
 240703 1037 - triggering with 87%
 240703 1037 - place a trigger file: C:\ws\battery\trigger\trigger_240703_1037_87
 240703 1037 - synchronizing git repository
+240703 1038 - - done -
+240703 1043 - -------- 07.03 10:43 --------
+240703 1043 - new iteration starts
+240703 1043 - current level is 85%
+240703 1043 - 70(l) <= 80(u) <= 85
+240703 1043 - upper limit violation detected
+240703 1043 - already depleting
+240703 1043 - - done -
+240703 1048 - -------- 07.03 10:48 --------
+240703 1048 - new iteration starts
+240703 1048 - current level is 83%
+240703 1048 - 70(l) <= 80(u) <= 83
+240703 1048 - upper limit violation detected
+240703 1048 - already depleting
+240703 1048 - - done -
+240703 1053 - -------- 07.03 10:53 --------
+240703 1053 - new iteration starts
+240703 1053 - current level is 80%
+240703 1053 - 70(l) <= 80 <= 80(u)
+240703 1053 - no limit violation detected
+240703 1053 - - done -
+240703 1058 - -------- 07.03 10:58 --------
+240703 1058 - new iteration starts
+240703 1058 - current level is 77%
+240703 1058 - 70(l) <= 77 <= 80(u)
+240703 1058 - no limit violation detected
+240703 1058 - - done -
+240703 1103 - -------- 07.03 11:03 --------
+240703 1103 - new iteration starts
+240703 1103 - current level is 73%
+240703 1103 - 70(l) <= 73 <= 80(u)
+240703 1103 - no limit violation detected
+240703 1103 - - done -
+240703 1108 - -------- 07.03 11:08 --------
+240703 1108 - new iteration starts
+240703 1108 - current level is 71%
+240703 1108 - 70(l) <= 71 <= 80(u)
+240703 1108 - no limit violation detected
+240703 1108 - - done -
+240703 1113 - -------- 07.03 11:13 --------
+240703 1113 - new iteration starts
+240703 1113 - current level is 68%
+240703 1113 - 68 <= 70(l) <= 80(u)
+240703 1113 - lower limit violation detected
+240703 1113 - last trigger was placed due to 87% at 10:37
+240703 1113 - 70(l) <= 80(u) <= 87
+240703 1113 - last trigger was due to upper limit violation but it is already invalid
+240703 1113 - a new trigger must be set
+240703 1113 - evaluation decides to trigger
+240703 1113 - triggering with 68%
+240703 1113 - place a trigger file: C:\ws\battery\trigger\trigger_240703_1113_68
+240703 1113 - synchronizing git repository
