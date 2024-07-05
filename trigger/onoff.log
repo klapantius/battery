@@ -20583,3 +20583,653 @@
 240703 1708 - triggering with 47%
 240703 1708 - place a trigger file: C:\ws\battery\trigger\trigger_240703_1708_47
 240703 1708 - synchronizing git repository
+240703 1708 - - done -
+240703 1713 - -------- 07.03 17:13 --------
+240703 1713 - new iteration starts
+240703 1713 - current level is 50%
+240703 1713 - 50 <= 70(l) <= 80(u)
+240703 1713 - lower limit violation detected
+240703 1713 - already charging
+240703 1713 - - done -
+240703 1718 - -------- 07.03 17:18 --------
+240703 1718 - new iteration starts
+240703 1718 - current level is 55%
+240703 1718 - 55 <= 70(l) <= 80(u)
+240703 1718 - lower limit violation detected
+240703 1718 - already charging
+240703 1718 - - done -
+240703 1723 - -------- 07.03 17:23 --------
+240703 1723 - new iteration starts
+240703 1723 - current level is 60%
+240703 1723 - 60 <= 70(l) <= 80(u)
+240703 1723 - lower limit violation detected
+240703 1723 - already charging
+240703 1723 - - done -
+240703 1728 - -------- 07.03 17:28 --------
+240703 1728 - new iteration starts
+240703 1728 - current level is 65%
+240703 1728 - 65 <= 70(l) <= 80(u)
+240703 1728 - lower limit violation detected
+240703 1728 - already charging
+240703 1728 - - done -
+240703 1733 - -------- 07.03 17:33 --------
+240703 1733 - new iteration starts
+240703 1733 - current level is 70%
+240703 1733 - 70 <= 70(l) <= 80(u)
+240703 1733 - no limit violation detected
+240703 1733 - - done -
+240704 0721 - -------- 07.04 07:20 --------
+240704 0721 - new iteration starts
+240704 0721 - current level is 74%
+240704 0721 - office connection detected
+240704 0721 - - done -
+240704 0726 - -------- 07.04 07:26 --------
+240704 0726 - new iteration starts
+240704 0726 - current level is 75%
+240704 0726 - office connection detected
+240704 0726 - - done -
+240704 0731 - -------- 07.04 07:31 --------
+240704 0731 - new iteration starts
+240704 0731 - current level is 78%
+240704 0731 - office connection detected
+240704 0731 - - done -
+240704 0736 - -------- 07.04 07:36 --------
+240704 0736 - new iteration starts
+240704 0736 - current level is 80%
+240704 0736 - office connection detected
+240704 0736 - - done -
+240704 0741 - -------- 07.04 07:41 --------
+240704 0741 - new iteration starts
+240704 0741 - current level is 81%
+240704 0741 - office connection detected
+240704 0741 - - done -
+240704 0746 - -------- 07.04 07:46 --------
+240704 0746 - new iteration starts
+240704 0746 - current level is 83%
+240704 0746 - office connection detected
+240704 0746 - - done -
+240704 0751 - -------- 07.04 07:51 --------
+240704 0751 - new iteration starts
+240704 0751 - current level is 85%
+240704 0751 - office connection detected
+240704 0751 - - done -
+240704 0756 - -------- 07.04 07:56 --------
+240704 0756 - new iteration starts
+240704 0756 - current level is 87%
+240704 0756 - office connection detected
+240704 0756 - - done -
+240704 0801 - -------- 07.04 08:01 --------
+240704 0801 - new iteration starts
+240704 0801 - current level is 88%
+240704 0801 - office connection detected
+240704 0801 - - done -
+240704 0806 - -------- 07.04 08:06 --------
+240704 0806 - new iteration starts
+240704 0806 - current level is 89%
+240704 0806 - office connection detected
+240704 0806 - - done -
+240704 0811 - -------- 07.04 08:11 --------
+240704 0811 - new iteration starts
+240704 0811 - current level is 91%
+240704 0811 - office connection detected
+240704 0811 - - done -
+240704 0816 - -------- 07.04 08:16 --------
+240704 0816 - new iteration starts
+240704 0816 - current level is 92%
+240704 0816 - office connection detected
+240704 0816 - - done -
+240704 0821 - -------- 07.04 08:21 --------
+240704 0821 - new iteration starts
+240704 0821 - current level is 93%
+240704 0821 - office connection detected
+240704 0821 - - done -
+240704 0826 - -------- 07.04 08:26 --------
+240704 0826 - new iteration starts
+240704 0826 - current level is 94%
+240704 0826 - office connection detected
+240704 0826 - - done -
+240704 0831 - -------- 07.04 08:31 --------
+240704 0831 - new iteration starts
+240704 0831 - current level is 94%
+240704 0831 - office connection detected
+240704 0831 - - done -
+240704 0836 - -------- 07.04 08:36 --------
+240704 0836 - new iteration starts
+240704 0836 - current level is 95%
+240704 0836 - office connection detected
+240704 0836 - - done -
+240704 0841 - -------- 07.04 08:41 --------
+240704 0841 - new iteration starts
+240704 0841 - current level is 96%
+240704 0841 - office connection detected
+240704 0841 - - done -
+240704 0846 - -------- 07.04 08:46 --------
+240704 0846 - new iteration starts
+240704 0846 - current level is 96%
+240704 0846 - office connection detected
+240704 0846 - - done -
+240704 0851 - -------- 07.04 08:51 --------
+240704 0851 - new iteration starts
+240704 0851 - current level is 97%
+240704 0851 - office connection detected
+240704 0851 - - done -
+240704 0856 - -------- 07.04 08:56 --------
+240704 0856 - new iteration starts
+240704 0856 - current level is 97%
+240704 0856 - office connection detected
+240704 0856 - - done -
+240704 0901 - -------- 07.04 09:01 --------
+240704 0901 - new iteration starts
+240704 0901 - current level is 97%
+240704 0901 - office connection detected
+240704 0901 - - done -
+240704 0906 - -------- 07.04 09:06 --------
+240704 0906 - new iteration starts
+240704 0906 - current level is 100%
+240704 0906 - office connection detected
+240704 0906 - - done -
+240704 0911 - -------- 07.04 09:11 --------
+240704 0911 - new iteration starts
+240704 0911 - current level is 100%
+240704 0911 - office connection detected
+240704 0911 - - done -
+240704 0916 - -------- 07.04 09:16 --------
+240704 0916 - new iteration starts
+240704 0916 - current level is 100%
+240704 0916 - office connection detected
+240704 0916 - - done -
+240704 0921 - -------- 07.04 09:21 --------
+240704 0921 - new iteration starts
+240704 0921 - current level is 100%
+240704 0921 - office connection detected
+240704 0921 - - done -
+240704 0926 - -------- 07.04 09:26 --------
+240704 0926 - new iteration starts
+240704 0926 - current level is 100%
+240704 0926 - office connection detected
+240704 0926 - - done -
+240704 0931 - -------- 07.04 09:31 --------
+240704 0931 - new iteration starts
+240704 0931 - current level is 100%
+240704 0931 - office connection detected
+240704 0931 - - done -
+240704 0936 - -------- 07.04 09:36 --------
+240704 0936 - new iteration starts
+240704 0936 - current level is 100%
+240704 0936 - office connection detected
+240704 0936 - - done -
+240704 0941 - -------- 07.04 09:41 --------
+240704 0941 - new iteration starts
+240704 0941 - current level is 100%
+240704 0941 - office connection detected
+240704 0941 - - done -
+240704 0946 - -------- 07.04 09:46 --------
+240704 0946 - new iteration starts
+240704 0946 - current level is 100%
+240704 0946 - office connection detected
+240704 0946 - - done -
+240704 0951 - -------- 07.04 09:51 --------
+240704 0951 - new iteration starts
+240704 0951 - current level is 100%
+240704 0951 - office connection detected
+240704 0951 - - done -
+240704 0956 - -------- 07.04 09:56 --------
+240704 0956 - new iteration starts
+240704 0956 - current level is 100%
+240704 0956 - office connection detected
+240704 0956 - - done -
+240704 1001 - -------- 07.04 10:01 --------
+240704 1001 - new iteration starts
+240704 1001 - current level is 100%
+240704 1001 - office connection detected
+240704 1001 - - done -
+240704 1006 - -------- 07.04 10:06 --------
+240704 1006 - new iteration starts
+240704 1006 - current level is 100%
+240704 1006 - office connection detected
+240704 1006 - - done -
+240704 1011 - -------- 07.04 10:11 --------
+240704 1011 - new iteration starts
+240704 1011 - current level is 100%
+240704 1011 - office connection detected
+240704 1011 - - done -
+240704 1016 - -------- 07.04 10:16 --------
+240704 1016 - new iteration starts
+240704 1016 - current level is 100%
+240704 1016 - office connection detected
+240704 1016 - - done -
+240704 1021 - -------- 07.04 10:21 --------
+240704 1021 - new iteration starts
+240704 1021 - current level is 100%
+240704 1021 - office connection detected
+240704 1021 - - done -
+240704 1026 - -------- 07.04 10:26 --------
+240704 1026 - new iteration starts
+240704 1026 - current level is 100%
+240704 1026 - office connection detected
+240704 1026 - - done -
+240704 1031 - -------- 07.04 10:31 --------
+240704 1031 - new iteration starts
+240704 1031 - current level is 100%
+240704 1031 - office connection detected
+240704 1031 - - done -
+240704 1036 - -------- 07.04 10:36 --------
+240704 1036 - new iteration starts
+240704 1036 - current level is 100%
+240704 1036 - office connection detected
+240704 1036 - - done -
+240704 1041 - -------- 07.04 10:41 --------
+240704 1041 - new iteration starts
+240704 1041 - current level is 100%
+240704 1041 - office connection detected
+240704 1041 - - done -
+240704 1046 - -------- 07.04 10:46 --------
+240704 1046 - new iteration starts
+240704 1046 - current level is 100%
+240704 1046 - office connection detected
+240704 1046 - - done -
+240704 1051 - -------- 07.04 10:51 --------
+240704 1051 - new iteration starts
+240704 1051 - current level is 100%
+240704 1051 - office connection detected
+240704 1051 - - done -
+240704 1056 - -------- 07.04 10:56 --------
+240704 1056 - new iteration starts
+240704 1056 - current level is 100%
+240704 1056 - office connection detected
+240704 1056 - - done -
+240704 1101 - -------- 07.04 11:01 --------
+240704 1101 - new iteration starts
+240704 1101 - current level is 100%
+240704 1101 - office connection detected
+240704 1101 - - done -
+240704 1106 - -------- 07.04 11:06 --------
+240704 1106 - new iteration starts
+240704 1106 - current level is 100%
+240704 1106 - office connection detected
+240704 1106 - - done -
+240704 1111 - -------- 07.04 11:11 --------
+240704 1111 - new iteration starts
+240704 1111 - current level is 100%
+240704 1111 - office connection detected
+240704 1111 - - done -
+240704 1116 - -------- 07.04 11:16 --------
+240704 1116 - new iteration starts
+240704 1116 - current level is 100%
+240704 1116 - office connection detected
+240704 1116 - - done -
+240704 1121 - -------- 07.04 11:21 --------
+240704 1121 - new iteration starts
+240704 1121 - current level is 100%
+240704 1121 - office connection detected
+240704 1121 - - done -
+240704 1126 - -------- 07.04 11:26 --------
+240704 1126 - new iteration starts
+240704 1126 - current level is 100%
+240704 1126 - office connection detected
+240704 1126 - - done -
+240704 1131 - -------- 07.04 11:31 --------
+240704 1131 - new iteration starts
+240704 1131 - current level is 100%
+240704 1131 - office connection detected
+240704 1131 - - done -
+240704 1136 - -------- 07.04 11:36 --------
+240704 1136 - new iteration starts
+240704 1136 - current level is 100%
+240704 1136 - office connection detected
+240704 1136 - - done -
+240704 1141 - -------- 07.04 11:41 --------
+240704 1141 - new iteration starts
+240704 1141 - current level is 100%
+240704 1141 - office connection detected
+240704 1141 - - done -
+240704 1146 - -------- 07.04 11:46 --------
+240704 1146 - new iteration starts
+240704 1146 - current level is 100%
+240704 1146 - office connection detected
+240704 1146 - - done -
+240704 1151 - -------- 07.04 11:51 --------
+240704 1151 - new iteration starts
+240704 1151 - current level is 100%
+240704 1151 - office connection detected
+240704 1151 - - done -
+240704 1156 - -------- 07.04 11:56 --------
+240704 1156 - new iteration starts
+240704 1156 - current level is 100%
+240704 1156 - office connection detected
+240704 1156 - - done -
+240704 1201 - -------- 07.04 12:01 --------
+240704 1201 - new iteration starts
+240704 1201 - current level is 100%
+240704 1201 - office connection detected
+240704 1201 - - done -
+240704 1206 - -------- 07.04 12:06 --------
+240704 1206 - new iteration starts
+240704 1206 - current level is 100%
+240704 1206 - office connection detected
+240704 1206 - - done -
+240704 1211 - -------- 07.04 12:11 --------
+240704 1211 - new iteration starts
+240704 1211 - current level is 100%
+240704 1211 - office connection detected
+240704 1211 - - done -
+240704 1216 - -------- 07.04 12:16 --------
+240704 1216 - new iteration starts
+240704 1216 - current level is 100%
+240704 1216 - office connection detected
+240704 1216 - - done -
+240704 1221 - -------- 07.04 12:21 --------
+240704 1221 - new iteration starts
+240704 1221 - current level is 100%
+240704 1221 - office connection detected
+240704 1221 - - done -
+240704 1226 - -------- 07.04 12:26 --------
+240704 1226 - new iteration starts
+240704 1226 - current level is 100%
+240704 1226 - office connection detected
+240704 1226 - - done -
+240704 1231 - -------- 07.04 12:31 --------
+240704 1231 - new iteration starts
+240704 1231 - current level is 100%
+240704 1231 - office connection detected
+240704 1231 - - done -
+240704 1236 - -------- 07.04 12:36 --------
+240704 1236 - new iteration starts
+240704 1236 - current level is 100%
+240704 1236 - office connection detected
+240704 1236 - - done -
+240704 1241 - -------- 07.04 12:41 --------
+240704 1241 - new iteration starts
+240704 1241 - current level is 100%
+240704 1241 - office connection detected
+240704 1241 - - done -
+240704 1246 - -------- 07.04 12:46 --------
+240704 1246 - new iteration starts
+240704 1246 - current level is 100%
+240704 1246 - office connection detected
+240704 1246 - - done -
+240704 1251 - -------- 07.04 12:51 --------
+240704 1251 - new iteration starts
+240704 1251 - current level is 100%
+240704 1251 - office connection detected
+240704 1251 - - done -
+240704 1256 - -------- 07.04 12:56 --------
+240704 1256 - new iteration starts
+240704 1256 - current level is 100%
+240704 1256 - office connection detected
+240704 1256 - - done -
+240704 1301 - -------- 07.04 13:01 --------
+240704 1301 - new iteration starts
+240704 1301 - current level is 100%
+240704 1301 - office connection detected
+240704 1301 - - done -
+240704 1306 - -------- 07.04 13:06 --------
+240704 1306 - new iteration starts
+240704 1306 - current level is 100%
+240704 1306 - office connection detected
+240704 1306 - - done -
+240704 1311 - -------- 07.04 13:11 --------
+240704 1311 - new iteration starts
+240704 1311 - current level is 100%
+240704 1311 - office connection detected
+240704 1311 - - done -
+240704 1316 - -------- 07.04 13:16 --------
+240704 1316 - new iteration starts
+240704 1316 - current level is 100%
+240704 1316 - office connection detected
+240704 1316 - - done -
+240704 1321 - -------- 07.04 13:21 --------
+240704 1321 - new iteration starts
+240704 1321 - current level is 100%
+240704 1321 - office connection detected
+240704 1321 - - done -
+240704 1326 - -------- 07.04 13:26 --------
+240704 1326 - new iteration starts
+240704 1326 - current level is 100%
+240704 1326 - office connection detected
+240704 1326 - - done -
+240704 1331 - -------- 07.04 13:31 --------
+240704 1331 - new iteration starts
+240704 1331 - current level is 100%
+240704 1331 - office connection detected
+240704 1331 - - done -
+240704 1336 - -------- 07.04 13:36 --------
+240704 1336 - new iteration starts
+240704 1336 - current level is 100%
+240704 1336 - office connection detected
+240704 1336 - - done -
+240704 1341 - -------- 07.04 13:41 --------
+240704 1341 - new iteration starts
+240704 1341 - current level is 100%
+240704 1341 - office connection detected
+240704 1341 - - done -
+240704 1346 - -------- 07.04 13:46 --------
+240704 1346 - new iteration starts
+240704 1346 - current level is 100%
+240704 1346 - office connection detected
+240704 1346 - - done -
+240704 1351 - -------- 07.04 13:51 --------
+240704 1351 - new iteration starts
+240704 1351 - current level is 100%
+240704 1351 - office connection detected
+240704 1351 - - done -
+240704 1356 - -------- 07.04 13:56 --------
+240704 1356 - new iteration starts
+240704 1356 - current level is 100%
+240704 1356 - office connection detected
+240704 1356 - - done -
+240704 1401 - -------- 07.04 14:01 --------
+240704 1401 - new iteration starts
+240704 1401 - current level is 100%
+240704 1401 - office connection detected
+240704 1401 - - done -
+240704 1406 - -------- 07.04 14:06 --------
+240704 1406 - new iteration starts
+240704 1406 - current level is 100%
+240704 1406 - office connection detected
+240704 1406 - - done -
+240704 1411 - -------- 07.04 14:11 --------
+240704 1411 - new iteration starts
+240704 1411 - current level is 100%
+240704 1411 - office connection detected
+240704 1411 - - done -
+240704 1416 - -------- 07.04 14:16 --------
+240704 1416 - new iteration starts
+240704 1416 - current level is 100%
+240704 1416 - office connection detected
+240704 1416 - - done -
+240704 1421 - -------- 07.04 14:21 --------
+240704 1421 - new iteration starts
+240704 1421 - current level is 100%
+240704 1421 - office connection detected
+240704 1421 - - done -
+240704 1426 - -------- 07.04 14:26 --------
+240704 1426 - new iteration starts
+240704 1426 - current level is 100%
+240704 1426 - office connection detected
+240704 1426 - - done -
+240704 1431 - -------- 07.04 14:31 --------
+240704 1431 - new iteration starts
+240704 1431 - current level is 100%
+240704 1431 - office connection detected
+240704 1431 - - done -
+240704 1436 - -------- 07.04 14:36 --------
+240704 1436 - new iteration starts
+240704 1436 - current level is 100%
+240704 1436 - office connection detected
+240704 1436 - - done -
+240704 1441 - -------- 07.04 14:41 --------
+240704 1441 - new iteration starts
+240704 1441 - current level is 100%
+240704 1441 - office connection detected
+240704 1441 - - done -
+240704 1446 - -------- 07.04 14:46 --------
+240704 1446 - new iteration starts
+240704 1446 - current level is 100%
+240704 1446 - office connection detected
+240704 1446 - - done -
+240704 1451 - -------- 07.04 14:51 --------
+240704 1451 - new iteration starts
+240704 1451 - current level is 100%
+240704 1451 - office connection detected
+240704 1451 - - done -
+240704 1456 - -------- 07.04 14:56 --------
+240704 1456 - new iteration starts
+240704 1456 - current level is 100%
+240704 1456 - office connection detected
+240704 1456 - - done -
+240704 1501 - -------- 07.04 15:01 --------
+240704 1501 - new iteration starts
+240704 1501 - current level is 100%
+240704 1501 - office connection detected
+240704 1501 - - done -
+240704 1506 - -------- 07.04 15:06 --------
+240704 1506 - new iteration starts
+240704 1506 - current level is 100%
+240704 1506 - office connection detected
+240704 1506 - - done -
+240704 1511 - -------- 07.04 15:11 --------
+240704 1511 - new iteration starts
+240704 1511 - current level is 100%
+240704 1511 - office connection detected
+240704 1511 - - done -
+240704 1516 - -------- 07.04 15:16 --------
+240704 1516 - new iteration starts
+240704 1516 - current level is 100%
+240704 1516 - office connection detected
+240704 1516 - - done -
+240704 1521 - -------- 07.04 15:21 --------
+240704 1521 - new iteration starts
+240704 1521 - current level is 100%
+240704 1521 - office connection detected
+240704 1521 - - done -
+240704 1526 - -------- 07.04 15:26 --------
+240704 1526 - new iteration starts
+240704 1526 - current level is 100%
+240704 1526 - office connection detected
+240704 1526 - - done -
+240704 1531 - -------- 07.04 15:31 --------
+240704 1531 - new iteration starts
+240704 1531 - current level is 100%
+240704 1531 - office connection detected
+240704 1531 - - done -
+240704 1536 - -------- 07.04 15:36 --------
+240704 1536 - new iteration starts
+240704 1536 - current level is 100%
+240704 1536 - office connection detected
+240704 1536 - - done -
+240704 1541 - -------- 07.04 15:41 --------
+240704 1541 - new iteration starts
+240704 1541 - current level is 100%
+240704 1541 - office connection detected
+240704 1541 - - done -
+240704 1546 - -------- 07.04 15:46 --------
+240704 1546 - new iteration starts
+240704 1546 - current level is 100%
+240704 1546 - office connection detected
+240704 1546 - - done -
+240704 1551 - -------- 07.04 15:51 --------
+240704 1551 - new iteration starts
+240704 1551 - current level is 100%
+240704 1551 - office connection detected
+240704 1551 - - done -
+240704 1556 - -------- 07.04 15:56 --------
+240704 1556 - new iteration starts
+240704 1556 - current level is 100%
+240704 1556 - office connection detected
+240704 1556 - - done -
+240704 1601 - -------- 07.04 16:01 --------
+240704 1601 - new iteration starts
+240704 1601 - current level is 100%
+240704 1601 - office connection detected
+240704 1601 - - done -
+240704 1606 - -------- 07.04 16:06 --------
+240704 1606 - new iteration starts
+240704 1606 - current level is 100%
+240704 1606 - office connection detected
+240704 1606 - - done -
+240705 0659 - -------- 07.05 06:59 --------
+240705 0659 - new iteration starts
+240705 0659 - current level is 97%
+240705 0659 - 70(l) <= 80(u) <= 97
+240705 0659 - upper limit violation detected
+240705 0659 - already depleting
+240705 0659 - - done -
+240705 0704 - -------- 07.05 07:04 --------
+240705 0704 - new iteration starts
+240705 0704 - current level is 94%
+240705 0704 - 70(l) <= 80(u) <= 94
+240705 0704 - upper limit violation detected
+240705 0704 - already depleting
+240705 0704 - - done -
+240705 0709 - -------- 07.05 07:09 --------
+240705 0709 - new iteration starts
+240705 0709 - current level is 91%
+240705 0709 - 70(l) <= 80(u) <= 91
+240705 0709 - upper limit violation detected
+240705 0709 - already depleting
+240705 0709 - - done -
+240705 0714 - -------- 07.05 07:14 --------
+240705 0714 - new iteration starts
+240705 0714 - current level is 88%
+240705 0714 - 70(l) <= 80(u) <= 88
+240705 0714 - upper limit violation detected
+240705 0714 - already depleting
+240705 0714 - - done -
+240705 0719 - -------- 07.05 07:19 --------
+240705 0719 - new iteration starts
+240705 0719 - current level is 85%
+240705 0719 - 70(l) <= 80(u) <= 85
+240705 0719 - upper limit violation detected
+240705 0719 - already depleting
+240705 0719 - - done -
+240705 0724 - -------- 07.05 07:24 --------
+240705 0724 - new iteration starts
+240705 0724 - current level is 83%
+240705 0724 - 70(l) <= 80(u) <= 83
+240705 0724 - upper limit violation detected
+240705 0724 - already depleting
+240705 0724 - - done -
+240705 0729 - -------- 07.05 07:29 --------
+240705 0729 - new iteration starts
+240705 0729 - current level is 80%
+240705 0729 - 70(l) <= 80 <= 80(u)
+240705 0729 - no limit violation detected
+240705 0729 - - done -
+240705 0734 - -------- 07.05 07:34 --------
+240705 0734 - new iteration starts
+240705 0734 - current level is 78%
+240705 0734 - 70(l) <= 78 <= 80(u)
+240705 0734 - no limit violation detected
+240705 0734 - - done -
+240705 0739 - -------- 07.05 07:39 --------
+240705 0739 - new iteration starts
+240705 0739 - current level is 76%
+240705 0739 - 70(l) <= 76 <= 80(u)
+240705 0739 - no limit violation detected
+240705 0739 - - done -
+240705 0744 - -------- 07.05 07:44 --------
+240705 0744 - new iteration starts
+240705 0744 - current level is 73%
+240705 0744 - 70(l) <= 73 <= 80(u)
+240705 0744 - no limit violation detected
+240705 0744 - - done -
+240705 0749 - -------- 07.05 07:49 --------
+240705 0749 - new iteration starts
+240705 0750 - current level is 71%
+240705 0750 - 70(l) <= 71 <= 80(u)
+240705 0750 - no limit violation detected
+240705 0750 - - done -
+240705 0755 - -------- 07.05 07:55 --------
+240705 0755 - new iteration starts
+240705 0755 - current level is 69%
+240705 0755 - 69 <= 70(l) <= 80(u)
+240705 0755 - lower limit violation detected
+240705 0755 - last trigger was placed due to 47% at 17:08
+240705 0755 - 47 <= 70(l) <= 80(u)
+240705 0755 - last trigger was due to lower limit violation but it is already invalid
+240705 0755 - a new trigger must be set
+240705 0755 - evaluation decides to trigger
+240705 0755 - triggering with 69%
+240705 0755 - place a trigger file: C:\ws\battery\trigger\trigger_240705_0755_69
+240705 0755 - synchronizing git repository
