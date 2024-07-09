@@ -14,9 +14,9 @@ function get-violation {
 
 function x {
   return [PSCustomObject]@{
-    activeLimit = "lower"
+    activeLimit          = "lower"
     expectedChargerState = "loading"
-    textWhenStatusError = ""
+    textWhenStatusError  = ""
   }
 }
 
@@ -41,7 +41,15 @@ function trigger-or-alarm {
     write-log "a new trigger must be set"
     return $currentLevel
   }
-  show-notification $errorMessage
+  # run logging in an older powershell version because the .net core version does not support the toast notification
+  $env:BatteryManagerErrorMessage = $errorMessage
+  powershell {
+    Write-Host "errorMessage: $errorMessage"
+    Write-Host "global errorMessage: $env:BatteryManagerErrorMessage"
+    import-module ".\logging.ps1" -Force
+    show-notification -ToastText $env:BatteryManagerErrorMessage
+    $env:BatteryManagerErrorMessage = $null
+  }
   return $null
 }
 
@@ -74,7 +82,7 @@ function evaluate {
           -currentLevel $currentLevel `
           -activeLimit $activeLimit `
           -errorMessage "based on the last trigger it should be already charging but the charger is off"
-        }
+      }
       if ($activeLimit -eq 'upper') {
         if ($isDepleting) {
           write-log "already depleting"
@@ -122,5 +130,5 @@ function launch {
     return $null
   }
   evaluate -force $force -currentLevel $currentLevel -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold |
-    trigger-ifttt
+  trigger-ifttt
 }

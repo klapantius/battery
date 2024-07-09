@@ -10,7 +10,7 @@ param(
 . "$PSScriptRoot\onoff-functions.ps1" -force # load first
 
 function Start-Once {
-  . "$PSScriptRoot\onoff-functions.ps1" -force # reload every time to ensure latest design
+  import-module "$PSScriptRoot\onoff-functions.ps1" -force # reload every time to ensure latest design
   launch -force $force -lowerTreshold $lowerTreshold -upperTreshold $upperTreshold
 }
 
