@@ -23961,3 +23961,54 @@
 240709 1507 - triggering with 66%
 240709 1507 - place a trigger file: C:\ws\battery\trigger\trigger_240709_1507_66
 240709 1507 - synchronizing git repository
+240709 1507 - - done -
+240709 1512 - -------- 07.09 15:12 --------
+240709 1512 - new iteration starts
+240709 1512 - current level is 69%
+240709 1512 - 69 <= 70(l) <= 80(u)
+240709 1512 - lower limit violation detected
+240709 1512 - already charging
+240709 1512 - - done -
+240709 1517 - -------- 07.09 15:17 --------
+240709 1517 - new iteration starts
+240709 1517 - current level is 74%
+240709 1517 - 70(l) <= 74 <= 80(u)
+240709 1517 - no limit violation detected
+240709 1517 - - done -
+240709 1522 - -------- 07.09 15:22 --------
+240709 1522 - new iteration starts
+240709 1522 - current level is 78%
+240709 1522 - 70(l) <= 78 <= 80(u)
+240709 1522 - no limit violation detected
+240709 1522 - - done -
+240709 1527 - -------- 07.09 15:27 --------
+240709 1527 - new iteration starts
+240709 1527 - current level is 76%
+240709 1527 - 70(l) <= 76 <= 80(u)
+240709 1527 - no limit violation detected
+240709 1527 - - done -
+240709 1532 - -------- 07.09 15:32 --------
+240709 1532 - new iteration starts
+240709 1532 - current level is 74%
+240709 1532 - 70(l) <= 74 <= 80(u)
+240709 1532 - no limit violation detected
+240709 1532 - - done -
+240709 1537 - -------- 07.09 15:37 --------
+240709 1537 - new iteration starts
+240709 1537 - current level is 71%
+240709 1537 - 70(l) <= 71 <= 80(u)
+240709 1537 - no limit violation detected
+240709 1537 - - done -
+240709 1542 - -------- 07.09 15:42 --------
+240709 1542 - new iteration starts
+240709 1542 - current level is 69%
+240709 1542 - 69 <= 70(l) <= 80(u)
+240709 1542 - lower limit violation detected
+240709 1542 - last trigger was placed due to 66% at 15:07
+240709 1542 - 66 <= 70(l) <= 80(u)
+240709 1542 - last trigger was due to lower limit violation but it is already invalid
+240709 1542 - a new trigger must be set
+240709 1542 - evaluation decides to trigger
+240709 1542 - triggering with 69%
+240709 1542 - place a trigger file: C:\ws\battery\trigger\trigger_240709_1542_69
+240709 1542 - synchronizing git repository
