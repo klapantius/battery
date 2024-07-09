@@ -23281,3 +23281,16 @@
 240709 0920 - triggering with 88%
 240709 0920 - place a trigger file: C:\ws\battery\trigger\trigger_240709_0920_88
 240709 0920 - synchronizing git repository
+240709 0920 - - done -
+240709 0922 - -------- 07.09 09:22 --------
+240709 0922 - new iteration starts
+240709 0922 - current level is 88%
+240709 0922 - 70(l) <= 80(u) <= 88
+240709 0922 - upper limit violation detected
+240709 0922 - last trigger was placed due to 88% at 09:20
+240709 0922 - 70(l) <= 80(u) <= 88
+240709 0922 - last trigger was due to upper limit violation and it is not yet invalid
+240709 0922 - evaluation decides to trigger
+240709 0922 - triggering with 88%
+240709 0922 - place a trigger file: C:\ws\battery\trigger\trigger_240709_0922_88
+240709 0922 - synchronizing git repository
