@@ -28311,3 +28311,55 @@
 240812 1516 - triggering with 57%
 240812 1516 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240812_1516_57
 240812 1516 - synchronizing git repository
+240812 1516 - - done -
+240812 1521 - -------- 08.12 15:21 --------
+240812 1521 - new iteration starts
+240812 1521 - current level is 62%
+240812 1521 - 62 <= 70(l) <= 80(u)
+240812 1521 - lower limit violation detected
+240812 1521 - already charging
+240812 1521 - - done -
+240812 1526 - -------- 08.12 15:26 --------
+240812 1526 - new iteration starts
+240812 1526 - current level is 67%
+240812 1526 - 67 <= 70(l) <= 80(u)
+240812 1526 - lower limit violation detected
+240812 1526 - already charging
+240812 1526 - - done -
+240812 1531 - -------- 08.12 15:31 --------
+240812 1531 - new iteration starts
+240812 1531 - current level is 73%
+240812 1531 - 70(l) <= 73 <= 80(u)
+240812 1531 - no limit violation detected
+240812 1531 - - done -
+240812 1536 - -------- 08.12 15:36 --------
+240812 1536 - new iteration starts
+240812 1536 - current level is 78%
+240812 1536 - 70(l) <= 78 <= 80(u)
+240812 1536 - no limit violation detected
+240812 1536 - - done -
+240812 1541 - -------- 08.12 15:41 --------
+240812 1541 - new iteration starts
+240812 1541 - current level is 75%
+240812 1541 - 70(l) <= 75 <= 80(u)
+240812 1541 - no limit violation detected
+240812 1541 - - done -
+240812 1546 - -------- 08.12 15:46 --------
+240812 1546 - new iteration starts
+240812 1546 - current level is 71%
+240812 1546 - 70(l) <= 71 <= 80(u)
+240812 1546 - no limit violation detected
+240812 1546 - - done -
+240812 1551 - -------- 08.12 15:51 --------
+240812 1551 - new iteration starts
+240812 1551 - current level is 68%
+240812 1551 - 68 <= 70(l) <= 80(u)
+240812 1551 - lower limit violation detected
+240812 1551 - last trigger was placed due to 57% at 15:16
+240812 1551 - 57 <= 70(l) <= 80(u)
+240812 1551 - last trigger was due to lower limit violation but it is already invalid
+240812 1551 - a new trigger must be set
+240812 1551 - evaluation decides to trigger
+240812 1551 - triggering with 68%
+240812 1551 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240812_1551_68
+240812 1551 - synchronizing git repository
