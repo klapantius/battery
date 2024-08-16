@@ -30391,3 +30391,109 @@
 240816 0948 - triggering with 98%
 240816 0948 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240816_0948_98
 240816 0948 - synchronizing git repository
+240816 0948 - - done -
+240816 0953 - -------- 08.16 09:53 --------
+240816 0953 - new iteration starts
+240816 0953 - current level is 98%
+240816 0953 - 70(l) <= 80(u) <= 98
+240816 0953 - upper limit violation detected
+240816 0953 - already depleting
+240816 0953 - - done -
+240816 0958 - -------- 08.16 09:58 --------
+240816 0958 - new iteration starts
+240816 0958 - current level is 96%
+240816 0958 - 70(l) <= 80(u) <= 96
+240816 0958 - upper limit violation detected
+240816 0958 - already depleting
+240816 0958 - - done -
+240816 1003 - -------- 08.16 10:03 --------
+240816 1003 - new iteration starts
+240816 1003 - current level is 93%
+240816 1003 - 70(l) <= 80(u) <= 93
+240816 1003 - upper limit violation detected
+240816 1003 - already depleting
+240816 1003 - - done -
+240816 1008 - -------- 08.16 10:08 --------
+240816 1008 - new iteration starts
+240816 1008 - current level is 91%
+240816 1008 - 70(l) <= 80(u) <= 91
+240816 1008 - upper limit violation detected
+240816 1008 - already depleting
+240816 1008 - - done -
+240816 1013 - -------- 08.16 10:13 --------
+240816 1013 - new iteration starts
+240816 1013 - current level is 89%
+240816 1013 - 70(l) <= 80(u) <= 89
+240816 1013 - upper limit violation detected
+240816 1013 - already depleting
+240816 1013 - - done -
+240816 1018 - -------- 08.16 10:18 --------
+240816 1018 - new iteration starts
+240816 1018 - current level is 87%
+240816 1018 - 70(l) <= 80(u) <= 87
+240816 1018 - upper limit violation detected
+240816 1018 - already depleting
+240816 1018 - - done -
+240816 1023 - -------- 08.16 10:23 --------
+240816 1023 - new iteration starts
+240816 1023 - current level is 84%
+240816 1023 - 70(l) <= 80(u) <= 84
+240816 1023 - upper limit violation detected
+240816 1023 - already depleting
+240816 1023 - - done -
+240816 1028 - -------- 08.16 10:28 --------
+240816 1028 - new iteration starts
+240816 1028 - current level is 81%
+240816 1028 - 70(l) <= 80(u) <= 81
+240816 1028 - upper limit violation detected
+240816 1028 - already depleting
+240816 1028 - - done -
+240816 1033 - -------- 08.16 10:33 --------
+240816 1033 - new iteration starts
+240816 1033 - current level is 79%
+240816 1033 - 70(l) <= 79 <= 80(u)
+240816 1033 - no limit violation detected
+240816 1033 - - done -
+240816 1038 - -------- 08.16 10:38 --------
+240816 1038 - new iteration starts
+240816 1038 - current level is 77%
+240816 1038 - 70(l) <= 77 <= 80(u)
+240816 1038 - no limit violation detected
+240816 1038 - - done -
+240816 1043 - -------- 08.16 10:43 --------
+240816 1043 - new iteration starts
+240816 1043 - current level is 75%
+240816 1043 - 70(l) <= 75 <= 80(u)
+240816 1043 - no limit violation detected
+240816 1043 - - done -
+240816 1048 - -------- 08.16 10:48 --------
+240816 1048 - new iteration starts
+240816 1048 - current level is 74%
+240816 1048 - 70(l) <= 74 <= 80(u)
+240816 1048 - no limit violation detected
+240816 1048 - - done -
+240816 1053 - -------- 08.16 10:53 --------
+240816 1053 - new iteration starts
+240816 1053 - current level is 73%
+240816 1053 - 70(l) <= 73 <= 80(u)
+240816 1053 - no limit violation detected
+240816 1053 - - done -
+240816 1058 - -------- 08.16 10:58 --------
+240816 1058 - new iteration starts
+240816 1058 - current level is 71%
+240816 1058 - 70(l) <= 71 <= 80(u)
+240816 1058 - no limit violation detected
+240816 1058 - - done -
+240816 1103 - -------- 08.16 11:03 --------
+240816 1103 - new iteration starts
+240816 1103 - current level is 68%
+240816 1103 - 68 <= 70(l) <= 80(u)
+240816 1103 - lower limit violation detected
+240816 1103 - last trigger was placed due to 98% at 09:48
+240816 1103 - 70(l) <= 80(u) <= 98
+240816 1103 - last trigger was due to upper limit violation but it is already invalid
+240816 1103 - a new trigger must be set
+240816 1103 - evaluation decides to trigger
+240816 1103 - triggering with 68%
+240816 1103 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240816_1103_68
+240816 1103 - synchronizing git repository
