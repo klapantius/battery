@@ -36246,3 +36246,53 @@
 240916 0746 - triggering with 82%
 240916 0746 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240916_0746_82
 240916 0746 - synchronizing git repository
+240916 0746 - - done -
+240916 0751 - -------- 09.16 07:51 --------
+240916 0751 - new iteration starts
+240916 0751 - current level is 80%
+240916 0751 - 70(l) <= 80 <= 80(u)
+240916 0751 - no limit violation detected
+240916 0751 - - done -
+240916 0756 - -------- 09.16 07:56 --------
+240916 0756 - new iteration starts
+240916 0756 - current level is 78%
+240916 0756 - 70(l) <= 78 <= 80(u)
+240916 0756 - no limit violation detected
+240916 0756 - - done -
+240916 0801 - -------- 09.16 08:01 --------
+240916 0801 - new iteration starts
+240916 0801 - current level is 77%
+240916 0801 - 70(l) <= 77 <= 80(u)
+240916 0801 - no limit violation detected
+240916 0801 - - done -
+240916 0806 - -------- 09.16 08:06 --------
+240916 0806 - new iteration starts
+240916 0806 - current level is 75%
+240916 0806 - 70(l) <= 75 <= 80(u)
+240916 0806 - no limit violation detected
+240916 0806 - - done -
+240916 0811 - -------- 09.16 08:11 --------
+240916 0811 - new iteration starts
+240916 0811 - current level is 73%
+240916 0811 - 70(l) <= 73 <= 80(u)
+240916 0811 - no limit violation detected
+240916 0811 - - done -
+240916 0816 - -------- 09.16 08:16 --------
+240916 0816 - new iteration starts
+240916 0816 - current level is 71%
+240916 0816 - 70(l) <= 71 <= 80(u)
+240916 0816 - no limit violation detected
+240916 0816 - - done -
+240916 0821 - -------- 09.16 08:21 --------
+240916 0821 - new iteration starts
+240916 0821 - current level is 69%
+240916 0821 - 69 <= 70(l) <= 80(u)
+240916 0821 - lower limit violation detected
+240916 0821 - last trigger was placed due to 82% at 07:46
+240916 0821 - 70(l) <= 80(u) <= 82
+240916 0821 - last trigger was due to upper limit violation but it is already invalid
+240916 0821 - a new trigger must be set
+240916 0821 - evaluation decides to trigger
+240916 0821 - triggering with 69%
+240916 0821 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240916_0821_69
+240916 0821 - synchronizing git repository
