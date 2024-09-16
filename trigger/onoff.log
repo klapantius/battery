@@ -36399,3 +36399,55 @@
 240916 0926 - triggering with 84%
 240916 0926 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240916_0926_84
 240916 0926 - synchronizing git repository
+240916 0926 - - done -
+240916 0931 - -------- 09.16 09:31 --------
+240916 0931 - new iteration starts
+240916 0931 - current level is 83%
+240916 0931 - 70(l) <= 80(u) <= 83
+240916 0931 - upper limit violation detected
+240916 0931 - already depleting
+240916 0931 - - done -
+240916 0936 - -------- 09.16 09:36 --------
+240916 0936 - new iteration starts
+240916 0936 - current level is 81%
+240916 0936 - 70(l) <= 80(u) <= 81
+240916 0936 - upper limit violation detected
+240916 0936 - already depleting
+240916 0936 - - done -
+240916 0941 - -------- 09.16 09:41 --------
+240916 0941 - new iteration starts
+240916 0941 - current level is 79%
+240916 0941 - 70(l) <= 79 <= 80(u)
+240916 0941 - no limit violation detected
+240916 0941 - - done -
+240916 0946 - -------- 09.16 09:46 --------
+240916 0946 - new iteration starts
+240916 0946 - current level is 76%
+240916 0946 - 70(l) <= 76 <= 80(u)
+240916 0946 - no limit violation detected
+240916 0946 - - done -
+240916 0951 - -------- 09.16 09:51 --------
+240916 0951 - new iteration starts
+240916 0951 - current level is 74%
+240916 0951 - 70(l) <= 74 <= 80(u)
+240916 0951 - no limit violation detected
+240916 0951 - - done -
+240916 0956 - -------- 09.16 09:56 --------
+240916 0956 - new iteration starts
+240916 0956 - current level is 72%
+240916 0956 - 70(l) <= 72 <= 80(u)
+240916 0956 - no limit violation detected
+240916 0956 - - done -
+240916 1001 - -------- 09.16 10:01 --------
+240916 1001 - new iteration starts
+240916 1001 - current level is 69%
+240916 1001 - 69 <= 70(l) <= 80(u)
+240916 1001 - lower limit violation detected
+240916 1001 - last trigger was placed due to 84% at 09:26
+240916 1001 - 70(l) <= 80(u) <= 84
+240916 1001 - last trigger was due to upper limit violation but it is already invalid
+240916 1001 - a new trigger must be set
+240916 1001 - evaluation decides to trigger
+240916 1001 - triggering with 69%
+240916 1001 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240916_1001_69
+240916 1001 - synchronizing git repository
