@@ -36322,3 +36322,54 @@
 240916 0836 - triggering with 84%
 240916 0836 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240916_0836_84
 240916 0836 - synchronizing git repository
+240916 0836 - - done -
+240916 0841 - -------- 09.16 08:41 --------
+240916 0841 - new iteration starts
+240916 0841 - current level is 82%
+240916 0841 - 70(l) <= 80(u) <= 82
+240916 0841 - upper limit violation detected
+240916 0841 - already depleting
+240916 0841 - - done -
+240916 0846 - -------- 09.16 08:46 --------
+240916 0846 - new iteration starts
+240916 0846 - current level is 80%
+240916 0846 - 70(l) <= 80 <= 80(u)
+240916 0846 - no limit violation detected
+240916 0846 - - done -
+240916 0851 - -------- 09.16 08:51 --------
+240916 0851 - new iteration starts
+240916 0851 - current level is 78%
+240916 0851 - 70(l) <= 78 <= 80(u)
+240916 0851 - no limit violation detected
+240916 0851 - - done -
+240916 0856 - -------- 09.16 08:56 --------
+240916 0856 - new iteration starts
+240916 0856 - current level is 76%
+240916 0856 - 70(l) <= 76 <= 80(u)
+240916 0856 - no limit violation detected
+240916 0856 - - done -
+240916 0901 - -------- 09.16 09:01 --------
+240916 0901 - new iteration starts
+240916 0901 - current level is 74%
+240916 0901 - 70(l) <= 74 <= 80(u)
+240916 0901 - no limit violation detected
+240916 0901 - - done -
+240916 0906 - -------- 09.16 09:06 --------
+240916 0906 - new iteration starts
+240916 0906 - current level is 72%
+240916 0906 - 70(l) <= 72 <= 80(u)
+240916 0906 - no limit violation detected
+240916 0906 - - done -
+240916 0911 - -------- 09.16 09:11 --------
+240916 0911 - new iteration starts
+240916 0911 - current level is 69%
+240916 0911 - 69 <= 70(l) <= 80(u)
+240916 0911 - lower limit violation detected
+240916 0911 - last trigger was placed due to 84% at 08:36
+240916 0911 - 70(l) <= 80(u) <= 84
+240916 0911 - last trigger was due to upper limit violation but it is already invalid
+240916 0911 - a new trigger must be set
+240916 0911 - evaluation decides to trigger
+240916 0911 - triggering with 69%
+240916 0911 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240916_0911_69
+240916 0911 - synchronizing git repository
