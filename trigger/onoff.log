@@ -38402,3 +38402,52 @@
 240917 1859 - triggering with 100%
 240917 1859 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240917_1859_100
 240917 1859 - synchronizing git repository
+240917 1859 - - done -
+240917 1904 - -------- 09.17 19:04 --------
+240917 1904 - new iteration starts
+240917 1904 - current level is 100%
+240917 1904 - 100 <= 70(l) <= 80(u)
+240917 1904 - upper limit violation detected
+240917 1904 - already depleting
+240917 1904 - - done -
+240917 1909 - -------- 09.17 19:09 --------
+240917 1909 - new iteration starts
+240917 1909 - current level is 97%
+240917 1909 - 70(l) <= 80(u) <= 97
+240917 1909 - upper limit violation detected
+240917 1909 - already depleting
+240917 1909 - - done -
+240917 1914 - -------- 09.17 19:14 --------
+240917 1914 - new iteration starts
+240917 1914 - current level is 95%
+240917 1914 - 70(l) <= 80(u) <= 95
+240917 1914 - upper limit violation detected
+240917 1914 - already depleting
+240917 1914 - - done -
+240917 1919 - -------- 09.17 19:19 --------
+240917 1919 - new iteration starts
+240917 1919 - current level is 92%
+240917 1919 - 70(l) <= 80(u) <= 92
+240917 1919 - upper limit violation detected
+240917 1919 - already depleting
+240917 1919 - - done -
+240917 1924 - -------- 09.17 19:24 --------
+240917 1924 - new iteration starts
+240917 1924 - current level is 90%
+240917 1924 - 70(l) <= 80(u) <= 90
+240917 1924 - upper limit violation detected
+240917 1924 - already depleting
+240917 1924 - - done -
+240918 0721 - -------- 09.18 07:21 --------
+240918 0721 - new iteration starts
+240918 0721 - current level is 90%
+240918 0721 - 70(l) <= 80(u) <= 90
+240918 0721 - upper limit violation detected
+240918 0721 - last trigger was placed due to 100% at 18:59
+240918 0721 - 100 <= 70(l) <= 80(u)
+240918 0721 - last trigger was due to upper limit violation but it is already invalid
+240918 0721 - a new trigger must be set
+240918 0721 - evaluation decides to trigger
+240918 0721 - triggering with 90%
+240918 0721 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240918_0721_90
+240918 0721 - synchronizing git repository
