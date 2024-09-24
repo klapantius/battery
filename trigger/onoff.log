@@ -43235,3 +43235,16 @@
 240924 1119 - triggering with 93%
 240924 1119 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240924_1119_93
 240924 1119 - synchronizing git repository
+240924 1119 - - done -
+240924 1124 - -------- 09.24 11:24 --------
+240924 1124 - new iteration starts
+240924 1124 - current level is 95%
+240924 1124 - 70(l) <= 80(u) <= 95
+240924 1124 - upper limit violation detected
+240924 1124 - last trigger was placed due to 93% at 11:19
+240924 1124 - 70(l) <= 80(u) <= 93
+240924 1124 - last trigger was due to upper limit violation and it is not yet invalid
+240924 1124 - evaluation decides to trigger
+240924 1124 - triggering with 95%
+240924 1124 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240924_1124_95
+240924 1124 - synchronizing git repository
