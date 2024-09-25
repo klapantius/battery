@@ -44308,3 +44308,57 @@
 240925 1217 - triggering with 52%
 240925 1217 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240925_1217_52
 240925 1217 - synchronizing git repository
+240925 1217 - - done -
+240925 1222 - -------- 09.25 12:22 --------
+240925 1222 - new iteration starts
+240925 1222 - current level is 52%
+240925 1222 - 52 <= 70(l) <= 80(u)
+240925 1222 - lower limit violation detected
+240925 1222 - already charging
+240925 1222 - - done -
+240925 1227 - -------- 09.25 12:27 --------
+240925 1227 - new iteration starts
+240925 1227 - current level is 58%
+240925 1227 - 58 <= 70(l) <= 80(u)
+240925 1227 - lower limit violation detected
+240925 1227 - already charging
+240925 1227 - - done -
+240925 1232 - -------- 09.25 12:32 --------
+240925 1232 - new iteration starts
+240925 1232 - current level is 63%
+240925 1232 - 63 <= 70(l) <= 80(u)
+240925 1232 - lower limit violation detected
+240925 1232 - already charging
+240925 1232 - - done -
+240925 1237 - -------- 09.25 12:37 --------
+240925 1237 - new iteration starts
+240925 1237 - current level is 69%
+240925 1237 - 69 <= 70(l) <= 80(u)
+240925 1237 - lower limit violation detected
+240925 1237 - already charging
+240925 1237 - - done -
+240925 1242 - -------- 09.25 12:42 --------
+240925 1242 - new iteration starts
+240925 1242 - current level is 74%
+240925 1242 - 70(l) <= 74 <= 80(u)
+240925 1242 - no limit violation detected
+240925 1242 - - done -
+240925 1247 - -------- 09.25 12:47 --------
+240925 1247 - new iteration starts
+240925 1247 - current level is 79%
+240925 1247 - 70(l) <= 79 <= 80(u)
+240925 1247 - no limit violation detected
+240925 1247 - - done -
+240925 1252 - -------- 09.25 12:52 --------
+240925 1252 - new iteration starts
+240925 1252 - current level is 85%
+240925 1252 - 70(l) <= 80(u) <= 85
+240925 1252 - upper limit violation detected
+240925 1252 - last trigger was placed due to 52% at 12:17
+240925 1252 - 52 <= 70(l) <= 80(u)
+240925 1252 - last trigger was due to lower limit violation but it is already invalid
+240925 1252 - a new trigger must be set
+240925 1252 - evaluation decides to trigger
+240925 1252 - triggering with 85%
+240925 1252 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_240925_1252_85
+240925 1252 - synchronizing git repository
