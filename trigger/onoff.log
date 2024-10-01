@@ -47772,3 +47772,16 @@
 241001 1339 - triggering with 85%
 241001 1339 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241001_1339_85
 241001 1339 - synchronizing git repository
+241001 1339 - - done -
+241001 1344 - -------- 10.01 13:44 --------
+241001 1344 - new iteration starts
+241001 1344 - current level is 90%
+241001 1344 - 70(l) <= 80(u) <= 90
+241001 1344 - upper limit violation detected
+241001 1344 - last trigger was placed due to 85% at 13:39
+241001 1344 - 70(l) <= 80(u) <= 85
+241001 1344 - last trigger was due to upper limit violation and it is not yet invalid
+241001 1344 - evaluation decides to trigger
+241001 1344 - triggering with 90%
+241001 1344 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241001_1344_90
+241001 1344 - synchronizing git repository
