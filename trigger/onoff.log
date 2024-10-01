@@ -47732,3 +47732,43 @@
 241001 1314 - triggering with 64%
 241001 1314 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241001_1314_64
 241001 1314 - synchronizing git repository
+241001 1314 - - done -
+241001 1319 - -------- 10.01 13:19 --------
+241001 1319 - new iteration starts
+241001 1319 - current level is 63%
+241001 1319 - 63 <= 70(l) <= 80(u)
+241001 1319 - lower limit violation detected
+241001 1319 - already charging
+241001 1319 - - done -
+241001 1324 - -------- 10.01 13:24 --------
+241001 1324 - new iteration starts
+241001 1324 - current level is 69%
+241001 1324 - 69 <= 70(l) <= 80(u)
+241001 1324 - lower limit violation detected
+241001 1324 - already charging
+241001 1324 - - done -
+241001 1329 - -------- 10.01 13:29 --------
+241001 1329 - new iteration starts
+241001 1329 - current level is 74%
+241001 1329 - 70(l) <= 74 <= 80(u)
+241001 1329 - no limit violation detected
+241001 1329 - - done -
+241001 1334 - -------- 10.01 13:34 --------
+241001 1334 - new iteration starts
+241001 1334 - current level is 80%
+241001 1334 - 70(l) <= 80 <= 80(u)
+241001 1334 - no limit violation detected
+241001 1334 - - done -
+241001 1339 - -------- 10.01 13:39 --------
+241001 1339 - new iteration starts
+241001 1339 - current level is 85%
+241001 1339 - 70(l) <= 80(u) <= 85
+241001 1339 - upper limit violation detected
+241001 1339 - last trigger was placed due to 64% at 13:14
+241001 1339 - 64 <= 70(l) <= 80(u)
+241001 1339 - last trigger was due to lower limit violation but it is already invalid
+241001 1339 - a new trigger must be set
+241001 1339 - evaluation decides to trigger
+241001 1339 - triggering with 85%
+241001 1339 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241001_1339_85
+241001 1339 - synchronizing git repository
