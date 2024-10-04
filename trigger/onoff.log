@@ -49490,3 +49490,54 @@
 241004 1149 - triggering with 82%
 241004 1149 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241004_1149_82
 241004 1149 - synchronizing git repository
+241004 1149 - - done -
+241004 1154 - -------- 10.04 11:54 --------
+241004 1154 - new iteration starts
+241004 1154 - current level is 81%
+241004 1154 - 70(l) <= 80(u) <= 81
+241004 1154 - upper limit violation detected
+241004 1154 - already depleting
+241004 1154 - - done -
+241004 1159 - -------- 10.04 11:59 --------
+241004 1159 - new iteration starts
+241004 1159 - current level is 79%
+241004 1159 - 70(l) <= 79 <= 80(u)
+241004 1159 - no limit violation detected
+241004 1159 - - done -
+241004 1204 - -------- 10.04 12:04 --------
+241004 1204 - new iteration starts
+241004 1204 - current level is 76%
+241004 1204 - 70(l) <= 76 <= 80(u)
+241004 1204 - no limit violation detected
+241004 1204 - - done -
+241004 1209 - -------- 10.04 12:09 --------
+241004 1209 - new iteration starts
+241004 1209 - current level is 75%
+241004 1209 - 70(l) <= 75 <= 80(u)
+241004 1209 - no limit violation detected
+241004 1209 - - done -
+241004 1214 - -------- 10.04 12:14 --------
+241004 1214 - new iteration starts
+241004 1214 - current level is 73%
+241004 1214 - 70(l) <= 73 <= 80(u)
+241004 1214 - no limit violation detected
+241004 1214 - - done -
+241004 1219 - -------- 10.04 12:19 --------
+241004 1219 - new iteration starts
+241004 1219 - current level is 71%
+241004 1219 - 70(l) <= 71 <= 80(u)
+241004 1219 - no limit violation detected
+241004 1219 - - done -
+241004 1224 - -------- 10.04 12:24 --------
+241004 1224 - new iteration starts
+241004 1224 - current level is 69%
+241004 1224 - 69 <= 70(l) <= 80(u)
+241004 1224 - lower limit violation detected
+241004 1224 - last trigger was placed due to 82% at 11:49
+241004 1224 - 70(l) <= 80(u) <= 82
+241004 1224 - last trigger was due to upper limit violation but it is already invalid
+241004 1224 - a new trigger must be set
+241004 1224 - evaluation decides to trigger
+241004 1224 - triggering with 69%
+241004 1224 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241004_1224_69
+241004 1224 - synchronizing git repository
