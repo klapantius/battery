@@ -50556,3 +50556,52 @@
 241007 1239 - triggering with 98%
 241007 1239 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241007_1239_98
 241007 1239 - synchronizing git repository
+241007 1239 - - done -
+241007 1244 - -------- 10.07 12:44 --------
+241007 1244 - new iteration starts
+241007 1244 - current level is 98%
+241007 1244 - 70(l) <= 80(u) <= 98
+241007 1244 - upper limit violation detected
+241007 1244 - already depleting
+241007 1244 - - done -
+241007 1249 - -------- 10.07 12:49 --------
+241007 1249 - new iteration starts
+241007 1249 - current level is 98%
+241007 1249 - 70(l) <= 80(u) <= 98
+241007 1249 - upper limit violation detected
+241007 1249 - already depleting
+241007 1249 - - done -
+241007 1254 - -------- 10.07 12:54 --------
+241007 1254 - new iteration starts
+241007 1254 - current level is 98%
+241007 1254 - 70(l) <= 80(u) <= 98
+241007 1254 - upper limit violation detected
+241007 1254 - already depleting
+241007 1254 - - done -
+241007 1259 - -------- 10.07 12:59 --------
+241007 1259 - new iteration starts
+241007 1259 - current level is 96%
+241007 1259 - 70(l) <= 80(u) <= 96
+241007 1259 - upper limit violation detected
+241007 1259 - already depleting
+241007 1259 - - done -
+241007 1304 - -------- 10.07 13:04 --------
+241007 1304 - new iteration starts
+241007 1304 - current level is 94%
+241007 1304 - 70(l) <= 80(u) <= 94
+241007 1304 - upper limit violation detected
+241007 1304 - already depleting
+241007 1304 - - done -
+241007 1309 - -------- 10.07 13:09 --------
+241007 1309 - new iteration starts
+241007 1309 - current level is 95%
+241007 1309 - 70(l) <= 80(u) <= 95
+241007 1309 - upper limit violation detected
+241007 1309 - last trigger was placed due to 98% at 12:39
+241007 1309 - 70(l) <= 80(u) <= 98
+241007 1309 - last trigger was due to upper limit violation but it is already invalid
+241007 1309 - a new trigger must be set
+241007 1309 - evaluation decides to trigger
+241007 1309 - triggering with 95%
+241007 1309 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241007_1309_95
+241007 1309 - synchronizing git repository
