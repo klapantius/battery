@@ -60568,3 +60568,59 @@
 241106 1612 - triggering with 99%
 241106 1612 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241106_1612_99
 241106 1612 - synchronizing git repository
+241106 1612 - - done -
+241106 1617 - -------- 11.06 16:17 --------
+241106 1617 - new iteration starts
+241106 1617 - current level is 98%
+241106 1617 - 70(l) <= 80(u) <= 98
+241106 1617 - upper limit violation detected
+241106 1617 - already depleting
+241106 1617 - - done -
+241106 1622 - -------- 11.06 16:22 --------
+241106 1622 - new iteration starts
+241106 1622 - current level is 95%
+241106 1622 - 70(l) <= 80(u) <= 95
+241106 1622 - upper limit violation detected
+241106 1622 - already depleting
+241106 1622 - - done -
+241106 1627 - -------- 11.06 16:27 --------
+241106 1627 - new iteration starts
+241106 1627 - current level is 92%
+241106 1627 - 70(l) <= 80(u) <= 92
+241106 1627 - upper limit violation detected
+241106 1627 - already depleting
+241106 1627 - - done -
+241106 1632 - -------- 11.06 16:32 --------
+241106 1632 - new iteration starts
+241106 1632 - current level is 89%
+241106 1632 - 70(l) <= 80(u) <= 89
+241106 1632 - upper limit violation detected
+241106 1632 - already depleting
+241106 1632 - - done -
+241106 1637 - -------- 11.06 16:37 --------
+241106 1637 - new iteration starts
+241106 1637 - current level is 86%
+241106 1637 - 70(l) <= 80(u) <= 86
+241106 1637 - upper limit violation detected
+241106 1637 - already depleting
+241106 1637 - - done -
+241106 1642 - -------- 11.06 16:42 --------
+241106 1642 - new iteration starts
+241106 1642 - current level is 84%
+241106 1642 - 70(l) <= 80(u) <= 84
+241106 1642 - upper limit violation detected
+241106 1642 - already depleting
+241106 1642 - - done -
+241107 0635 - -------- 11.07 06:35 --------
+241107 0635 - new iteration starts
+241107 0635 - current level is 84%
+241107 0635 - 70(l) <= 80(u) <= 84
+241107 0635 - upper limit violation detected
+241107 0635 - last trigger was placed due to 99% at 16:12
+241107 0635 - 70(l) <= 80(u) <= 99
+241107 0635 - last trigger was due to upper limit violation but it is already invalid
+241107 0635 - a new trigger must be set
+241107 0635 - evaluation decides to trigger
+241107 0635 - triggering with 84%
+241107 0635 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241107_0635_84
+241107 0635 - synchronizing git repository
