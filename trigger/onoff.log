@@ -64484,3 +64484,122 @@
 241112 1214 - triggering with 99%
 241112 1214 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241112_1214_99
 241112 1214 - synchronizing git repository
+241112 1214 - - done -
+241112 1219 - -------- 11.12 12:19 --------
+241112 1219 - new iteration starts
+241112 1219 - current level is 99%
+241112 1219 - 70(l) <= 80(u) <= 99
+241112 1219 - upper limit violation detected
+241112 1219 - already depleting
+241112 1219 - - done -
+241112 1224 - -------- 11.12 12:24 --------
+241112 1224 - new iteration starts
+241112 1224 - current level is 96%
+241112 1224 - 70(l) <= 80(u) <= 96
+241112 1224 - upper limit violation detected
+241112 1224 - already depleting
+241112 1224 - - done -
+241112 1229 - -------- 11.12 12:29 --------
+241112 1229 - new iteration starts
+241112 1229 - current level is 94%
+241112 1229 - 70(l) <= 80(u) <= 94
+241112 1229 - upper limit violation detected
+241112 1229 - already depleting
+241112 1229 - - done -
+241112 1234 - -------- 11.12 12:34 --------
+241112 1234 - new iteration starts
+241112 1234 - current level is 92%
+241112 1234 - 70(l) <= 80(u) <= 92
+241112 1234 - upper limit violation detected
+241112 1234 - already depleting
+241112 1234 - - done -
+241112 1239 - -------- 11.12 12:39 --------
+241112 1239 - new iteration starts
+241112 1239 - current level is 90%
+241112 1239 - 70(l) <= 80(u) <= 90
+241112 1239 - upper limit violation detected
+241112 1239 - already depleting
+241112 1239 - - done -
+241112 1244 - -------- 11.12 12:44 --------
+241112 1244 - new iteration starts
+241112 1244 - current level is 87%
+241112 1244 - 70(l) <= 80(u) <= 87
+241112 1244 - upper limit violation detected
+241112 1244 - already depleting
+241112 1244 - - done -
+241112 1249 - -------- 11.12 12:49 --------
+241112 1249 - new iteration starts
+241112 1249 - current level is 85%
+241112 1249 - 70(l) <= 80(u) <= 85
+241112 1249 - upper limit violation detected
+241112 1249 - already depleting
+241112 1249 - - done -
+241112 1254 - -------- 11.12 12:54 --------
+241112 1254 - new iteration starts
+241112 1254 - current level is 84%
+241112 1254 - 70(l) <= 80(u) <= 84
+241112 1254 - upper limit violation detected
+241112 1254 - already depleting
+241112 1254 - - done -
+241112 1259 - -------- 11.12 12:59 --------
+241112 1259 - new iteration starts
+241112 1259 - current level is 82%
+241112 1259 - 70(l) <= 80(u) <= 82
+241112 1259 - upper limit violation detected
+241112 1259 - already depleting
+241112 1259 - - done -
+241112 1304 - -------- 11.12 13:04 --------
+241112 1304 - new iteration starts
+241112 1304 - current level is 80%
+241112 1304 - 70(l) <= 80 <= 80(u)
+241112 1304 - no limit violation detected
+241112 1304 - - done -
+241112 1309 - -------- 11.12 13:09 --------
+241112 1309 - new iteration starts
+241112 1309 - current level is 78%
+241112 1309 - 70(l) <= 78 <= 80(u)
+241112 1309 - no limit violation detected
+241112 1309 - - done -
+241112 1314 - -------- 11.12 13:14 --------
+241112 1314 - new iteration starts
+241112 1314 - current level is 77%
+241112 1314 - 70(l) <= 77 <= 80(u)
+241112 1314 - no limit violation detected
+241112 1314 - - done -
+241112 1319 - -------- 11.12 13:19 --------
+241112 1319 - new iteration starts
+241112 1319 - current level is 75%
+241112 1319 - 70(l) <= 75 <= 80(u)
+241112 1319 - no limit violation detected
+241112 1319 - - done -
+241112 1324 - -------- 11.12 13:24 --------
+241112 1324 - new iteration starts
+241112 1324 - current level is 73%
+241112 1324 - 70(l) <= 73 <= 80(u)
+241112 1324 - no limit violation detected
+241112 1324 - - done -
+241112 1329 - -------- 11.12 13:29 --------
+241112 1329 - new iteration starts
+241112 1329 - current level is 71%
+241112 1329 - 70(l) <= 71 <= 80(u)
+241112 1329 - no limit violation detected
+241112 1329 - - done -
+241112 1334 - -------- 11.12 13:34 --------
+241112 1334 - new iteration starts
+241112 1334 - current level is 70%
+241112 1334 - 70 <= 70(l) <= 80(u)
+241112 1334 - no limit violation detected
+241112 1334 - - done -
+241112 1339 - -------- 11.12 13:39 --------
+241112 1339 - new iteration starts
+241112 1339 - current level is 68%
+241112 1339 - 68 <= 70(l) <= 80(u)
+241112 1339 - lower limit violation detected
+241112 1339 - last trigger was placed due to 99% at 12:14
+241112 1339 - 70(l) <= 80(u) <= 99
+241112 1339 - last trigger was due to upper limit violation but it is already invalid
+241112 1339 - a new trigger must be set
+241112 1339 - evaluation decides to trigger
+241112 1339 - triggering with 68%
+241112 1339 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241112_1339_68
+241112 1339 - synchronizing git repository
