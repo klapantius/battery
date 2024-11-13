@@ -65439,3 +65439,57 @@
 241113 1123 - triggering with 42%
 241113 1123 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241113_1123_42
 241113 1123 - synchronizing git repository
+241113 1123 - - done -
+241113 1128 - -------- 11.13 11:28 --------
+241113 1128 - new iteration starts
+241113 1128 - current level is 47%
+241113 1128 - 47 <= 70(l) <= 80(u)
+241113 1128 - lower limit violation detected
+241113 1128 - already charging
+241113 1128 - - done -
+241113 1133 - -------- 11.13 11:33 --------
+241113 1133 - new iteration starts
+241113 1133 - current level is 53%
+241113 1133 - 53 <= 70(l) <= 80(u)
+241113 1133 - lower limit violation detected
+241113 1133 - already charging
+241113 1133 - - done -
+241113 1138 - -------- 11.13 11:38 --------
+241113 1138 - new iteration starts
+241113 1138 - current level is 59%
+241113 1138 - 59 <= 70(l) <= 80(u)
+241113 1138 - lower limit violation detected
+241113 1138 - already charging
+241113 1138 - - done -
+241113 1143 - -------- 11.13 11:43 --------
+241113 1143 - new iteration starts
+241113 1143 - current level is 64%
+241113 1143 - 64 <= 70(l) <= 80(u)
+241113 1143 - lower limit violation detected
+241113 1143 - already charging
+241113 1143 - - done -
+241113 1148 - -------- 11.13 11:48 --------
+241113 1148 - new iteration starts
+241113 1148 - current level is 70%
+241113 1148 - 70 <= 70(l) <= 80(u)
+241113 1148 - no limit violation detected
+241113 1148 - - done -
+241113 1153 - -------- 11.13 11:53 --------
+241113 1153 - new iteration starts
+241113 1153 - current level is 76%
+241113 1153 - 70(l) <= 76 <= 80(u)
+241113 1153 - no limit violation detected
+241113 1153 - - done -
+241113 1158 - -------- 11.13 11:58 --------
+241113 1158 - new iteration starts
+241113 1158 - current level is 81%
+241113 1158 - 70(l) <= 80(u) <= 81
+241113 1158 - upper limit violation detected
+241113 1158 - last trigger was placed due to 42% at 11:23
+241113 1158 - 42 <= 70(l) <= 80(u)
+241113 1158 - last trigger was due to lower limit violation but it is already invalid
+241113 1158 - a new trigger must be set
+241113 1158 - evaluation decides to trigger
+241113 1158 - triggering with 81%
+241113 1158 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241113_1158_81
+241113 1158 - synchronizing git repository
