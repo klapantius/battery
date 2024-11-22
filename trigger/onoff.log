@@ -70119,3 +70119,57 @@
 241122 0858 - triggering with 43%
 241122 0858 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241122_0858_43
 241122 0858 - synchronizing git repository
+241122 0859 - - done -
+241122 0904 - -------- 11.22 09:04 --------
+241122 0904 - new iteration starts
+241122 0904 - current level is 49%
+241122 0904 - 49 <= 70(l) <= 80(u)
+241122 0904 - lower limit violation detected
+241122 0904 - already charging
+241122 0904 - - done -
+241122 0909 - -------- 11.22 09:09 --------
+241122 0909 - new iteration starts
+241122 0909 - current level is 54%
+241122 0909 - 54 <= 70(l) <= 80(u)
+241122 0909 - lower limit violation detected
+241122 0909 - already charging
+241122 0909 - - done -
+241122 0914 - -------- 11.22 09:14 --------
+241122 0914 - new iteration starts
+241122 0914 - current level is 60%
+241122 0914 - 60 <= 70(l) <= 80(u)
+241122 0914 - lower limit violation detected
+241122 0914 - already charging
+241122 0914 - - done -
+241122 0919 - -------- 11.22 09:19 --------
+241122 0919 - new iteration starts
+241122 0919 - current level is 66%
+241122 0919 - 66 <= 70(l) <= 80(u)
+241122 0919 - lower limit violation detected
+241122 0919 - already charging
+241122 0919 - - done -
+241122 0924 - -------- 11.22 09:24 --------
+241122 0924 - new iteration starts
+241122 0924 - current level is 71%
+241122 0924 - 70(l) <= 71 <= 80(u)
+241122 0924 - no limit violation detected
+241122 0924 - - done -
+241122 0929 - -------- 11.22 09:29 --------
+241122 0929 - new iteration starts
+241122 0929 - current level is 77%
+241122 0929 - 70(l) <= 77 <= 80(u)
+241122 0929 - no limit violation detected
+241122 0929 - - done -
+241122 0934 - -------- 11.22 09:34 --------
+241122 0934 - new iteration starts
+241122 0934 - current level is 83%
+241122 0934 - 70(l) <= 80(u) <= 83
+241122 0934 - upper limit violation detected
+241122 0934 - last trigger was placed due to 43% at 08:58
+241122 0934 - 43 <= 70(l) <= 80(u)
+241122 0934 - last trigger was due to lower limit violation but it is already invalid
+241122 0934 - a new trigger must be set
+241122 0934 - evaluation decides to trigger
+241122 0934 - triggering with 83%
+241122 0934 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241122_0934_83
+241122 0934 - synchronizing git repository
