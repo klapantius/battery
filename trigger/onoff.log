@@ -69869,3 +69869,110 @@
 241121 1559 - triggering with 100%
 241121 1559 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241121_1559_100
 241121 1559 - synchronizing git repository
+241121 1559 - - done -
+241122 0652 - -------- 11.22 06:52 --------
+241122 0652 - new iteration starts
+241122 0652 - current level is 100%
+241122 0652 - 100 <= 70(l) <= 80(u)
+241122 0652 - upper limit violation detected
+241122 0652 - already depleting
+241122 0652 - - done -
+241122 0657 - -------- 11.22 06:57 --------
+241122 0657 - new iteration starts
+241122 0657 - current level is 97%
+241122 0657 - 70(l) <= 80(u) <= 97
+241122 0657 - upper limit violation detected
+241122 0657 - already depleting
+241122 0657 - - done -
+241122 0702 - -------- 11.22 07:02 --------
+241122 0702 - new iteration starts
+241122 0702 - current level is 95%
+241122 0702 - 70(l) <= 80(u) <= 95
+241122 0702 - upper limit violation detected
+241122 0702 - already depleting
+241122 0702 - - done -
+241122 0707 - -------- 11.22 07:07 --------
+241122 0707 - new iteration starts
+241122 0707 - current level is 92%
+241122 0707 - 70(l) <= 80(u) <= 92
+241122 0707 - upper limit violation detected
+241122 0707 - already depleting
+241122 0707 - - done -
+241122 0712 - -------- 11.22 07:12 --------
+241122 0712 - new iteration starts
+241122 0712 - current level is 89%
+241122 0712 - 70(l) <= 80(u) <= 89
+241122 0712 - upper limit violation detected
+241122 0712 - already depleting
+241122 0712 - - done -
+241122 0717 - -------- 11.22 07:17 --------
+241122 0717 - new iteration starts
+241122 0717 - current level is 87%
+241122 0717 - 70(l) <= 80(u) <= 87
+241122 0717 - upper limit violation detected
+241122 0717 - already depleting
+241122 0717 - - done -
+241122 0722 - -------- 11.22 07:22 --------
+241122 0722 - new iteration starts
+241122 0722 - current level is 85%
+241122 0722 - 70(l) <= 80(u) <= 85
+241122 0722 - upper limit violation detected
+241122 0722 - already depleting
+241122 0722 - - done -
+241122 0727 - -------- 11.22 07:27 --------
+241122 0727 - new iteration starts
+241122 0727 - current level is 83%
+241122 0727 - 70(l) <= 80(u) <= 83
+241122 0727 - upper limit violation detected
+241122 0727 - already depleting
+241122 0727 - - done -
+241122 0732 - -------- 11.22 07:32 --------
+241122 0732 - new iteration starts
+241122 0732 - current level is 81%
+241122 0732 - 70(l) <= 80(u) <= 81
+241122 0732 - upper limit violation detected
+241122 0732 - already depleting
+241122 0732 - - done -
+241122 0737 - -------- 11.22 07:37 --------
+241122 0737 - new iteration starts
+241122 0737 - current level is 79%
+241122 0737 - 70(l) <= 79 <= 80(u)
+241122 0737 - no limit violation detected
+241122 0737 - - done -
+241122 0742 - -------- 11.22 07:42 --------
+241122 0742 - new iteration starts
+241122 0742 - current level is 77%
+241122 0742 - 70(l) <= 77 <= 80(u)
+241122 0742 - no limit violation detected
+241122 0742 - - done -
+241122 0747 - -------- 11.22 07:47 --------
+241122 0747 - new iteration starts
+241122 0747 - current level is 75%
+241122 0747 - 70(l) <= 75 <= 80(u)
+241122 0747 - no limit violation detected
+241122 0747 - - done -
+241122 0752 - -------- 11.22 07:52 --------
+241122 0752 - new iteration starts
+241122 0752 - current level is 73%
+241122 0752 - 70(l) <= 73 <= 80(u)
+241122 0752 - no limit violation detected
+241122 0752 - - done -
+241122 0757 - -------- 11.22 07:57 --------
+241122 0757 - new iteration starts
+241122 0757 - current level is 71%
+241122 0757 - 70(l) <= 71 <= 80(u)
+241122 0757 - no limit violation detected
+241122 0757 - - done -
+241122 0802 - -------- 11.22 08:02 --------
+241122 0802 - new iteration starts
+241122 0802 - current level is 69%
+241122 0802 - 69 <= 70(l) <= 80(u)
+241122 0802 - lower limit violation detected
+241122 0802 - last trigger was placed due to 100% at 15:59
+241122 0802 - 100 <= 70(l) <= 80(u)
+241122 0802 - last trigger was due to upper limit violation but it is already invalid
+241122 0802 - a new trigger must be set
+241122 0802 - evaluation decides to trigger
+241122 0802 - triggering with 69%
+241122 0802 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241122_0802_69
+241122 0802 - synchronizing git repository
