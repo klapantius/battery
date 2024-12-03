@@ -72566,3 +72566,50 @@
 241203 0830 - triggering with 54%
 241203 0830 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241203_0830_54
 241203 0830 - synchronizing git repository
+241203 0830 - - done -
+241203 0835 - -------- 12.03 08:35 --------
+241203 0835 - new iteration starts
+241203 0835 - current level is 53%
+241203 0835 - 53 <= 70(l) <= 80(u)
+241203 0835 - lower limit violation detected
+241203 0835 - already charging
+241203 0835 - - done -
+241203 0840 - -------- 12.03 08:40 --------
+241203 0840 - new iteration starts
+241203 0840 - current level is 59%
+241203 0840 - 59 <= 70(l) <= 80(u)
+241203 0840 - lower limit violation detected
+241203 0840 - already charging
+241203 0840 - - done -
+241203 0845 - -------- 12.03 08:45 --------
+241203 0845 - new iteration starts
+241203 0845 - current level is 65%
+241203 0845 - 65 <= 70(l) <= 80(u)
+241203 0845 - lower limit violation detected
+241203 0845 - already charging
+241203 0845 - - done -
+241203 0850 - -------- 12.03 08:50 --------
+241203 0850 - new iteration starts
+241203 0850 - current level is 71%
+241203 0850 - 70(l) <= 71 <= 80(u)
+241203 0850 - no limit violation detected
+241203 0850 - - done -
+241203 0855 - -------- 12.03 08:55 --------
+241203 0855 - new iteration starts
+241203 0855 - current level is 77%
+241203 0855 - 70(l) <= 77 <= 80(u)
+241203 0855 - no limit violation detected
+241203 0855 - - done -
+241203 0900 - -------- 12.03 09:00 --------
+241203 0900 - new iteration starts
+241203 0900 - current level is 83%
+241203 0900 - 70(l) <= 80(u) <= 83
+241203 0900 - upper limit violation detected
+241203 0900 - last trigger was placed due to 54% at 08:30
+241203 0900 - 54 <= 70(l) <= 80(u)
+241203 0900 - last trigger was due to lower limit violation but it is already invalid
+241203 0900 - a new trigger must be set
+241203 0900 - evaluation decides to trigger
+241203 0900 - triggering with 83%
+241203 0900 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241203_0900_83
+241203 0900 - synchronizing git repository
