@@ -73423,3 +73423,56 @@
 241203 1559 - triggering with 90%
 241203 1559 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241203_1559_90
 241203 1559 - synchronizing git repository
+241203 1559 - - done -
+241203 1604 - -------- 12.03 16:04 --------
+241203 1604 - new iteration starts
+241203 1604 - current level is 89%
+241203 1604 - 70(l) <= 80(u) <= 89
+241203 1604 - upper limit violation detected
+241203 1604 - already depleting
+241203 1604 - - done -
+241203 1609 - -------- 12.03 16:09 --------
+241203 1609 - new iteration starts
+241203 1609 - current level is 85%
+241203 1609 - 70(l) <= 80(u) <= 85
+241203 1609 - upper limit violation detected
+241203 1609 - already depleting
+241203 1609 - - done -
+241203 1614 - -------- 12.03 16:14 --------
+241203 1614 - new iteration starts
+241203 1614 - current level is 82%
+241203 1614 - 70(l) <= 80(u) <= 82
+241203 1614 - upper limit violation detected
+241203 1614 - already depleting
+241203 1614 - - done -
+241203 1619 - -------- 12.03 16:19 --------
+241203 1619 - new iteration starts
+241203 1619 - current level is 79%
+241203 1619 - 70(l) <= 79 <= 80(u)
+241203 1619 - no limit violation detected
+241203 1619 - - done -
+241203 1624 - -------- 12.03 16:24 --------
+241203 1624 - new iteration starts
+241203 1624 - current level is 76%
+241203 1624 - 70(l) <= 76 <= 80(u)
+241203 1624 - no limit violation detected
+241203 1624 - - done -
+241203 1629 - -------- 12.03 16:29 --------
+241203 1629 - new iteration starts
+241203 1629 - current level is 72%
+241203 1629 - 70(l) <= 72 <= 80(u)
+241203 1629 - no limit violation detected
+241203 1629 - - done -
+241203 1634 - -------- 12.03 16:34 --------
+241203 1634 - new iteration starts
+241203 1634 - current level is 69%
+241203 1634 - 69 <= 70(l) <= 80(u)
+241203 1634 - lower limit violation detected
+241203 1634 - last trigger was placed due to 90% at 15:59
+241203 1634 - 70(l) <= 80(u) <= 90
+241203 1634 - last trigger was due to upper limit violation but it is already invalid
+241203 1634 - a new trigger must be set
+241203 1634 - evaluation decides to trigger
+241203 1634 - triggering with 69%
+241203 1634 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241203_1634_69
+241203 1634 - synchronizing git repository
