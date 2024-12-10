@@ -78569,3 +78569,51 @@
 241210 0837 - triggering with 46%
 241210 0837 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241210_0837_46
 241210 0837 - synchronizing git repository
+241210 0837 - - done -
+241210 0842 - -------- 12.10 08:42 --------
+241210 0842 - new iteration starts
+241210 0842 - current level is 51%
+241210 0842 - 51 <= 70(l) <= 80(u)
+241210 0842 - lower limit violation detected
+241210 0842 - already charging
+241210 0842 - - done -
+241210 0847 - -------- 12.10 08:47 --------
+241210 0847 - new iteration starts
+241210 0847 - current level is 58%
+241210 0847 - 58 <= 70(l) <= 80(u)
+241210 0847 - lower limit violation detected
+241210 0847 - already charging
+241210 0847 - - done -
+241210 0852 - -------- 12.10 08:52 --------
+241210 0852 - new iteration starts
+241210 0852 - current level is 63%
+241210 0852 - 63 <= 70(l) <= 80(u)
+241210 0852 - lower limit violation detected
+241210 0852 - already charging
+241210 0852 - - done -
+241210 0857 - -------- 12.10 08:57 --------
+241210 0857 - new iteration starts
+241210 0857 - current level is 69%
+241210 0857 - 69 <= 70(l) <= 80(u)
+241210 0857 - lower limit violation detected
+241210 0857 - already charging
+241210 0857 - - done -
+241210 0902 - -------- 12.10 09:02 --------
+241210 0902 - new iteration starts
+241210 0902 - current level is 76%
+241210 0902 - 70(l) <= 76 <= 80(u)
+241210 0902 - no limit violation detected
+241210 0902 - - done -
+241210 0907 - -------- 12.10 09:07 --------
+241210 0907 - new iteration starts
+241210 0907 - current level is 81%
+241210 0907 - 70(l) <= 80(u) <= 81
+241210 0907 - upper limit violation detected
+241210 0907 - last trigger was placed due to 46% at 08:37
+241210 0907 - 46 <= 70(l) <= 80(u)
+241210 0907 - last trigger was due to lower limit violation but it is already invalid
+241210 0907 - a new trigger must be set
+241210 0907 - evaluation decides to trigger
+241210 0907 - triggering with 81%
+241210 0907 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241210_0907_81
+241210 0907 - synchronizing git repository
