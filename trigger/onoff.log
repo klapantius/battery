@@ -79537,3 +79537,16 @@
 241211 0728 - triggering with 68%
 241211 0728 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241211_0728_68
 241211 0728 - synchronizing git repository
+241211 0729 - - done -
+241211 0734 - -------- 12.11 07:34 --------
+241211 0734 - new iteration starts
+241211 0734 - current level is 65%
+241211 0734 - 65 <= 70(l) <= 80(u)
+241211 0734 - lower limit violation detected
+241211 0734 - last trigger was placed due to 68% at 07:28
+241211 0734 - 68 <= 70(l) <= 80(u)
+241211 0734 - last trigger was due to lower limit violation and it is not yet invalid
+241211 0734 - evaluation decides to trigger
+241211 0734 - triggering with 65%
+241211 0734 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241211_0734_65
+241211 0734 - synchronizing git repository
