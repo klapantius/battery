@@ -84583,3 +84583,16 @@
 241217 0751 - triggering with 59%
 241217 0751 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241217_0751_59
 241217 0751 - synchronizing git repository
+241217 0751 - - done -
+241217 0756 - -------- 12.17 07:56 --------
+241217 0756 - new iteration starts
+241217 0756 - current level is 57%
+241217 0756 - 57 <= 70(l) <= 80(u)
+241217 0756 - lower limit violation detected
+241217 0756 - last trigger was placed due to 59% at 07:51
+241217 0756 - 59 <= 70(l) <= 80(u)
+241217 0756 - last trigger was due to lower limit violation and it is not yet invalid
+241217 0756 - evaluation decides to trigger
+241217 0756 - triggering with 57%
+241217 0756 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_241217_0756_57
+241217 0756 - synchronizing git repository
