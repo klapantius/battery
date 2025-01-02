@@ -88833,3 +88833,54 @@
 250102 0931 - triggering with 85%
 250102 0931 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250102_0931_85
 250102 0931 - synchronizing git repository
+250102 0931 - - done -
+250102 0936 - -------- 01.02 09:36 --------
+250102 0936 - new iteration starts
+250102 0936 - current level is 83%
+250102 0936 - 70(l) <= 80(u) <= 83
+250102 0936 - upper limit violation detected
+250102 0936 - already depleting
+250102 0936 - - done -
+250102 0941 - -------- 01.02 09:41 --------
+250102 0941 - new iteration starts
+250102 0941 - current level is 80%
+250102 0941 - 70(l) <= 80 <= 80(u)
+250102 0941 - no limit violation detected
+250102 0941 - - done -
+250102 0946 - -------- 01.02 09:46 --------
+250102 0946 - new iteration starts
+250102 0946 - current level is 79%
+250102 0946 - 70(l) <= 79 <= 80(u)
+250102 0946 - no limit violation detected
+250102 0946 - - done -
+250102 0951 - -------- 01.02 09:51 --------
+250102 0951 - new iteration starts
+250102 0951 - current level is 76%
+250102 0951 - 70(l) <= 76 <= 80(u)
+250102 0951 - no limit violation detected
+250102 0951 - - done -
+250102 0956 - -------- 01.02 09:56 --------
+250102 0956 - new iteration starts
+250102 0956 - current level is 74%
+250102 0956 - 70(l) <= 74 <= 80(u)
+250102 0956 - no limit violation detected
+250102 0956 - - done -
+250102 1001 - -------- 01.02 10:01 --------
+250102 1001 - new iteration starts
+250102 1001 - current level is 72%
+250102 1001 - 70(l) <= 72 <= 80(u)
+250102 1001 - no limit violation detected
+250102 1001 - - done -
+250102 1006 - -------- 01.02 10:06 --------
+250102 1006 - new iteration starts
+250102 1006 - current level is 69%
+250102 1006 - 69 <= 70(l) <= 80(u)
+250102 1006 - lower limit violation detected
+250102 1006 - last trigger was placed due to 85% at 09:31
+250102 1006 - 70(l) <= 80(u) <= 85
+250102 1006 - last trigger was due to upper limit violation but it is already invalid
+250102 1006 - a new trigger must be set
+250102 1006 - evaluation decides to trigger
+250102 1006 - triggering with 69%
+250102 1006 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250102_1006_69
+250102 1006 - synchronizing git repository
