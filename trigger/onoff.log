@@ -89240,3 +89240,111 @@
 250102 1348 - triggering with 92%
 250102 1348 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250102_1348_92
 250102 1348 - synchronizing git repository
+250102 1348 - - done -
+250102 1353 - -------- 01.02 13:53 --------
+250102 1353 - new iteration starts
+250102 1353 - current level is 94%
+250102 1353 - 70(l) <= 80(u) <= 94
+250102 1353 - upper limit violation detected
+250102 1353 - already depleting
+250102 1353 - - done -
+250102 1358 - -------- 01.02 13:58 --------
+250102 1358 - new iteration starts
+250102 1358 - current level is 92%
+250102 1358 - 70(l) <= 80(u) <= 92
+250102 1358 - upper limit violation detected
+250102 1358 - already depleting
+250102 1358 - - done -
+250102 1403 - -------- 01.02 14:03 --------
+250102 1403 - new iteration starts
+250102 1403 - current level is 91%
+250102 1403 - 70(l) <= 80(u) <= 91
+250102 1403 - upper limit violation detected
+250102 1403 - already depleting
+250102 1403 - - done -
+250102 1408 - -------- 01.02 14:08 --------
+250102 1408 - new iteration starts
+250102 1408 - current level is 89%
+250102 1408 - 70(l) <= 80(u) <= 89
+250102 1408 - upper limit violation detected
+250102 1408 - already depleting
+250102 1408 - - done -
+250102 1413 - -------- 01.02 14:13 --------
+250102 1413 - new iteration starts
+250102 1413 - current level is 88%
+250102 1413 - 70(l) <= 80(u) <= 88
+250102 1413 - upper limit violation detected
+250102 1413 - already depleting
+250102 1413 - - done -
+250102 1418 - -------- 01.02 14:18 --------
+250102 1418 - new iteration starts
+250102 1418 - current level is 87%
+250102 1418 - 70(l) <= 80(u) <= 87
+250102 1418 - upper limit violation detected
+250102 1418 - already depleting
+250102 1418 - - done -
+250102 1423 - -------- 01.02 14:23 --------
+250102 1423 - new iteration starts
+250102 1423 - current level is 85%
+250102 1423 - 70(l) <= 80(u) <= 85
+250102 1423 - upper limit violation detected
+250102 1423 - already depleting
+250102 1423 - - done -
+250102 1428 - -------- 01.02 14:28 --------
+250102 1428 - new iteration starts
+250102 1428 - current level is 84%
+250102 1428 - 70(l) <= 80(u) <= 84
+250102 1428 - upper limit violation detected
+250102 1428 - already depleting
+250102 1428 - - done -
+250102 1433 - -------- 01.02 14:33 --------
+250102 1433 - new iteration starts
+250102 1433 - current level is 82%
+250102 1433 - 70(l) <= 80(u) <= 82
+250102 1433 - upper limit violation detected
+250102 1433 - already depleting
+250102 1433 - - done -
+250102 1438 - -------- 01.02 14:38 --------
+250102 1438 - new iteration starts
+250102 1438 - current level is 81%
+250102 1438 - 70(l) <= 80(u) <= 81
+250102 1438 - upper limit violation detected
+250102 1438 - already depleting
+250102 1438 - - done -
+250102 1443 - -------- 01.02 14:43 --------
+250102 1443 - new iteration starts
+250102 1443 - current level is 79%
+250102 1443 - 70(l) <= 79 <= 80(u)
+250102 1443 - no limit violation detected
+250102 1443 - - done -
+250102 1448 - -------- 01.02 14:48 --------
+250102 1448 - new iteration starts
+250102 1448 - current level is 77%
+250102 1448 - 70(l) <= 77 <= 80(u)
+250102 1448 - no limit violation detected
+250102 1448 - - done -
+250102 1453 - -------- 01.02 14:53 --------
+250102 1453 - new iteration starts
+250102 1453 - current level is 74%
+250102 1453 - 70(l) <= 74 <= 80(u)
+250102 1453 - no limit violation detected
+250102 1453 - - done -
+250102 1458 - -------- 01.02 14:58 --------
+250102 1458 - new iteration starts
+250102 1458 - current level is 71%
+250102 1458 - 70(l) <= 71 <= 80(u)
+250102 1458 - no limit violation detected
+250102 1458 - - done -
+250102 1503 - -------- 01.02 15:03 --------
+250102 1503 - new iteration starts
+250102 1503 - current level is 68%
+250102 1503 - 68 <= 70(l) <= 80(u)
+250102 1503 - lower limit violation detected
+250102 1503 - last trigger was placed due to 92% at 13:48
+250102 1503 - 70(l) <= 80(u) <= 92
+250102 1503 - last trigger was due to upper limit violation but it is already invalid
+250102 1503 - a new trigger must be set
+250102 1503 - evaluation decides to trigger
+250102 1503 - triggering with 68%
+250102 1503 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250102_1503_68
+250102 1503 - synchronizing git repository
