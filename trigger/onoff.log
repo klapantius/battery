@@ -90086,3 +90086,57 @@
 250103 1359 - triggering with 46%
 250103 1359 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250103_1359_46
 250103 1359 - synchronizing git repository
+250103 1359 - - done -
+250103 1404 - -------- 01.03 14:04 --------
+250103 1404 - new iteration starts
+250103 1404 - current level is 51%
+250103 1404 - 51 <= 70(l) <= 80(u)
+250103 1404 - lower limit violation detected
+250103 1404 - already charging
+250103 1404 - - done -
+250103 1409 - -------- 01.03 14:09 --------
+250103 1409 - new iteration starts
+250103 1409 - current level is 57%
+250103 1409 - 57 <= 70(l) <= 80(u)
+250103 1409 - lower limit violation detected
+250103 1409 - already charging
+250103 1409 - - done -
+250103 1414 - -------- 01.03 14:14 --------
+250103 1414 - new iteration starts
+250103 1414 - current level is 63%
+250103 1414 - 63 <= 70(l) <= 80(u)
+250103 1414 - lower limit violation detected
+250103 1414 - already charging
+250103 1414 - - done -
+250103 1419 - -------- 01.03 14:19 --------
+250103 1419 - new iteration starts
+250103 1419 - current level is 69%
+250103 1419 - 69 <= 70(l) <= 80(u)
+250103 1419 - lower limit violation detected
+250103 1419 - already charging
+250103 1419 - - done -
+250103 1424 - -------- 01.03 14:24 --------
+250103 1424 - new iteration starts
+250103 1424 - current level is 74%
+250103 1424 - 70(l) <= 74 <= 80(u)
+250103 1424 - no limit violation detected
+250103 1424 - - done -
+250103 1429 - -------- 01.03 14:29 --------
+250103 1429 - new iteration starts
+250103 1429 - current level is 80%
+250103 1429 - 70(l) <= 80 <= 80(u)
+250103 1429 - no limit violation detected
+250103 1429 - - done -
+250103 1434 - -------- 01.03 14:34 --------
+250103 1434 - new iteration starts
+250103 1434 - current level is 86%
+250103 1434 - 70(l) <= 80(u) <= 86
+250103 1434 - upper limit violation detected
+250103 1434 - last trigger was placed due to 46% at 13:59
+250103 1434 - 46 <= 70(l) <= 80(u)
+250103 1434 - last trigger was due to lower limit violation but it is already invalid
+250103 1434 - a new trigger must be set
+250103 1434 - evaluation decides to trigger
+250103 1434 - triggering with 86%
+250103 1434 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250103_1434_86
+250103 1434 - synchronizing git repository
