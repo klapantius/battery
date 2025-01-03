@@ -90021,3 +90021,16 @@
 250103 1334 - triggering with 59%
 250103 1334 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250103_1334_59
 250103 1334 - synchronizing git repository
+250103 1334 - - done -
+250103 1339 - -------- 01.03 13:39 --------
+250103 1339 - new iteration starts
+250103 1339 - current level is 57%
+250103 1339 - 57 <= 70(l) <= 80(u)
+250103 1339 - lower limit violation detected
+250103 1339 - last trigger was placed due to 59% at 13:34
+250103 1339 - 59 <= 70(l) <= 80(u)
+250103 1339 - last trigger was due to lower limit violation and it is not yet invalid
+250103 1339 - evaluation decides to trigger
+250103 1339 - triggering with 57%
+250103 1339 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250103_1339_57
+250103 1339 - synchronizing git repository
