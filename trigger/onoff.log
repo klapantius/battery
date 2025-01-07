@@ -90905,3 +90905,16 @@
 250107 1219 - triggering with 100%
 250107 1219 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250107_1219_100
 250107 1219 - synchronizing git repository
+250107 1219 - - done -
+250107 1224 - -------- 01.07 12:24 --------
+250107 1224 - new iteration starts
+250107 1224 - current level is 100%
+250107 1224 - 100 <= 70(l) <= 80(u)
+250107 1224 - upper limit violation detected
+250107 1224 - last trigger was placed due to 100% at 12:19
+250107 1224 - 100 <= 70(l) <= 80(u)
+250107 1224 - last trigger was due to upper limit violation and it is not yet invalid
+250107 1224 - evaluation decides to trigger
+250107 1224 - triggering with 100%
+250107 1224 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250107_1224_100
+250107 1224 - synchronizing git repository
