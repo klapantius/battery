@@ -94788,3 +94788,51 @@
 250110 1603 - triggering with 48%
 250110 1603 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250110_1603_48
 250110 1603 - synchronizing git repository
+250110 1603 - - done -
+250110 1608 - -------- 01.10 16:08 --------
+250110 1608 - new iteration starts
+250110 1608 - current level is 51%
+250110 1608 - 51 <= 70(l) <= 80(u)
+250110 1608 - lower limit violation detected
+250110 1608 - already charging
+250110 1608 - - done -
+250110 1613 - -------- 01.10 16:13 --------
+250110 1613 - new iteration starts
+250110 1613 - current level is 56%
+250110 1613 - 56 <= 70(l) <= 80(u)
+250110 1613 - lower limit violation detected
+250110 1613 - already charging
+250110 1613 - - done -
+250110 1618 - -------- 01.10 16:18 --------
+250110 1618 - new iteration starts
+250110 1618 - current level is 63%
+250110 1618 - 63 <= 70(l) <= 80(u)
+250110 1618 - lower limit violation detected
+250110 1618 - already charging
+250110 1618 - - done -
+250110 1623 - -------- 01.10 16:23 --------
+250110 1623 - new iteration starts
+250110 1623 - current level is 68%
+250110 1623 - 68 <= 70(l) <= 80(u)
+250110 1623 - lower limit violation detected
+250110 1623 - already charging
+250110 1623 - - done -
+250110 1628 - -------- 01.10 16:28 --------
+250110 1628 - new iteration starts
+250110 1628 - current level is 75%
+250110 1628 - 70(l) <= 75 <= 80(u)
+250110 1628 - no limit violation detected
+250110 1628 - - done -
+250110 1633 - -------- 01.10 16:33 --------
+250110 1633 - new iteration starts
+250110 1633 - current level is 81%
+250110 1633 - 70(l) <= 80(u) <= 81
+250110 1633 - upper limit violation detected
+250110 1633 - last trigger was placed due to 48% at 16:03
+250110 1633 - 48 <= 70(l) <= 80(u)
+250110 1633 - last trigger was due to lower limit violation but it is already invalid
+250110 1633 - a new trigger must be set
+250110 1633 - evaluation decides to trigger
+250110 1633 - triggering with 81%
+250110 1633 - place a trigger file: C:\ws\r\battery.git\trigger\trigger_250110_1633_81
+250110 1633 - synchronizing git repository
